@@ -50,7 +50,7 @@ function HeroHome() {
           <div>
             <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center">
-                <img className="mx-auto" src={require('../images/mscope.jpg').default} width="768" height="432" alt="Hero" />
+                <img className="mx-auto" src={require('../images/mscope.jpg').default} width="1280" height="856" alt="Hero" />
         
               </div>
               <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">

@@ -5,7 +5,7 @@ import {
   useLocation
 } from 'react-router-dom';
 
-import './css/style.scss';
+import './assets/css/style.scss';
 
 import AOS from 'aos';
 import { focusHandling } from 'cruip-js-toolkit';

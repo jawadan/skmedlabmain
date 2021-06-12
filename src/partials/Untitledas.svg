@@ -1,17 +1,4 @@
-import React from 'react';
-
-function Newsletter() {
-  return (
-    <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pb-12 md:pb-20">
-
-          {/* CTA box */}
-          <div className="relative bg-gray-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden" data-aos="zoom-y-out">
-
-            {/* Background illustration */}
-            <div className="absolute right-0 bottom-0 pointer-events-none hidden lg:block" aria-hidden="true">
-            <svg width="1600" height="841" viewBox="0 0 1600 841" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1600" height="841" viewBox="0 0 1600 841" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1600" height="841" fill="#E5E5E5"/>
 <path d="M458.924 492.899L484.181 453.597L535.224 456.028C535.388 452.592 536.439 449.412 538.135 446.685L479.17 443.876L448.231 492.02C449.753 491.718 451.329 491.573 452.949 491.65C455.052 491.751 457.056 492.191 458.924 492.899Z" fill="#08AFB7"/>
 <path opacity="0.2" d="M475.81 456.135C474.981 454.946 474.265 453.685 473.711 452.373L448.232 492.021C449.754 491.719 451.33 491.574 452.95 491.651C455.053 491.751 457.058 492.191 458.926 492.899L479.626 460.689C478.242 459.264 476.945 457.764 475.81 456.135Z" fill="black"/>
@@ -310,35 +297,3 @@ function Newsletter() {
 </g>
 <path opacity="0.5" d="M642.022 516.459C645.117 516.459 647.627 513.95 647.627 510.854C647.627 507.758 645.117 505.249 642.022 505.249C638.926 505.249 636.417 507.758 636.417 510.854C636.417 513.95 638.926 516.459 642.022 516.459Z" fill="#F1F2F7"/>
 </svg>
-            </div>
-
-            <div className="relative flex flex-col lg:flex-row justify-between items-center">
-
-              {/* CTA content */}
-              <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Powering your business</h3>
-                <p className="text-gray-300 text-lg mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit nemo expedita voluptas culpa sapiente.</p>
-
-                {/* CTA form */}
-                <form className="w-full lg:w-auto">
-                  <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
-                    <input type="email" className="w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" />
-                    <a className="btn text-white bg-yellow-600 hover:bg-yellow-700 shadow" href="#0">Subscribe</a>
-                  </div>
-                  {/* Success message */}
-                  {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="text-sm text-gray-400 mt-3">7 days free trial. No credit card required.</p>
-                </form>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </section>
-  );
-}
-
-export default Newsletter;

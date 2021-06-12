@@ -47,7 +47,7 @@ function HeroHome() {
           </div>
 
           {/* Hero image */}
-          <div>absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="768" height="432" viewBox="0 0 768 432"
+          <div>
             <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center">
                 <img className="mx-auto" src={require('../images/mscope.jpg').default} width="768" height="432" alt="Hero" />

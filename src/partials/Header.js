@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import pdf from '../assets/docs/pricelist.pdf'
-import Logo from './logo/logo.svg'
+import Logo from './partials/Logo';
 
 function Header() {
 

@@ -152,7 +152,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Все права защищены. ©<a className="text-blue-600 hover:underline" href="https://skmedlab.kz">SKMEDLAB.KZ</a>2021</div>
+          <div className="text-sm text-gray-600 mr-4">Все права защищены. ©<a className="text-blue-600 hover:underline" href="https://skmedlab.kz">SKMEDLAB.KZ</a> 2021</div>
 
         </div>
 

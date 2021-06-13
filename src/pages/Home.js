@@ -1,5 +1,4 @@
 import React from 'react';
-import TopHeader from '../partials/TopHeader';
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
 import FeaturesHome from '../partials/Features';

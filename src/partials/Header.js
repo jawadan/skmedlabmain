@@ -34,7 +34,7 @@ function Header() {
                   </svg>
                 </li>
                 <li>
-                  <h1 className="text-5xl md:text-2xl font-extrabold leading-tighter tracking-tighter" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-red-800">SK-MEDLAB</span></h1>
+                  <h1 className="text-5xl md:text-2xl font-extrabold leading-tighter tracking-tighter" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-red-800"> SK-MEDLAB</span></h1>
                 </li>
               </ul>
             </Link>

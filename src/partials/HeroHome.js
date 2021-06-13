@@ -33,42 +33,21 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"><Typical
-                  loop={Infinity}
-                  wrapper="b"
-                  steps={[
-                    'Медицинский центр',
-                    1000,
-                    'Лаборатория',
-                    1000,
-                    'Анализы в короткие сроки',
-                    1000
-                  ]}/><br/><span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-red-800">SK-MEDLAB</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Медицинский центр<br/>Лаборатория<br/><span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-red-800">SK-MEDLAB</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices{' '}
-                <Typical
-                  loop={Infinity}
-                  wrapper="b"
-                  steps={[
-                    'developer',
-                    1000,
-                    'biochemic',
-                    1000,
-                    'spartan',
-                    1000,
-                    'player',
-                    1000,
-                    'hustler',
-                    1000,
-                    'godzilla',
-                    1000,
-                    'king-kong',
-                    1000,
-                    'trillionaire',
-                    1000
-                  ]}
-                />
-              </p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Мы делаем качественные анализы{' '}
+              <Typical
+                loop={Infinity}
+                wrapper="b"
+                steps={[
+                  'в короткие сроки',
+                  1500,
+                  'по доступным ценам',
+                  1500,
+                  'на современном оборудовании',
+                  1500
+                ]}
+              /></p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn text-white bg-yellow-600 hover:bg-ywllow-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Записаться на прием</a>
@@ -85,7 +64,7 @@ function HeroHome() {
             <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center">
                 <img className="mx-auto" src={require('../images/mscope.jpg').default} width="768" height="432" alt="Hero" />
-
+        
               </div>
               <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">
                 <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 flex-shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

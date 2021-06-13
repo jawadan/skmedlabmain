@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top && 'bg-white blur shadow-lg'}`}>
-      <div class="header-top d-none d-lg-block">
+      <div class="flex flex-grow justify-end flex-wrap items-center">
         <div class="container">
           <div class="col-xl-12">
             <div class="row d-flex justify-content-between align-items-center">

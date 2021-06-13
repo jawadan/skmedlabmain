@@ -12,7 +12,6 @@ function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
-      <TopHeader />
       {/*  Site header */}
       <Header />
 

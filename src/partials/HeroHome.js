@@ -37,23 +37,13 @@ function HeroHome() {
                   loop={Infinity}
                   wrapper="b"
                   steps={[
-                    'developer',
+                    'Медицинский центр',
                     1000,
-                    'biochemic',
+                    'Лаборатория',
                     1000,
-                    'spartan',
-                    1000,
-                    'player',
-                    1000,
-                    'hustler',
-                    1000,
-                    'godzilla',
-                    1000,
-                    'king-kong',
-                    1000,
-                    'trillionaire',
+                    'Анализы в короткие сроки',
                     1000
-                  ]} /><br/><span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-red-800">SK-MEDLAB</span></h1>
+                  ]}/><br/><span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-red-800">SK-MEDLAB</span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices{' '}
                 <Typical

@@ -66,7 +66,7 @@ function Features() {
           </div>
 
           {/* Slider */}
-          <div className="mb-6">  
+          <div className="mb-20">  
             <Slider className="slider-wrapper">
               {content.map((item, index) => (
                 <div

@@ -9,18 +9,18 @@ function Features() {
   const content = [
     {
       title: "Мыть руки каждые два часа",
-      description: "Исследования доказали что при обильном мытье рук портиться кожа, но не мыть совсем означает предречь себя нападению заразных и злокачественных паразитов, вирусов и бактерий. О том как нужно быть пчистым...",
+      description: "Исследования доказали что при обильном мытье рук портиться кожа, но не мыть совсем означает предречь себя нападению заразных и злокачественных паразитов, вирусов и бактерий. О том как нужно быть пчистым.",
       button: "Читать подробнее",
       image: "https://images.pexels.com/photos/4308205/pexels-photo-4308205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       user: "Думан Артыкбаевич",
       userProfile: "https://i.imgur.com/JSW6mEk.png"
     },
     {
-      title: "Tortor Dapibus Commodo Aenean Quam",
-      description: "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.",
-      button: "Discover better",
-      image: "https://i.imgur.com/DCdBXcq.jpg",
-      user: "Erich Behrens",
+      title: "Приемущества работа в локальной лаборатории",
+      description: "Доктор Берикбаевна объяснила почему анализы локальных клиник зачастую бывает более точным в сравнении с большими гигантами такими как инфармо, причина заключается в грамотном руководстве и качественном обучении младшего персонла профессионалами со стажем в четыре декады и огромным багажом знаний в продвинутой медицине.",
+      button: "Узнать больше",
+      image: "https://images.pexels.com/photos/4033304/pexels-photo-4033304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      user: "Дана Берикбаевна",
       userProfile: "https://i.imgur.com/0Clfnu7.png"
     },
     {

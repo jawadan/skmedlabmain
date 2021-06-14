@@ -19,16 +19,6 @@
 	opacity: 0;
 }
 
-// .slide section * {
-// 	transition: all 0.3s ease;
-// }
-
-// .slide section img {
-// 	-webkit-transform: translateX(-10px);
-// 					transform: translateX(-10px);
-// 	opacity: 0;
-// }
-
 .slide section span {
 	-webkit-transform: translateY(-10px);
 					transform: translateY(-10px);
@@ -114,33 +104,6 @@
   outline: none;
 }
 
-// .slider-btn {
-//   -webkit-appearance: none;
-//           appearance: none;
-//   -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
-//           filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
-//   -webkit-transition: all .5s ease;
-//          filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
-//   -webkit-transition: all .5s ease;
-//           transition: all .5s ease;
-//   border: none;
-//   background: #FFD800;
-//   border-radius: 30px;
-//   text-transform: uppercase;
-//   box-sizing: border-box;
-//   padding: 15px 40px;
-//   font-weight: 400;
-//   font-size: 13px;
-//   cursor: cursor;
-// }
-
-// .slider-btn:hover {
-//   color: #FFFFFF;
-//   background: #222222;
-//   -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
-//           filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
-// }
-
 .wrapper {
   max-width: 1335px;
   box-sizing: border-box;
@@ -205,14 +168,14 @@
   font-weight: 900;
   margin: 0 auto;
   max-width: 840px;
-  color: #000000;
+  color: #191919;
   font-size: 64px;
   line-height: 1;
 }
 
 .slider-content .inner p {
-  color: #000000;
-  font-size: 14px;
+  color: #191919;
+  font-size: 1.25rem;
   line-height: 1.5;
   margin: 20px auto 30px;
   max-width: 640px;
@@ -246,11 +209,11 @@
 }
 
 .slider-content section span {
-  color: #000000;
+  color: #191919;
 }
 
 .slider-content section span {
-  color: rgba(0, 0, 0, 0.5);
+  color: #191919;
   font-size: 12px;
   display: inline-block;
   text-align: left;
@@ -262,13 +225,13 @@
 .slider-content section img {
   width: 40px;
   height: 40px;
-  border: solid 2px rgba(0, 0, 0, 0.5);
+  border: solid 2px #191919;
   border-radius: 100%;
   vertical-align: middle;
 }
 
 .slider-content section span strong {
-  color: #000000;
+  color: #191919;
   font-size: 14px;
   display: block;
 }

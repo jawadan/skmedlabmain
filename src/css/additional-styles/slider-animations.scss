@@ -110,7 +110,7 @@
 					transition-delay: 0s;
 }
 
-button {
+.slider-btn {
     -webkit-appearance: none;
             appearance: none;
     -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
@@ -130,7 +130,7 @@ button {
     cursor: cursor;
   }
   
-  button:hover {
+.slider-btn:hover {
     color: #FFFFFF;
     background: #222222;
     -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));

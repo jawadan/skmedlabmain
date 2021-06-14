@@ -18,7 +18,7 @@ function Features() {
     {
       title: "Tortor Dapibus Commodo Aenean Quam",
       description: "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.",
-      button: "Discover",
+      button: "Discover better",
       image: "https://i.imgur.com/DCdBXcq.jpg",
       user: "Erich Behrens",
       userProfile: "https://i.imgur.com/0Clfnu7.png"

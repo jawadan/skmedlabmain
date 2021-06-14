@@ -27,7 +27,7 @@ function Features() {
       title: "Phasellus volutpat metus",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
-      button: "Buy now now",
+      button: "Buy now",
       image: "https://i.imgur.com/DvmN8Hx.jpg",
       user: "Bruno Vizovskyy",
       userProfile: "https://i.imgur.com/4KeKvtH.png"

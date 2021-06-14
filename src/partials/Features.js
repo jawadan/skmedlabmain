@@ -1,7 +1,14 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition.js';
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
 
 function Features() {
+
+  const slides = [
+    { title: 'First item', description: 'Lorem ipsum' },
+    { title: 'Second item', description: 'Lorem ipsum' }
+  ];
 
   const [tab, setTab] = useState(1);
 
@@ -33,6 +40,13 @@ function Features() {
             <h1 className="h2 mb-4">Explore the solutions</h1>
             <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
           </div>
+
+          <Slider>
+            {slides.map((slide, index) => <div key={index}>
+              <h2>{slide.title}</h2>
+              <div>{slide.description}</div>
+            </div>)}
+          </Slider>
 
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">

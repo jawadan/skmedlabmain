@@ -8,11 +8,11 @@ function Features() {
 
   const content = [
     {
-      title: "Vulputate Mollis Ultricies Fermentum Parturient",
-      description: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
-      button: "Read More",
-      image: "https://i.imgur.com/ZXBtVw7.jpg",
-      user: "Luan Gjokaj",
+      title: "Мыть руки каждые два часа",
+      description: "Исследования доказали что при обильном мытье рук портиться кожа, но не мыть совсем означает предречь себя нападению заразных и злокачественных паразитов, вирусов и бактерий. О том как нужно быть пчистым...",
+      button: "Читать подробнее",
+      image: "https://images.pexels.com/photos/4308205/pexels-photo-4308205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      user: "Думан Артыкбаевич",
       userProfile: "https://i.imgur.com/JSW6mEk.png"
     },
     {

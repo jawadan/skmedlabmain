@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import pdf from '../assets/docs/pricelist.pdf'
+// import pdf from '../assets/docs/pricelist.pdf'
 
 function Header() {
 
@@ -43,9 +43,9 @@ function Header() {
           {/* Site navigation */}
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
-              <li>
+              {/* <li>
                 <Link to={pdf} target="_blank" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out" download="pricelist.pdf">Прайслист</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/signin" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
                   <span>Вход</span>

@@ -77,7 +77,7 @@ function Features() {
                   <div className="inner">
                     <h1>{item.title}</h1>
                     <p>{item.description}</p>
-                    <button className="slider-btn">{item.button}</button>
+                    <button className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4">{item.button}</button>
                   </div>
                   <section>
                     <img src={item.userProfile} alt={item.user} />

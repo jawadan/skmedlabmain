@@ -75,8 +75,8 @@ function Features() {
                   style={{ background: `url('${item.image}') no-repeat center center` }}
                 >
                   <div className="inner">
-                    <h1>{item.title}</h1>
-                    <p>{item.description}</p>
+                    <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4">{item.title}</h1>
+                    <p className="text-xl text-gray-600">{item.description}</p>
                     <button className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4">{item.button}</button>
                   </div>
                   <section>

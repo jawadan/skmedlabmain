@@ -66,7 +66,7 @@ function Features() {
           </div>
 
           {/* Slider */}
-          <div>
+          <div className="mb-6">  
             <Slider className="slider-wrapper">
               {content.map((item, index) => (
                 <div
@@ -89,8 +89,6 @@ function Features() {
               ))}
             </Slider>
           </div>
-
-          <br/>
 
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">

@@ -22,6 +22,15 @@ function Features() {
       image: "https://i.imgur.com/DCdBXcq.jpg",
       user: "Erich Behrens",
       userProfile: "https://i.imgur.com/0Clfnu7.png"
+    },
+    {
+      title: "Phasellus volutpat metus",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+      button: "Buy now",
+      image: "https://i.imgur.com/DvmN8Hx.jpg",
+      user: "Bruno Vizovskyy",
+      userProfile: "https://i.imgur.com/4KeKvtH.png"
     }
   ];
 
@@ -56,7 +65,9 @@ function Features() {
             <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
           </div>
 
-          <Slider>
+          {/* Slider */}
+          <div>
+          <Slider className="slider-wrapper">
             {slides.map((item, index) => 
             <div
               key={index}
@@ -76,6 +87,7 @@ function Features() {
               </section>
             </div>)}
           </Slider>
+          </div>
 
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">

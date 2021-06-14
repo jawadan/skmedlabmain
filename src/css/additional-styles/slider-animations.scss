@@ -5,13 +5,6 @@
 	opacity: 0;
 }
 
-.slide button {
-	transition: all 0.3s ease;
-	-webkit-transform: translateY(20px);
-					transform: translateY(20px);
-	opacity: 0;
-}
-
 .slide p {
 	transition: all 0.3s ease;
 	-webkit-transform: translateY(20px);
@@ -158,24 +151,6 @@
           text-indent: -9999px;
           cursor: pointer;
   }
-
-  .slider-btn {
-    border: none;
-    border-radius: 30px;
-    text-transform: uppercase;
-    box-sizing: border-box;
-    padding: 15px 40px;
-    font-weight: 400;
-    font-size: 13px;
-    cursor: cursor;
-  }
-  
-.slider-btn:hover {
-    color: #e56a00;
-    -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
-            filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
-  }
-  
   
   .previousButton {
     left: 0;

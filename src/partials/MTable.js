@@ -1,4 +1,5 @@
 import MaterialTable from "material-table";
+import { Paper } from "@material-ui/core";
 import { data } from "./data";
 const MTable = () => {
     const columns = [
@@ -10,6 +11,9 @@ const MTable = () => {
     return (
         <div style={{ maxWidth: "100%" }}>
             <MaterialTable
+                components={{
+                    Container: (props) => <Paper {...props} elevation={0} />
+                }}
                 columns={columns}
                 data={data}
                 title=""

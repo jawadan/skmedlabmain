@@ -5,7 +5,6 @@ const MTable = () => {
         { title: "Анализ", field: "title" },
         { title: "Цена(тг)", field: "price" },
         { title: "Норма", field: "norm" },
-        { title: "Укороченно", field: "authors" }
 
     ];
     return (

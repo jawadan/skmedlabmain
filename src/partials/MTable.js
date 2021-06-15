@@ -3,9 +3,10 @@ import { data } from "./data";
 const MTable = () => {
   const columns = [
     { title: "Анализ", field: "title" },
-    { title: "Норма", field: "num_pages" },
-    { title: "Укороченно", field: "authors" },
-    { title: "Цена", field: "rating" }
+    { title: "Цена(тг)", field: "price" },
+    { title: "Норма", field: "norm" },
+    { title: "Укороченно", field: "authors" }
+
   ];
   return (
     <div style={{ maxWidth: "100%" }}>

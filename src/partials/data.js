@@ -3,42 +3,42 @@ export const data = [
       id: 1,
       title: "Биохимия",
       authors: "Suzanne Collins",
-      num_pages: 374,
-      rating: 4.33
+      price: 374,
+      norm: 4.33
     },
     {
       id: 2,
       title: "Глюкоза",
       authors: "J.K. Rowling",
-      num_pages: 870,
-      rating: 4.48
+      price: 870,
+      norm: 4.48
     },
     {
       id: 3,
       title: "To Kill a Mockingbird",
       authors: "Harper Lee",
-      num_pages: 324,
-      rating: 4.27
+      price: 324,
+      norm: 4.27
     },
     {
       id: 4,
       title: "Pride and Prejudice",
       authors: "Jane Austen",
-      num_pages: 279,
-      rating: 4.25
+      price: 279,
+      norm: 4.25
     },
     {
       id: 5,
       title: "Twilight",
       authors: "Stephenie Meyer",
-      num_pages: 498,
-      rating: 3.58
+      price: 498,
+      norm: 3.58
     },
     {
       id: 6,
       title: "The Book Thief",
       authors: "Markus Zusak",
-      num_pages: 552,
-      rating: 4.36
+      price: 552,
+      norm: 4.36
     }
   ];

@@ -189,12 +189,12 @@ function Features() {
                   </div>
                 </Transition>
                 {/* Item 3 */}
-                <Transition>
+
                 <div style={{ padding: "30px" }}>
                   <h1>Material Table Example</h1>
                   <MTable />
                 </div>
-                </Transition>
+
               </div>
             </div >
 

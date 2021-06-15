@@ -3,9 +3,8 @@ import { Paper } from "@material-ui/core";
 import { data } from "./data";
 const MTable = () => {
     const columns = [
-        { title: "Анализ", field: "title" },
+        { title: "Наименование", field: "title" },
         { title: "Цена(тг)", field: "price" },
-        { title: "Норма", field: "norm" },
 
     ];
     return (

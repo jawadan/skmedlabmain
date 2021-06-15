@@ -166,8 +166,7 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div style={{ padding: "30px" }}>
-                    <h1>Material Table Example</h1>
+                  <div style={{ padding: "20px" }}>
                     <MTable />
                   </div>
                 </Transition>
@@ -190,7 +189,7 @@ function Features() {
                 </Transition>
                 {/* Item 3 */}
                 <Transition
-                  show={tab === 2}
+                  show={tab === 3}
                   appear={true}
                   className="w-full"
                   enter="transition ease-in-out duration-700 transform order-first"

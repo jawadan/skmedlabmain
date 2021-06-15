@@ -9,7 +9,7 @@ const MTable = () => {
   ];
   return (
     <div style={{ maxWidth: "100%" }}>
-      <MaterialTable columns={columns} data={data} title="Books Directory" />
+      <MaterialTable columns={columns} data={data} title="Анализы" />
     </div>
   );
 };

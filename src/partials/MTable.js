@@ -14,7 +14,11 @@ const MTable = () => {
                 data={data}
                 title=""
                 style={{ fontSize: '16px', color: '#666666' }}
-                options={{ headerStyle: { fontWeight: 'bold', fontSize: '17px', color: '#191919', pageSize: 7 }, pageSizeOptions: [15, 30, 50] }}
+                options={{
+                    pageSize: 7,
+                    pageSizeOptions: [15, 30, 30],
+                    headerStyle: { fontWeight: 'bold', fontSize: '17px', color: '#191919' }
+                }}
                 localization={{
                     toolbar: {
                         searchPlaceholder: ""

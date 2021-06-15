@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 import Typical from 'react-typical';
-
+import { Link } from 'react-router-dom';
 import pdf from '../assets/docs/pricelist.pdf'
 
 function HeroHome() {

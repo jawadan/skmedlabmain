@@ -17,7 +17,7 @@ const MTable = () => {
                 columns={columns}
                 data={data}
                 title=""
-                style={{ fontSize: '16px', color: '#666666' }}
+                style={{ fontSize: '16px', color: '#666666', backgroundColor:"#eaeaea" }}
                 options={{
                     pageSize: 7,
                     pageSizeOptions: [15, 30, 50],

@@ -14,6 +14,7 @@ import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
+import Blog from './pages/Blog';
 
 function App() {
 
@@ -49,6 +50,9 @@ function App() {
         </Route>
         <Route path="/reset-password">
           <ResetPassword />
+        </Route>
+        <Route path="/blog">
+          <Blog />
         </Route>
       </Switch>
     </>

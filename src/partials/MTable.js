@@ -13,7 +13,7 @@ const MTable = () => {
                 columns={columns}
                 data={data}
                 title=""
-                style={{ fontSize: '17px', color: '#666666' }}
+                style={{ fontSize: '16px', color: '#666666' }}
                 options={{ headerStyle: { fontWeight: 'bold', fontSize: '17px', color: '#191919' } }}
                 localization={{
                     toolbar: {

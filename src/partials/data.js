@@ -1,7 +1,7 @@
 export const data = [
     {
       id: 1,
-      title: "Биохимия",
+      title: "Перед тем как прийдти на прием убедитесь во всем что",
       authors: "Suzanne Collins",
       price: 374,
       norm: 4.33

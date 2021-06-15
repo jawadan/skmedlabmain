@@ -14,7 +14,8 @@ const MTable = () => {
                 columns={columns}
                 data={data}
                 title=""
-                options={{ headerStyle: { fontWeight: 'bold', fontSize: '16px' } }} />
+                style={{ fontSize: '1.125rem', color: '#666666' }}
+                options={{ headerStyle: { fontWeight: 'bold', fontSize: '1.125rem', color: '#191919' } }} />
         </div>
     );
 };

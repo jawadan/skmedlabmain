@@ -98,8 +98,8 @@ function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                <h3 className="h3 mb-3">Необходимые действия</h3>
+                <p className="text-xl text-gray-600">Перед тем как прийдти на прием убедитесь во всем что указано ниже</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -194,7 +194,7 @@ function Features() {
                   <h1>Material Table Example</h1>
                   <MTable />
                 </div>
-                
+
               </div>
             </div >
 

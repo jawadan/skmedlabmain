@@ -12,7 +12,7 @@ const MTable = () => {
         <div style={{ maxWidth: "100%" }}>
             <MaterialTable
                 components={{
-                    Container: (props) => <Paper {...props} elevation={0.5} />
+                    Container: (props) => <Paper {...props} elevation={1} />
                 }}
                 columns={columns}
                 data={data}

@@ -2,9 +2,9 @@ import MaterialTable from "material-table";
 import { data } from "./data";
 const MTable = () => {
   const columns = [
-    { title: "Наименование", field: "title" },
-    { title: "Укороченно", field: "authors" },
+    { title: "Анализ", field: "title" },
     { title: "Норма", field: "num_pages" },
+    { title: "Укороченно", field: "authors" },
     { title: "Цена", field: "rating" }
   ];
   return (

@@ -166,9 +166,9 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                  <div style={{ padding: "30px" }}>
+                    <h1>Material Table Example</h1>
+                    <MTable />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -189,12 +189,21 @@ function Features() {
                   </div>
                 </Transition>
                 {/* Item 3 */}
-
-                <div style={{ padding: "30px" }}>
-                  <h1>Material Table Example</h1>
-                  <MTable />
-                </div>
-
+                <Transition
+                  show={tab === 3}
+                  appear={true}
+                  className="w-full"
+                  enter="transition ease-in-out duration-700 transform order-first"
+                  enterStart="opacity-0 translate-y-16"
+                  enterEnd="opacity-100 translate-y-0"
+                  leave="transition ease-in-out duration-300 transform absolute"
+                  leaveStart="opacity-100 translate-y-0"
+                  leaveEnd="opacity-0 -translate-y-16"
+                >
+                  <div className="relative inline-flex flex-col">
+                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                  </div>
               </div>
             </div >
 

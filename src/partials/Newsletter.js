@@ -314,22 +314,7 @@ function Newsletter() {
             <div className="relative flex flex-col lg:flex-row justify-between items-center">
 
               {/* CTA content */}
-              <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Зарабатывайте с нами</h3>
-                <p className="text-gray-300 text-lg mb-6">Сотрудничайте с нами и получайте бонусы на все услуги до 35%</p>
-
-                {/* CTA form */}
-                <form className="w-full lg:w-auto">
-                  <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
-                    <input type="email" className="w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Ваш email" aria-label="Your email…" />
-                    <input type="text" className="w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Промо ник" aria-label="Your email…" />
-                    <input className="btn text-white bg-yellow-600 hover:bg-yellow-700 shadow" type="submit" value="Отправить"/>
-                  </div>
-                  {/* Success message */}
-                  {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="text-sm text-gray-400 mt-3">Заявка рассматривается в течении 7 дней.</p>
-                </form>
-              </div>
+              <Mailer />
 
             </div>
 

@@ -1,10 +1,6 @@
 import React from 'react';
-
 import Header from '../partials/Header';
-
 import Footer from '../partials/Footer';
-
-import Mailer from '../utils/Mailer'
 
 function Blog() {
   return (
@@ -35,14 +31,11 @@ function Blog() {
               </g>
             </svg>
           </div>
-
           
-          
-
         </section>
 
       </main>
-      <Mailer />
+
       {/*  Site footer */}
       <Footer />
 

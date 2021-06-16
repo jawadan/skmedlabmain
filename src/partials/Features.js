@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition.js';
-
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 

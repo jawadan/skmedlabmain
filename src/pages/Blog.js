@@ -36,13 +36,13 @@ function Blog() {
             </svg>
           </div>
 
-          <Mailer />
+          
           
 
         </section>
 
       </main>
-
+      <Mailer />
       {/*  Site footer */}
       <Footer />
 

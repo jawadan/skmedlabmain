@@ -1,4 +1,5 @@
 import React from 'react';
+import Mailer from '../utils/Mailer';
 
 function Newsletter() {
   return (
@@ -315,7 +316,6 @@ function Newsletter() {
 
               {/* CTA content */}
               <Mailer />
-
             </div>
 
           </div>

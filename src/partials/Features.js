@@ -26,7 +26,7 @@ function Features() {
       userProfile: "https://i.imgur.com/0Clfnu7.png"
     },
     {
-      title: "Phasellus volutpat metus",
+      title: "Прямая осанка при сидячей работе",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
       button: "Buy now",

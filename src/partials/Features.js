@@ -12,7 +12,7 @@ function Features() {
       title: "Мыть руки каждые два часа",
       description: "Исследования доказали что обильное мытье рук полезно.",
       button: "Читать подробнее",
-      image: "../images/features-bg.jpg",
+      image: src="../images/features-bg.jpg",
       user: "Думан Артыкбаевич",
       userProfile: "https://i.imgur.com/JSW6mEk.png"
     },

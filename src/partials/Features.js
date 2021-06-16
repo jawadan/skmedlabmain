@@ -68,7 +68,7 @@ function Features() {
 
           {/* Slider */}
           <div className="mb-20">
-            <Slider className="slider-wrapper autoplay={5000}">
+            <Slider className="slider-wrapper" autoplay={5000} touchDisabled>
               {content.map((item, index) => (
                 <div
                   key={index}

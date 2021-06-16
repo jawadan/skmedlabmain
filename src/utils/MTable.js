@@ -1,6 +1,7 @@
 import MaterialTable from "material-table";
 import { Paper } from "@material-ui/core";
 import { data } from "./data";
+
 const MTable = () => {
     const columns = [
         { title: "Наименование", field: "title" },

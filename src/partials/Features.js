@@ -4,7 +4,7 @@ import Transition from '../utils/Transition.js';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 
-import MTable from "./MTable"; //tables
+import MTable from "../utils/MTable"; //tables
 
 function Features() {
 

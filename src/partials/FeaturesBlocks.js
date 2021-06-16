@@ -34,7 +34,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Качество</h4>
-              <p className="text-gray-600 text-center">Качественные расходные материалы для взятия образцов и приема пациентов.</p>
+              <p className="text-gray-600 text-center">Качественные расходные материалы для взятия образцов.</p>
             </div>
 
             {/* 2nd item */}

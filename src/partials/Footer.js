@@ -129,8 +129,8 @@ function Footer() {
               </a>
             </li>
             <li className="ml-4">
-            <a href="https://google.com/" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Instagram">
-            <svg className="w-8 h-8 fill-current mx-auto" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <a href="https://instagram.com/" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Instagram">
+            <svg className="w-8 h-8 fill-current mx-1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M8 12c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z" />
                 <path

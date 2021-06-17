@@ -1,128 +1,159 @@
 export const data = [
     {
       id: 1,
-      title: "Перед тем как прийдти на прием убедитесь во всем что",
-      authors: "Suzanne Collins",
-      price: 374,
-      norm: 4.33
+      title: "Общий анализ крови (Лейкоформула+тромбоциты)",
+      price: 700,
     },
     {
       id: 2,
-      title: "Глюкоза",
-      authors: "J.K. Rowling",
-      price: 870,
-      norm: 4.48
+      title: "СОЭ (Скорость оседания эритроцитов)",
+      price: 200,
     },
     {
       id: 3,
-      title: "To Kill a Mockingbird",
-      authors: "Harper Lee",
-      price: 324,
-      norm: 4.27
+      title: "ПВ (Протромбиновое время)",
+      price: 300,
     },
     {
       id: 4,
-      title: "Pride and Prejudice",
-      authors: "Jane Austen",
-      price: 279,
-      norm: 4.25
+      title: "ПТИ (Протромбиновый индекс)",
+      price: 300,
     },
     {
       id: 5,
-      title: "Twilight",
-      authors: "Stephenie Meyer",
-      price: 498,
-      norm: 3.58
+      title: "МНО (Международное нормализованное отношение)",
+      price: 300,
     },
     {
       id: 6,
-      title: "The Book Thief",
-      authors: "Markus Zusak",
-      price: 552,
-      norm: 4.36
+      title: "АЧТВ (Активированное частичное тромбопластиновое время)",
+      price: 690,
     },
     {
       id: 7,
-      title: "Pride and Prejudice",
-      authors: "Jane Austen",
-      price: 279,
-      norm: 4.25
+      title: "Фибриноген по Клаусу",
+      price: 690,
     },
     {
       id: 8,
-      title: "Twilight",
-      authors: "Stephenie Meyer",
-      price: 498,
-      norm: 3.58
+      title: "ТВ (Тромбиновое время)",
+      price: 690,
     },
     {
       id: 9,
-      title: "The Book Thief",
-      authors: "Markus Zusak",
-      price: 552,
-      norm: 4.36
+      title: "D-димер",
+      price: 3400,
     },
     {
       id: 10,
-      title: "Биохимия",
-      authors: "Suzanne Collins",
-      price: 374,
-      norm: 4.33
+      title: "Антитромбин III",
+      price: 1800,
     },
     {
       id: 11,
-      title: "Глюкоза",
-      authors: "J.K. Rowling",
-      price: 870,
-      norm: 4.48
+      title: "Волчаночный антикоагулянт (LA1/LA2) в плазме крови",
+      price: 2500,
     },
     {
       id: 12,
-      title: "To Kill a Mockingbird",
-      authors: "Harper Lee",
-      price: 324,
-      norm: 4.27
+      title: "РФМК",
+      price: 900,
     },
     {
       id: 13,
-      title: "Pride and Prejudice",
-      authors: "Jane Austen",
-      price: 279,
-      norm: 4.25
+      title: "Микрореакция",
+      price: 700,
     },
     {
       id: 14,
-      title: "Twilight",
-      authors: "Stephenie Meyer",
-      price: 498,
-      norm: 3.58
+      title: "Определение группы крови",
+      price: 500,
     },
     {
       id: 15,
-      title: "The Book Thief",
-      authors: "Markus Zusak",
-      price: 552,
-      norm: 4.36
+      title: "Определение  резус фактора",
+      price: 500,
     },
     {
       id: 16,
-      title: "Pride and Prejudice",
-      authors: "Jane Austen",
-      price: 279,
-      norm: 4.25
+      title: "Диагностика Сифилиса: кровь на RW (Реакция Вассермана)",
+      price: 3200,
     },
     {
       id: 17,
-      title: "Twilight",
-      authors: "Stephenie Meyer",
-      price: 498,
-      norm: 3.58
+      title: "Реакция Райта-Хеддельсона на бруцеллез",
+      price: 1900,
     },
     {
       id: 18,
-      title: "The Book Thief",
-      authors: "Markus Zusak",
-      price: 552,
-      norm: 4.36
+      title: "ОАМ (Общий анализ мочи)",
+      price: 800,
+    },
+    {
+      id: 19,
+      title: "Суточная экскреция белка в моче",
+      price: 550,
+    },
+    {
+      id: 20,
+      title: "Моча по Зимницкому (Суточная)",
+      price: 450,
+    },
+    {
+      id: 21,
+      title: "Моча по Нечипоренко",
+      price: 550,
+    },
+    {
+      id: 22,
+      title: "Глюкоза в моче",
+      price: 550,
+    },
+    {
+      id: 23,
+      title: "Мазок на степень чистоты - без забора",
+      price: 1000,
+    },
+    {
+      id: 24,
+      title: "Мазок секрета простаты - без забора",
+      price: 1000,
+    },
+    {
+      id: 25,
+      title: "Спермограмма",
+      price: 3000,
+    },
+    {
+      id: 26,
+      title: "Мазок из уретры - без забора",
+      price: 1000,
+    },
+    {
+      id: 27,
+      title: "Риноцитограмма - без забора",
+      price: 1000,
+    },
+    {
+      id: 28,
+      title: "Мазок на онкоцитологию",
+      price: 1800,
+    },
+    {
+      id: 29,
+      title: "Кал на яйца гельминтов и цисты простейших",
+      price: 800,
+    },
+    {
+      id: 30,
+      title: "Копрограмма",
+      price: 1000,
     }
   ];
+
+ 
+  
+
+  
+  
+  

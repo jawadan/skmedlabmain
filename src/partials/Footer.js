@@ -100,7 +100,7 @@ function Footer() {
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">Подпишитесь</h6>
-            <p className="text-sm text-gray-600 mb-4">Получайте последние новости и статьи каждую неделю.</p>
+            <p className="text-sm text-gray-600 mb-4">Получайте последние новости и статьи каждый месяц.</p>
             <form>
               <div className="flex flex-wrap mb-4">
                 <div className="w-full">

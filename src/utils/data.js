@@ -570,4 +570,3 @@ export const data = [
       price: 4000,
     },
   ];
-

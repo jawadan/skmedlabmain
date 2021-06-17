@@ -23,7 +23,17 @@ function Footer() {
               </Link>
             </div>
             <div className="text-sm text-gray-600">
-              <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link> · <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
+              <ul className="text-sm">
+                <li className="mb-2">
+                  <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Конфидециальность</Link>{/* · <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link>*/}
+                </li>
+                <li className="mb-2">
+                  <a className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" href="mailto:9aniyar@gmail.com?subject=Mail from our Website">skmedlab@info.kz</a>
+                </li>
+                <li className="mb-2">
+                  <p className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Алматы, Жандосова 96</p>
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -84,9 +94,6 @@ function Footer() {
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Контакты</Link>
               </li>
-              <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Конфидециальность</Link>
-              </li>
             </ul>
           </div>
 
@@ -145,7 +152,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Все права защищены. ©<a className="text-blue-600 hover:underline" href="https://skmedlab.kz">SKMEDLAB.KZ</a> 2021</div>
+          <div className="text-sm text-gray-600 mr-4">Все права защищены. ©<a className="text-blue-600 hover:underline" href="https://skmedlab.kz">SKMEDLAB.KZ</a> 2020-<p>{new Date().getFullYear()}</p></div>
 
         </div>
 

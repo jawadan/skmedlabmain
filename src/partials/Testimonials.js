@@ -81,11 +81,11 @@ function Testimonials() {
                   <img className="relative rounded-full" src={require('../images/mama.png').default} width="96" height="96" alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Уважаемые посетители сайта, партнеры, друзья!<br/>Здесь вы сможете ознакомиться со всей необходимой информацией, касающейся нашего мед.центра. Для нас каждый пациент уникален и заслуживает особого внимания.<br/>С пожеланиями здоровья Вам и Вашим близким, “
+                  “ Уважаемые посетители сайта, партнеры, друзья!<br/>Здесь вы сможете ознакомиться со всей необходимой информацией, касающейся нашего мед.центра. Для нас каждый пациент уникален и заслуживает особого внимания.<br/>Желаем здоровья Вам и Вашим близким. “
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Турсынова Сауле Кадырхановна</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">Турсынова Сауле Кадырхановна</cite> <a className="text-blue-600 hover:underline" href="#0">saule@skmedlab.kz</a>
                 <div className="text-gray-600">
-                  <span>Основатель и Генеральный директор</span> <a className="text-blue-600 hover:underline" href="#0">saule@skmedlab.kz</a>
+                  <span>Основатель и Генеральный директор</span>
                 </div>
               </div>
 

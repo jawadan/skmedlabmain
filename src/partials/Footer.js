@@ -31,7 +31,7 @@ function Footer() {
                   <a className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" href="mailto:9aniyar@gmail.com?subject=Mail from our Website">skmedlab@info.kz</a>
                 </li>
                 <li className="mb-2">
-                  <p className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Алматы, Жандосова 96</p>
+                  <a className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" href="https://2gis.kz/almaty/inside/9430047375172881/firm/70000001046536980/76.883741%2C43.221654?m=76.883705%2C43.221604%2F16.97">Алматы, Жандосова 96</a>
                 </li>
               </ul>
             </div>

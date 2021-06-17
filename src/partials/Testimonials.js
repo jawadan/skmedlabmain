@@ -81,7 +81,7 @@ function Testimonials() {
                   <img className="relative rounded-full" src={require('../images/mama.png').default} width="96" height="96" alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
+                  “ Уважаемые посетители сайта, партнеры, друзья. Здесь вы сможете ознакомиться со всей необходимой информацией касающейся нешего центра. Для нас каждый пациент уникален и заслуживает особого внимания. “
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Турсынова Сауле Кадырхановна</cite>
                 <div className="text-gray-600">

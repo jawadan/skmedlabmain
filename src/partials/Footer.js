@@ -100,7 +100,7 @@ function Footer() {
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">Подпишитесь</h6>
-            <p className="text-sm text-gray-600 mb-4">Получайте последние новости и статьи каждый месяц.</p>
+            <p className="text-sm text-gray-600 mb-4">Получайте актуальную информацию и новости об акциях компании.</p>
             <form>
               <div className="flex flex-wrap mb-4">
                 <div className="w-full">
@@ -152,7 +152,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Все права защищены. ©<a className="text-blue-600 hover:underline" href="https://skmedlab.kz">SKMEDLAB.KZ</a><div>2020-<p>{new Date().getFullYear()}</p></div></div>
+          <div className="text-sm text-gray-600 mr-4">Все права защищены. ©<a className="text-blue-600 hover:underline" href="https://skmedlab.kz">SKMEDLAB.KZ</a><p>2020-{new Date().getFullYear()}</p></div>
 
         </div>
 

@@ -61,6 +61,37 @@ function Features() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
 
+          {/* Section header */}
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <h1 className="h2 mb-4">Полезные факты</h1>
+            <p className="text-xl text-gray-600">Держите себя и свое окружение в чистоте что бы быть здоровыми и спокойнвми в не саниратные дни. И обязательно одевайте маску в общественных местах.</p>
+          </div>
+
+          {/* Slider */}
+          <div className="mb-20">
+            <Slider className="slider-wrapper" autoplay={5000} touchDisabled>
+              {content.map((item, index) => (
+                <div
+                  key={index}
+                  className="slider-content"
+                  style={{ background: `url('${item.image}') no-repeat center center` }}
+                >
+                  <div className="inner">
+                    <h1 className="text-3xl md:text-4xl font-extrabold leading-tighter tracking-tighter mb-4">{item.title}</h1>
+                    <p className="text-xl font-medium mb-4">{item.description}</p>
+                    <button className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4">{item.button}</button>
+                  </div>
+                  <section>
+                    <img src={item.userProfile} alt={item.user} />
+                    <span>
+                      Автор статьи <strong>{item.user}</strong>
+                    </span>
+                  </section>
+                </div>
+              ))}
+            </Slider>
+          </div>
+
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">
 
@@ -177,37 +208,6 @@ function Features() {
             </div >
 
           </div >
-
-          {/* Section Slider */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Полезные факты</h1>
-            <p className="text-xl text-gray-600">Держите себя и свое окружение в чистоте что бы быть здоровыми и спокойнвми в не саниратные дни. И обязательно одевайте маску в общественных местах.</p>
-          </div>
-
-          {/* Slider */}
-          <div className="mb-20">
-            <Slider className="slider-wrapper" autoplay={5000} touchDisabled>
-              {content.map((item, index) => (
-                <div
-                  key={index}
-                  className="slider-content"
-                  style={{ background: `url('${item.image}') no-repeat center center` }}
-                >
-                  <div className="inner">
-                    <h1 className="text-3xl md:text-4xl font-extrabold leading-tighter tracking-tighter mb-4">{item.title}</h1>
-                    <p className="text-xl font-medium mb-4">{item.description}</p>
-                    <button className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4">{item.button}</button>
-                  </div>
-                  <section>
-                    <img src={item.userProfile} alt={item.user} />
-                    <span>
-                      Автор статьи <strong>{item.user}</strong>
-                    </span>
-                  </section>
-                </div>
-              ))}
-            </Slider>
-          </div>
 
         </div >
       </div >

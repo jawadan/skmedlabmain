@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function TopBar() {
     return (
-        <section className="relative bg-gray-900">
+        <section className="bg-gray-900">
             <div className="max-w-6xl mx-auto px-5 sm:px-6">
                 <div className="flex items-center justify-between h-8 md:h-10">
 

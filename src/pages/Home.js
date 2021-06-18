@@ -12,15 +12,15 @@ import TopBar from '../partials/TopBar';
 function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
-      <TopBar />
-      {/*  Site header */}
 
+      {/*  Site header */}
       <Header />
 
       {/*  Page content */}
       <main className="flex-grow">
 
         {/*  Page sections */}
+        <TopBar />
         <HeroHome />
         <FeaturesHome />
         <FeaturesBlocks />

@@ -89,10 +89,13 @@ function Footer() {
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Главная</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">О нас</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Лицензии</Link>
               </li>
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Контакты</Link>
+              </li>
+              <li className="mb-2">
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">О нас</Link>
               </li>
             </ul>
           </div>

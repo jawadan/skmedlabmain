@@ -78,7 +78,7 @@ function Testimonials() {
               {/* Testimonial */}
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
-                  <img className="relative rounded-full" src={require('../images/mama.png').default} width="96" height="96" alt="Testimonial 01" />
+                  <img className="relative rounded-full" src={require('../images/mama.jpeg').default} width="96" height="96" alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
                   “ Уважаемые посетители сайта, партнеры, друзья!<br />Здесь вы сможете ознакомиться со всей необходимой информацией, касающейся нашего мед.центра. Для нас каждый пациент уникален и заслуживает особого внимания.<br />Желаем здоровья Вам и Вашим близким. “

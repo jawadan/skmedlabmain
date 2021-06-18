@@ -63,8 +63,8 @@ function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Полезные факты</h1>
-            <p className="text-xl text-gray-600">Держите себя и свое окружение в чистоте что бы быть здоровыми и спокойнвми в не саниратные дни. И обязательно одевайте маску в общественных местах.</p>
+            <h1 className="h2 mb-4">Все о здоровье</h1>
+            <p className="text-xl text-gray-600">Здоровье заключается в освоении бесценных знании, необходимых для ведения проавильного образа жизни.</p>
           </div>
 
           {/* Slider */}

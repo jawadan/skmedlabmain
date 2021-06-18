@@ -18,7 +18,7 @@ function Header() {
   return (
     <header>
       <div className="max-w-6xl mx-auto px-5 bg-grey-900 sm:px-6">
-        <div className="flex items-center justify-between h-8 md:h-10">
+        <div className="">
 
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">

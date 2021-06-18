@@ -16,7 +16,7 @@ function Header() {
   }, [top]);
 
   return (
-    <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top && 'bg-white blur shadow-lg'}`}>
+    <header>
       <div className="max-w-6xl mx-auto px-5 bg-grey-900 sm:px-6">
         <div className="flex items-center justify-between h-8 md:h-10">
 
@@ -36,6 +36,7 @@ function Header() {
         </div>
       </div>
 
+      <div className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top && 'bg-white blur shadow-lg'}`}>
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
 
@@ -86,6 +87,7 @@ function Header() {
           </nav>
 
         </div>
+      </div>
       </div>
     </header>
   );

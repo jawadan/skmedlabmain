@@ -7,12 +7,14 @@ import FeaturesBlocks from '../partials/FeaturesBlocks';
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
+import TopBar from '../partials/TopBar';
 
 function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
-
+      <TopBar />
       {/*  Site header */}
+
       <Header />
 
       {/*  Page content */}

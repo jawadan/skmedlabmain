@@ -31,6 +31,10 @@ function Testimonials() {
               blandit libero cursus mattis.</p>
           </div>
 
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <h2 className="h2 mb-4">Наши партнеры</h2>
+          </div>
+
           {/* Items */}
           <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5">
 

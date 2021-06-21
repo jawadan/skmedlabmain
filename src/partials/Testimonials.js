@@ -40,9 +40,7 @@ function Testimonials() {
                     </div>
                     <div class="flex-grow pl-3">
                       <h6 class="font-bold text-sm uppercase text-gray-600">Kenzie Edgar.</h6>
-                      <span>
-                        Автор статьи
-                      </span>
+                      <p className="text-gray-600 text-center">Главный врач 12 ГКБ</p>
                     </div>
                   </div>
                   <div class="w-full">
@@ -71,9 +69,7 @@ function Testimonials() {
                     </div>
                     <div class="flex-grow pl-3">
                       <h6 class="font-bold text-sm uppercase text-gray-600">Tommie Ewart.</h6>
-                      <span>
-                        Автор статьи
-                      </span>
+                      <p className="text-gray-600 text-center">Заведующий лабораторией Сапа</p>
                     </div>
                   </div>
                   <div class="w-full">
@@ -102,13 +98,11 @@ function Testimonials() {
                     </div>
                     <div class="flex-grow pl-3">
                       <h6 class="font-bold text-sm uppercase text-gray-600">Nevada Herbertson.</h6>
-                      <span>
-                        Автор статьи
-                      </span>
+                      <p className="text-gray-600 text-center">Главный врач 5 ГКБ</p>
                     </div>
                   </div>
                   <div class="w-full">
-                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta, quibusdam sunt ipsum, laboriosam nostrum facere exercitationem pariatur deserunt tempora molestiae assumenda nesciunt alias eius? Illo, autem!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                  <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.</p>
                   </div>
                 </div>
                 {/* <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">

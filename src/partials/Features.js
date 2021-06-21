@@ -1,12 +1,23 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, Component } from 'react';
 import Transition from '../utils/Transition.js';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
+import GoogleMapReact from "google-map-react";
 
 import MTable from "../utils/MTable";
-import Map from "../utils/Map";
+
 
 function Features() {
+
+  const AnyReactComponent = ({ text }) => <div>{text}</div>;
+
+  const defaultProps = {
+    center: {
+      lat: 59.95,
+      lng: 30.33
+    },
+    zoom: 11
+  };
 
   const content = [
     {
@@ -201,7 +212,15 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <Map />
+                    <div style={{ height: "100vh", width: "100%" }}>
+                      <GoogleMapReact
+                        bootstrapURLKeys={{ key: "AIzaSyBRcnAK9ZyraRd7CP4HEAk1nW9tliQH5yM" }}
+                        defaultCenter={this.props.center}
+                        defaultZoom={this.props.zoom}
+                      >
+                        <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
+                      </GoogleMapReact>
+                    </div>
                   </div>
                 </Transition>
               </div>

@@ -226,5 +226,5 @@ function Features() {
 }
 
 export default GoogleApiWrapper({
-  apiKey: (AIzaSyBRcnAK9ZyraRd7CP4HEAk1nW9tliQH5yM)
+  apiKey: ("AIzaSyBRcnAK9ZyraRd7CP4HEAk1nW9tliQH5yM")
 })(Features)

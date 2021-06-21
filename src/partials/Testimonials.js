@@ -29,8 +29,7 @@ function Testimonials() {
             <h2 className="h2 mb-4">Более 10 000 довольных пациентов по Алматы</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis
               blandit libero cursus mattis.</p>
-          </div>
-          <div class="w-full max-w-6xl mx-auto">
+              <div class="w-full max-w-6xl mx-auto">
             <div class="-mx-3 md:flex items-start">
               <div class="px-3 md:w-1/3">
                 <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -118,7 +117,7 @@ function Testimonials() {
               </div>
             </div>
           </div>
-
+          </div>
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">Наши партнеры</h2>

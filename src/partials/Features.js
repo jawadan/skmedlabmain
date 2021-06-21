@@ -99,7 +99,7 @@ function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Необходимые действия</h3>
-                <p className="text-xl text-gray-600">Перед тем как прийдти на прием убедитесь во всем что указано ниже.</p>
+                <p className="text-xl text-gray-600">Перед тем как прийдти на прием, убедитесь во всем что указано ниже.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -110,7 +110,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Перечень проводимых анализов</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="text-gray-600">Найдите необходимые для вас анализы в поисковике таблицы.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -125,7 +125,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Подготовка к сдаче анализов</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="text-gray-600">Проследите. что бы все пункты из списка были выполнены.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -139,8 +139,8 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Общие рекомендации по здоровью</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Найдите наше расположение на карте</div>
+                    <div className="text-gray-600">Вы можете воспользоваться любым для вас удобным маршрутизатором.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import pin from '../images/pin.png'
+import { Link } from 'react-router-dom';
  
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
  

@@ -34,6 +34,9 @@ function Footer() {
                   <a className="text-blue-600 hover:underline" href="tel:+7707-824-9504">+7 (707) 824 9504</a>
                 </li>
                 <li className="mb-2">
+                  <a className="text-blue-600 hover:underline" href="tel:+7727-236-0065">+7 (727) 236 0065</a>
+                </li>
+                <li className="mb-2">
                   <a className="text-blue-600 hover:underline" href="mailto:9aniyar@gmail.com?subject=Mail from our Website">skmedlab@info.kz</a>
                 </li>
               </ul>

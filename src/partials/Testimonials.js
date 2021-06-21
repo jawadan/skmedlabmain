@@ -31,15 +31,6 @@ function Testimonials() {
               blandit libero cursus mattis.</p>
           </div>
           <div class="w-full max-w-6xl mx-auto">
-            <div class="text-center max-w-xl mx-auto">
-              <div class="text-center mb-10">
-                <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1">asdf</span>
-                <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1">asdf</span>
-                <span class="inline-block w-40 h-1 rounded-full bg-indigo-500">asdf</span>
-                <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1">asdf</span>
-                <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1">DANIYAR</span>
-              </div>
-            </div>
             <div class="-mx-3 md:flex items-start">
               <div class="px-3 md:w-1/3">
                 <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">

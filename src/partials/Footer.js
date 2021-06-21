@@ -31,7 +31,7 @@ function Footer() {
                   <a className="text-blue-600 hover:underline" href="https://2gis.kz/almaty/inside/9430047375172881/firm/70000001046536980/76.883741%2C43.221654?m=76.883705%2C43.221604%2F16.97">Жандосова 96, Алматы</a>
                 </li>
                 <li className="mb-2">
-                  <a className="text-blue-600 hover:underline">+7 (707) 824 9504</a>
+                  <a className="text-blue-600 hover:underline" href="tel:+7707-824-9504">+7 (707) 824 9504</a>
                 </li>
                 <li className="mb-2">
                   <a className="text-blue-600 hover:underline" href="mailto:9aniyar@gmail.com?subject=Mail from our Website">skmedlab@info.kz</a>

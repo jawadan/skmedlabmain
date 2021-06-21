@@ -30,103 +30,103 @@ function Testimonials() {
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis
               blandit libero cursus mattis.</p>
           </div>
-        <div class="w-full max-w-6xl mx-auto">
+          <div class="w-full max-w-6xl mx-auto">
             <div class="text-center max-w-xl mx-auto">
-                <div class="text-center mb-10">
-                    <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
-                    <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
-                    <span class="inline-block w-40 h-1 rounded-full bg-indigo-500"></span>
-                    <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
-                    <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
-                </div>
+              <div class="text-center mb-10">
+                <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1">asdf</span>
+                <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1">asdf</span>
+                <span class="inline-block w-40 h-1 rounded-full bg-indigo-500">asdf</span>
+                <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1">asdf</span>
+                <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1">DANIYAR</span>
+              </div>
             </div>
             <div class="-mx-3 md:flex items-start">
-                <div class="px-3 md:w-1/3">
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                        <div class="w-full flex mb-4 items-center">
-                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                <img src="https://i.pravatar.cc/100?img=1" alt="" />
-                            </div>
-                            <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Kenzie Edgar.</h6>
-                            </div>
-                        </div>
-                        <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
-                        </div>
+              <div class="px-3 md:w-1/3">
+                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                  <div class="w-full flex mb-4 items-center">
+                    <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                      <img src="https://i.pravatar.cc/100?img=1" alt="" />
                     </div>
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                        <div class="w-full flex mb-4 items-center">
-                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                <img src="https://i.pravatar.cc/100?img=2" alt="" />
-                            </div>
-                            <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Stevie Tifft.</h6>
-                            </div>
-                        </div>
-                        <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
-                        </div>
+                    <div class="flex-grow pl-3">
+                      <h6 class="font-bold text-sm uppercase text-gray-600">Kenzie Edgar.</h6>
                     </div>
+                  </div>
+                  <div class="w-full">
+                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                  </div>
                 </div>
-                <div class="px-3 md:w-1/3">
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                        <div class="w-full flex mb-4 items-center">
-                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                <img src="https://i.pravatar.cc/100?img=3" alt="" />
-                            </div>
-                            <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Tommie Ewart.</h6>
-                            </div>
-                        </div>
-                        <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
-                        </div>
+                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                  <div class="w-full flex mb-4 items-center">
+                    <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                      <img src="https://i.pravatar.cc/100?img=2" alt="" />
                     </div>
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                        <div class="w-full flex mb-4 items-center">
-                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                <img src="https://i.pravatar.cc/100?img=4" alt="" />
-                            </div>
-                            <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Charlie Howse.</h6>
-                            </div>
-                        </div>
-                        <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
-                        </div>
+                    <div class="flex-grow pl-3">
+                      <h6 class="font-bold text-sm uppercase text-gray-600">Stevie Tifft.</h6>
                     </div>
+                  </div>
+                  <div class="w-full">
+                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                  </div>
                 </div>
-                <div class="px-3 md:w-1/3">
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                        <div class="w-full flex mb-4 items-center">
-                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                <img src="https://i.pravatar.cc/100?img=5" alt="" />
-                            </div>
-                            <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Nevada Herbertson.</h6>
-                            </div>
-                        </div>
-                        <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta, quibusdam sunt ipsum, laboriosam nostrum facere exercitationem pariatur deserunt tempora molestiae assumenda nesciunt alias eius? Illo, autem!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
-                        </div>
+              </div>
+              <div class="px-3 md:w-1/3">
+                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                  <div class="w-full flex mb-4 items-center">
+                    <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                      <img src="https://i.pravatar.cc/100?img=3" alt="" />
                     </div>
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                        <div class="w-full flex mb-4 items-center">
-                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                <img src="https://i.pravatar.cc/100?img=6" alt="" />
-                            </div>
-                            <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Kris Stanton.</h6>
-                            </div>
-                        </div>
-                        <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
-                        </div>
+                    <div class="flex-grow pl-3">
+                      <h6 class="font-bold text-sm uppercase text-gray-600">Tommie Ewart.</h6>
                     </div>
+                  </div>
+                  <div class="w-full">
+                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                  </div>
                 </div>
+                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                  <div class="w-full flex mb-4 items-center">
+                    <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                      <img src="https://i.pravatar.cc/100?img=4" alt="" />
+                    </div>
+                    <div class="flex-grow pl-3">
+                      <h6 class="font-bold text-sm uppercase text-gray-600">Charlie Howse.</h6>
+                    </div>
+                  </div>
+                  <div class="w-full">
+                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="px-3 md:w-1/3">
+                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                  <div class="w-full flex mb-4 items-center">
+                    <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                      <img src="https://i.pravatar.cc/100?img=5" alt="" />
+                    </div>
+                    <div class="flex-grow pl-3">
+                      <h6 class="font-bold text-sm uppercase text-gray-600">Nevada Herbertson.</h6>
+                    </div>
+                  </div>
+                  <div class="w-full">
+                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta, quibusdam sunt ipsum, laboriosam nostrum facere exercitationem pariatur deserunt tempora molestiae assumenda nesciunt alias eius? Illo, autem!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                  </div>
+                </div>
+                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                  <div class="w-full flex mb-4 items-center">
+                    <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                      <img src="https://i.pravatar.cc/100?img=6" alt="" />
+                    </div>
+                    <div class="flex-grow pl-3">
+                      <h6 class="font-bold text-sm uppercase text-gray-600">Kris Stanton.</h6>
+                    </div>
+                  </div>
+                  <div class="w-full">
+                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
+          </div>
 
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -191,7 +191,7 @@ function Testimonials() {
 
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-            <svg width="156" height="44" viewBox="0 -5 156 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="156" height="44" viewBox="0 -5 156 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M53.7203 0.576645C49.4809 2.42285 47.7941 9.21054 50.3288 14.2208C51.0631 15.6716 52.5862 17.4886 54.4772 19.1693C58.2206 22.4963 58.9079 23.7598 58.6518 26.8459C58.1553 32.8318 52.7822 32.3775 50.453 26.1526C49.2766 23.0089 49.2026 22.9122 48.4435 23.542C47.9378 23.9619 47.8572 24.6596 48.0767 26.7209C48.5314 30.9926 48.9848 31.9773 50.8915 32.8375C53.3349 33.9393 58.0364 33.6319 59.9871 32.243C63.386 29.8227 64.6355 22.9797 62.5018 18.4738C61.4683 16.2922 60.1121 14.8271 56.7137 12.2231C54.2673 10.3486 53.1807 7.61912 53.9106 5.18278C54.4812 3.27909 55.5948 2.45333 57.3138 2.6589C58.6269 2.81656 59.8543 4.2991 60.6909 6.73979C61.0149 7.68402 61.5929 8.51979 61.9753 8.59732C62.555 8.71491 62.6704 8.26762 62.6704 5.90358C62.6704 2.22816 62.1957 1.05834 60.4588 0.452955C58.5912 -0.198158 55.3631 -0.138926 53.7203 0.576645ZM23.2552 0.810958C21.4987 1.53001 20.642 2.99251 20.642 5.27163C20.642 7.16966 20.8188 7.59735 22.0644 8.71012C22.959 9.50931 23.9664 9.98099 24.7795 9.98099C25.5926 9.98099 26.6 9.50931 27.4946 8.71012C28.7533 7.58559 28.917 7.18011 28.917 5.19019C28.917 3.20026 28.7533 2.79479 27.4946 1.67025C26.0652 0.392852 24.8692 0.150698 23.2552 0.810958ZM1.36991 1.55789C0.0463401 1.83968 0.079004 3.35139 1.41956 3.86096C1.98574 4.07611 2.5737 4.5774 2.72614 4.9746C3.1682 6.127 3.04625 28.5388 2.59113 29.7356C2.34897 30.3728 1.76537 30.878 1.17566 30.9617C0.522372 31.0544 0.123425 31.4464 0.0328356 32.084C-0.106098 33.0626 -0.0978169 33.0639 6.39198 33.0639C14.8312 33.0639 17.3472 32.2134 19.0654 28.781C21.4891 23.9388 19.8737 17.9485 15.6709 16.1925L14.1431 15.5544L15.5328 14.97C17.805 14.0144 18.7544 12.0258 18.5828 8.57946C18.4273 5.44932 17.7409 4.08569 15.4666 2.38626C14.4026 1.59142 13.5812 1.48037 8.30742 1.41896C5.03052 1.38063 1.90909 1.44335 1.36991 1.55789ZM12.2895 5.28992C13.3591 6.72281 13.7241 10.244 13.0233 12.3677C12.3757 14.3302 10.1179 15.5492 8.61839 14.747C7.77782 14.2971 7.72991 13.9482 7.86623 9.27631C7.97207 5.64923 8.17459 4.18543 8.6075 3.91845C9.52908 3.35008 11.3465 4.02689 12.2895 5.28992ZM97.3802 9.41045C96.8022 10.3259 95.5179 11.808 94.5257 12.7043C92.5092 14.5262 92.2396 15.5139 93.7017 15.7212C94.6677 15.8584 94.683 15.9621 94.7866 23.0468C94.9208 32.2347 95.412 33.4995 98.8479 33.4995C101.357 33.4995 104.265 30.993 103.394 29.5823C103.212 29.2892 102.822 29.3023 102.224 29.6224C101.502 30.0083 101.172 29.9443 100.54 29.2966C99.6201 28.3533 99.5369 27.5776 99.6245 20.7603L99.6902 15.6428H101.432C103.121 15.6428 103.283 15.5091 103.283 14.1185C103.283 12.7235 103.117 12.5942 101.323 12.595L99.4725 12.5959V10.3477C99.4725 7.52897 98.7669 7.21321 97.3802 9.41045ZM123.436 11.2728C123.277 11.5297 122.181 12.2292 121 12.8276C118.731 13.9774 118.389 14.7744 119.521 16.2704C120.011 16.9185 120.159 18.496 120.154 23.0211C120.147 29.7217 119.981 30.7178 118.813 31.0231C117.665 31.3231 117.769 32.5583 118.968 32.8592C119.509 32.9951 121.404 33.0478 123.179 32.9764C126.665 32.8357 127.365 32.3249 125.851 31.0283C125.013 30.3101 124.951 29.7918 124.951 23.4728C124.951 16.4852 125.145 15.6428 126.755 15.6428C128.468 15.6428 128.871 17.2277 128.871 23.9619C128.871 30.0327 128.824 30.3754 127.923 30.9734C127.302 31.3863 127.072 31.854 127.256 32.3331C127.489 32.9385 128.177 33.0639 131.266 33.0639C134.355 33.0639 135.043 32.9385 135.276 32.3331C135.46 31.854 135.23 31.3863 134.609 30.9734C133.703 30.3719 133.661 30.0449 133.661 23.5163C133.661 16.3519 133.838 15.6428 135.621 15.6428C137.405 15.6428 137.581 16.3519 137.581 23.5163C137.581 30.0449 137.539 30.3719 136.634 30.9734C136.001 31.3933 135.782 31.851 135.973 32.3497C136.221 32.9943 136.813 33.0796 140.291 32.9716C143.727 32.8645 144.344 32.7338 144.468 32.0827C144.551 31.6467 144.273 31.1934 143.82 31.0257C143.383 30.8641 142.881 30.5218 142.705 30.2648C142.529 30.0078 142.382 26.7148 142.378 22.9466C142.369 13.6163 141.604 11.7231 137.843 11.7231C136.745 11.7231 135.866 12.1085 134.771 13.0697L133.237 14.4164L132.104 13.0697C130.616 11.3011 128.251 11.2013 126.32 12.8263L125.008 13.9299L124.871 12.5332C124.73 11.1099 123.956 10.43 123.436 11.2728ZM24.2364 13.1934C21.6494 14.5998 21.304 15.2596 22.398 16.706C23.3592 17.9768 23.3214 29.669 22.3532 30.6376C21.9765 31.0139 21.473 31.3218 21.2339 31.3218C20.9948 31.3218 20.8619 31.7378 20.9382 32.246C21.0684 33.1105 21.351 33.1737 25.3239 33.226C29.4157 33.2795 29.5707 33.2469 29.5703 32.3309C29.5703 31.763 29.2197 31.2691 28.6993 31.1041C27.863 30.8388 27.8282 30.4451 27.8282 21.2755C27.8282 13.8946 27.7045 11.7357 27.2838 11.778C26.9846 11.8085 25.6131 12.4452 24.2364 13.1934ZM35.4499 12.2314C33.7292 13.183 32.4866 14.5906 31.4766 16.7317C30.1212 19.6061 30.0132 25.4601 31.2623 28.3737C33.1277 32.726 37.6406 34.4001 41.6801 32.2382C42.8426 31.6162 45.329 28.3184 45.0163 27.8132C44.8974 27.6203 44.9832 27.3485 45.2079 27.21C46.052 26.6883 46.2331 21.5486 45.5076 18.7168C44.6936 15.5388 43.6291 13.8807 41.597 12.6251C39.9903 11.6316 36.8924 11.4335 35.4499 12.2314ZM64.5937 12.1225C64.0959 12.6207 64.5127 13.8737 65.2548 14.1094C66.1759 14.4016 66.7748 16.027 69.4289 25.4422C71.1022 31.3763 71.1736 32.827 69.9393 35.7703C69.4468 36.9449 68.9246 37.4593 68.0343 37.6474C67.3597 37.7899 66.5139 38.0616 66.1546 38.2515C65.3371 38.6827 65.0506 41.6221 65.7443 42.4583C66.4699 43.3324 68.4947 43.2335 69.3562 42.2819C69.7538 41.8424 71.529 37.2855 73.3007 32.1559C79.1847 15.1202 79.7178 13.9007 81.2783 13.9007C81.6629 13.9007 81.8419 13.5453 81.7552 12.9552C81.6276 12.0881 81.3628 12.0097 78.5671 12.0097C75.8102 12.0097 75.5058 12.0963 75.3843 12.9177C75.2959 13.5157 75.5459 13.9199 76.1169 14.1011C76.8394 14.3306 76.92 14.5719 76.6012 15.554C76.3908 16.2016 75.8081 18.1528 75.3059 19.8892C74.8037 21.6257 74.235 23.0468 74.0416 23.0468C73.8486 23.0468 73.2406 21.3321 72.6906 19.2359C72.1409 17.1402 71.6031 15.1882 71.4964 14.899C71.3888 14.6076 71.806 14.2461 72.4301 14.0893C73.147 13.9094 73.5586 13.5057 73.5586 12.9826C73.5586 12.5293 73.4118 12.1429 73.2319 12.1238C71.887 11.9792 64.7378 11.9783 64.5937 12.1225ZM109.925 12.1364C103.622 14.7291 102.572 28.6037 108.382 32.5195C110.544 33.9764 113.191 33.8557 115.06 32.2142C116.936 30.5679 118.348 27.5937 117.606 26.852C117.202 26.4478 116.86 26.6138 116.08 27.5924C113.613 30.686 109.495 27.9373 109.176 22.985L109.054 21.0869L113.192 20.8692L117.329 20.6514L117.464 18.7747C117.801 14.1028 113.771 10.5546 109.925 12.1364ZM148.308 12.6281C146.719 13.8772 146.23 14.946 146.077 17.4978C145.894 20.553 146.483 21.8957 149.178 24.5694C151.518 26.8912 152.01 28.2257 151.254 30.1973C150.551 32.0283 147.91 30.1764 147.138 27.3119C146.863 26.2876 146.433 25.66 146.008 25.66C145.023 25.66 145.348 31.4364 146.393 32.4803C147.458 33.5456 151.639 33.8061 153.031 32.8936C155.429 31.3223 156.514 27.9879 155.767 24.4849C155.425 22.8835 154.808 21.9406 152.774 19.9128C150.093 17.2399 149.606 15.8754 150.877 14.6037C152.025 13.4561 152.95 14.2918 154.129 17.5413C154.507 18.5835 154.687 18.6981 155.234 18.2442C156.173 17.4651 155.651 13.5101 154.474 12.4853C153.208 11.383 149.79 11.4618 148.308 12.6281ZM84.4886 12.7096C82.881 13.5358 81.7604 15.3428 81.517 17.5012C81.1903 20.3997 81.9969 22.2319 84.6819 24.6914C86.7045 26.5432 87.0599 27.0998 87.0599 28.4112C87.0599 30.1089 86.0813 31.4203 85.0961 31.0422C84.3043 30.7387 82.9098 28.45 82.527 26.8268C82.0296 24.7184 81.1899 25.7462 81.0505 28.6333C80.936 31.0117 81.0462 31.4451 82.0109 32.4098C82.9168 33.3157 83.5165 33.4995 85.5669 33.4995C87.8408 33.4995 88.1622 33.3706 89.684 31.8488C90.9204 30.6124 91.4087 29.7034 91.6303 28.2248C92.1099 25.0276 91.3285 23.1169 88.3743 20.259C85.7499 17.7207 85.1854 16.385 86.276 15.2944C87.1719 14.3985 88.3164 14.7182 89.0085 16.0566C89.3739 16.7635 89.6731 17.6454 89.6731 18.0165C89.6731 18.401 90.0476 18.6915 90.5441 18.6915C91.2053 18.6915 91.4139 18.4028 91.4104 17.4938C91.3991 14.696 90.8852 13.1264 89.8212 12.6416C88.4222 12.0044 85.7956 12.038 84.4886 12.7096ZM39.361 15.3506C41.2978 18.3065 40.9972 29.8166 38.9629 30.5971C37.9276 30.9947 36.6768 29.6681 36.071 27.5297C35.2557 24.653 35.3489 18.0439 36.2334 15.9695C37.0514 14.051 38.3418 13.7953 39.361 15.3506ZM113.141 15.6864C114.134 17.4568 113.545 18.256 111.245 18.256C109.61 18.256 109.272 18.1171 109.272 17.4438C109.272 16.294 110.978 14.2653 111.811 14.426C112.194 14.4996 112.793 15.0671 113.141 15.6864ZM12.4798 18.3649C13.8391 19.8161 14.3268 21.468 14.3268 24.6212C14.3268 28.0018 13.5377 29.7496 11.7254 30.3815C10.5961 30.7752 10.2433 30.7029 9.29607 29.8842C8.27737 29.0035 8.16718 28.5536 7.92895 24.3042C7.58009 18.0879 7.78044 17.385 9.90407 17.385C11.0608 17.385 11.8391 17.6811 12.4798 18.3649Z" fill="#999999" />
               </svg>
             </div>

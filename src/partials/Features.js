@@ -15,7 +15,7 @@ function Features() {
       image: "https://images.pexels.com/photos/4308205/pexels-photo-4308205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       // meta={name:"description", content:"asfasfasfasfsafsafa"},
       user: "Думан Артыкбаевич",
-      userProfile: "https://i.imgur.com/JSW6mEk.png"
+      userProfile: "https://i.imgur.com/wtEw8cD.jpg"
     },
     {
       title: "Приемущества работы в локальной лаборатории",
@@ -23,7 +23,7 @@ function Features() {
       button: "Узнать больше",
       image: "https://images.pexels.com/photos/4033304/pexels-photo-4033304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       user: "Дана Берикбаевна",
-      userProfile: "https://i.imgur.com/0Clfnu7.png"
+      userProfile: "https://i.imgur.com/wtEw8cD.jpg"
     },
     {
       title: "Прямая осанка при сидячей работе",
@@ -32,7 +32,7 @@ function Features() {
       button: "Buy now",
       image: "https://i.imgur.com/DvmN8Hx.jpg",
       user: "Bruno Vizovskyy",
-      userProfile: "https://i.imgur.com/4KeKvtH.png"
+      userProfile: "https://i.imgur.com/wtEw8cD.jpg"
     }
   ];
 

@@ -36,11 +36,11 @@ function Testimonials() {
                 <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                   <div class="w-full flex mb-4 items-center">
                     <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                      <img src="https://i.pravatar.cc/100?img=1" alt="" />
+                      <img src="https://i.imgur.com/wtEw8cD.jpg" alt="" />
                     </div>
                     <div class="flex-grow pl-3">
-                      <h6 class="font-bold text-sm uppercase text-gray-600">Kenzie Edgar.</h6>
-                      <p className="text-gray-600 text-center">Главный врач 12 ГКБ</p>
+                      <h6 class="font-bold text-sm uppercase text-gray-900">Kenzie Edgar.</h6>
+                      <p className="text-gray-600">Главный врач 12 ГКБ</p>
                     </div>
                   </div>
                   <div class="w-full">
@@ -68,8 +68,8 @@ function Testimonials() {
                       <img src="https://i.pravatar.cc/100?img=3" alt="" />
                     </div>
                     <div class="flex-grow pl-3">
-                      <h6 class="font-bold text-sm uppercase text-gray-600">Tommie Ewart.</h6>
-                      <p className="text-gray-600 text-center">Заведующий лабораторией Сапа</p>
+                      <h6 class="font-bold text-sm uppercase text-gray-900">Tommie Ewart.</h6>
+                      <p className="text-gray-600">Заведующий лабораторией Сапа</p>
                     </div>
                   </div>
                   <div class="w-full">
@@ -97,12 +97,12 @@ function Testimonials() {
                       <img src="https://i.pravatar.cc/100?img=5" alt="" />
                     </div>
                     <div class="flex-grow pl-3">
-                      <h6 class="font-bold text-sm uppercase text-gray-600">Nevada Herbertson.</h6>
-                      <p className="text-gray-600 text-center">Главный врач 5 ГКБ</p>
+                      <h6 class="font-bold text-sm uppercase text-gray-900">Nevada Herbertson.</h6>
+                      <p className="text-gray-600">Главный врач 5 ГКБ</p>
                     </div>
                   </div>
                   <div class="w-full">
-                  <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.</p>
+                  <p className="text-gray-600 text-center">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi."</p>
                   </div>
                 </div>
                 {/* <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">

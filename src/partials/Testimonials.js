@@ -40,6 +40,9 @@ function Testimonials() {
                     </div>
                     <div class="flex-grow pl-3">
                       <h6 class="font-bold text-sm uppercase text-gray-600">Kenzie Edgar.</h6>
+                      <span>
+                        Автор статьи
+                      </span>
                     </div>
                   </div>
                   <div class="w-full">
@@ -68,6 +71,9 @@ function Testimonials() {
                     </div>
                     <div class="flex-grow pl-3">
                       <h6 class="font-bold text-sm uppercase text-gray-600">Tommie Ewart.</h6>
+                      <span>
+                        Автор статьи
+                      </span>
                     </div>
                   </div>
                   <div class="w-full">
@@ -96,6 +102,9 @@ function Testimonials() {
                     </div>
                     <div class="flex-grow pl-3">
                       <h6 class="font-bold text-sm uppercase text-gray-600">Nevada Herbertson.</h6>
+                      <span>
+                        Автор статьи
+                      </span>
                     </div>
                   </div>
                   <div class="w-full">

@@ -207,8 +207,8 @@ function Features() {
                     <div style={{ height: "100vh", width: "100%" }}>
                       <GoogleMapReact
                         bootstrapURLKeys={{ key: "AIzaSyBRcnAK9ZyraRd7CP4HEAk1nW9tliQH5yM" }}
-                        // defaultCenter={this.props.center}
-                        // defaultZoom={this.props.zoom}
+                        defaultCenter={this.props.center}
+                        defaultZoom={this.props.zoom}
                       >
                         <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
                       </GoogleMapReact>

@@ -102,7 +102,7 @@ function Testimonials() {
                     </div>
                   </div>
                   <div class="w-full">
-                  <p className="text-gray-600 text-center">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi."</p>
+                  <p className="text-gray-600">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi."</p>
                   </div>
                 </div>
                 {/* <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">

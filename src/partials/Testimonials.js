@@ -29,10 +29,11 @@ function Testimonials() {
             <h2 className="h2 mb-4">Более 10 000 довольных пациентов по Алматы</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis
               blandit libero cursus mattis.</p>
-              <div class="w-full max-w-6xl mx-auto">
+          </div>
+          <div class="w-full max-w-6xl mx-auto">
             <div class="-mx-3 md:flex items-start">
               <div class="px-3 md:w-1/3">
-                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                {/* <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                   <div class="w-full flex mb-4 items-center">
                     <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                       <img src="https://i.pravatar.cc/100?img=1" alt="" />
@@ -44,8 +45,8 @@ function Testimonials() {
                   <div class="w-full">
                     <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                   </div>
-                </div>
-                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                </div> */}
+                {/* <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                   <div class="w-full flex mb-4 items-center">
                     <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                       <img src="https://i.pravatar.cc/100?img=2" alt="" />
@@ -57,10 +58,10 @@ function Testimonials() {
                   <div class="w-full">
                     <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div class="px-3 md:w-1/3">
-                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                {/* <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                   <div class="w-full flex mb-4 items-center">
                     <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                       <img src="https://i.pravatar.cc/100?img=3" alt="" />
@@ -72,7 +73,7 @@ function Testimonials() {
                   <div class="w-full">
                     <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                   </div>
-                </div>
+                </div> */}
                 <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                   <div class="w-full flex mb-4 items-center">
                     <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
@@ -117,7 +118,7 @@ function Testimonials() {
               </div>
             </div>
           </div>
-          </div>
+
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">Наши партнеры</h2>

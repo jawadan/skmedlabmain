@@ -2,14 +2,10 @@ import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition.js';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
-import GoogleMapReact from "google-map-react";
-
+import SimpleMap from '../utils/SimpleMap.js';
 import MTable from "../utils/MTable";
 
-
 function Features() {
-
-  const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
   const content = [
     {
@@ -204,15 +200,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <div style={{ height: "100vh", width: "100%" }}>
-                      <GoogleMapReact
-                        bootstrapURLKeys={{ key: "AIzaSyBRcnAK9ZyraRd7CP4HEAk1nW9tliQH5yM" }}
-                        defaultCenter={this.props.center}
-                        defaultZoom={this.props.zoom}
-                      >
-                        <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
-                      </GoogleMapReact>
-                    </div>
+                    <SimpleMap />
                   </div>
                 </Transition>
               </div>

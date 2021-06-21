@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, Component } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition.js';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
@@ -10,14 +10,6 @@ import MTable from "../utils/MTable";
 function Features() {
 
   const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
-  const defaultProps = {
-    center: {
-      lat: 59.95,
-      lng: 30.33
-    },
-    zoom: 11
-  };
 
   const content = [
     {
@@ -215,8 +207,8 @@ function Features() {
                     <div style={{ height: "100vh", width: "100%" }}>
                       <GoogleMapReact
                         bootstrapURLKeys={{ key: "AIzaSyBRcnAK9ZyraRd7CP4HEAk1nW9tliQH5yM" }}
-                        defaultCenter={this.props.center}
-                        defaultZoom={this.props.zoom}
+                        // defaultCenter={this.props.center}
+                        // defaultZoom={this.props.zoom}
                       >
                         <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
                       </GoogleMapReact>

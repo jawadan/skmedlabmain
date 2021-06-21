@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
+import pin from '../images/pin.png'
  
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
  
@@ -21,6 +22,17 @@ class SimpleMap extends Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
+          {this.props.locations.map(item => {
+            if (item.address.length !== 0) {
+              return item.address.map(i => {
+                return (
+                  <Link to={"/" + item.name} key={i.id} lat={i.lat} lng={i.lng}>
+                    <img style={markerStyle} src={pin} alt="pin" />
+                  </Link>
+                );
+              });
+            }
+          })}
           <AnyReactComponent
             lat={43.2216076}
             lng={76.8829057}

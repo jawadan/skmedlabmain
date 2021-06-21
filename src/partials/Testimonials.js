@@ -30,12 +30,8 @@ function Testimonials() {
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis
               blandit libero cursus mattis.</p>
           </div>
-          
-          <div class="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center py-5">
-    <div class="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800">
         <div class="w-full max-w-6xl mx-auto">
             <div class="text-center max-w-xl mx-auto">
-                <h3 class="text-xl mb-5 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
                 <div class="text-center mb-10">
                     <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
                     <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
@@ -131,8 +127,7 @@ function Testimonials() {
                 </div>
             </div>
         </div>
-    </div>
-</div>
+
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">Наши партнеры</h2>

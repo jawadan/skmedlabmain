@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition.js';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
+import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 
 import MTable from "../utils/MTable"; //tables
 
@@ -200,8 +201,17 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.jpg').default} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <Map google={this.props.google} zoom={14}>
+
+                      <Marker onClick={this.onMarkerClick}
+                        name={'Current location'} />
+
+                      <InfoWindow onClose={this.onInfoWindowClose}>
+                        <div>
+                          <h1>{this.state.selectedPlace.name}</h1>
+                        </div>
+                      </InfoWindow>
+                    </Map>
                   </div>
                 </Transition>
               </div>
@@ -215,4 +225,6 @@ function Features() {
   );
 }
 
-export default Features;
+export default GoogleApiWrapper({
+  apiKey: (AIzaSyBRcnAK9ZyraRd7CP4HEAk1nW9tliQH5yM)
+})(Features)

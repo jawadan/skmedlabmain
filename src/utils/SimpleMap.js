@@ -9,7 +9,7 @@ class SimpleMap extends Component {
       lat: 43.22,
       lng: 76.88
     },
-    zoom: 15
+    zoom: 18
   };
  
   render() {
@@ -24,7 +24,7 @@ class SimpleMap extends Component {
           <AnyReactComponent
             lat={43.2216179}
             lng={76.8831001}
-            text="My Marker"
+            text="SK-MEDLAB"
           />
         </GoogleMapReact>
       </div>

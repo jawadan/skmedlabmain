@@ -2,9 +2,9 @@ import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition.js';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
-import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 
-import MTable from "../utils/MTable"; //tables
+import MTable from "../utils/MTable";
+import Map from "../utils/Map";
 
 function Features() {
 
@@ -201,14 +201,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <Map google={this.props.google} zoom={14}>
-
-                      <Marker onClick={this.onMarkerClick}
-                        name={'Current location'} />
-
-                      <InfoWindow onClose={this.onInfoWindowClose}>
-                      </InfoWindow>
-                    </Map>
+                    <Map />
                   </div>
                 </Transition>
               </div>
@@ -222,6 +215,4 @@ function Features() {
   );
 }
 
-export default GoogleApiWrapper({
-  apiKey: ("AIzaSyBRcnAK9ZyraRd7CP4HEAk1nW9tliQH5yM")
-})(Features)
+export default Features;

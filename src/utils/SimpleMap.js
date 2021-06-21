@@ -5,11 +5,11 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
  
 class SimpleMap extends Component {
   static defaultProps = {
-    defaultCenter: {
+    center: {
       lat: 59.95,
       lng: 30.33
     },
-    defaultZoom: 11
+    zoom: 11
   };
  
   render() {

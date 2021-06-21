@@ -199,9 +199,7 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
-                    <SimpleMap />
-                  </div>
+                  <SimpleMap />
                 </Transition>
               </div>
             </div >

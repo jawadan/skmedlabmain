@@ -39,7 +39,7 @@ function Testimonials() {
                       <img src="https://i.imgur.com/wtEw8cD.jpg" alt="" />
                     </div>
                     <div class="flex-grow pl-3">
-                      <h6 class="font-bold text-sm uppercase text-gray-900">Kenzie Edgar.</h6>
+                      <h6 class="font-bold text-sm uppercase text-gray-900">Ашимов Аскар</h6>
                       <p className="text-gray-600">Главный врач 12 ГКБ</p>
                     </div>
                   </div>
@@ -68,7 +68,7 @@ function Testimonials() {
                       <img src="https://i.pravatar.cc/100?img=3" alt="" />
                     </div>
                     <div class="flex-grow pl-3">
-                      <h6 class="font-bold text-sm uppercase text-gray-900">Tommie Ewart.</h6>
+                      <h6 class="font-bold text-sm uppercase text-gray-900">Толегенова Сауле</h6>
                       <p className="text-gray-600">Заведующий лабораторией Сапа</p>
                     </div>
                   </div>
@@ -97,7 +97,7 @@ function Testimonials() {
                       <img src="https://i.pravatar.cc/100?img=5" alt="" />
                     </div>
                     <div class="flex-grow pl-3">
-                      <h6 class="font-bold text-sm uppercase text-gray-900">Nevada Herbertson.</h6>
+                      <h6 class="font-bold text-sm uppercase text-gray-900">Сапарханова Бахыт</h6>
                       <p className="text-gray-600">Главный врач 5 ГКБ</p>
                     </div>
                   </div>

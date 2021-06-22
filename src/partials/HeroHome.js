@@ -54,7 +54,7 @@ function HeroHome() {
               /></p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                <Link to="blog" className="btn text-white bg-yellow-600 hover:bg-yellow-700 w-full mb-4 sm:w-auto sm:mb-0">Записаться на прием</Link>
+                <Link to="blog" className="btn text-white bg-yellow-600 hover:bg-yellow-500 w-full mb-4 sm:w-auto sm:mb-0">Записаться на прием</Link>
                 </div>
                 <div>
                 <a href={pdf} className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" download="Прайслист.pdf">Скачать Прайс-лист</a>

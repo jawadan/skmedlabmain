@@ -5,6 +5,13 @@ import { Link } from 'react-router-dom';
  
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
  
+const markerStyle = {
+  position: "absolute",
+  top: "100%",
+  left: "50%",
+  transform: "translate(-50%, -100%)"
+};
+
 class SimpleMap extends Component {
   static defaultProps = {
     center: {
@@ -13,6 +20,7 @@ class SimpleMap extends Component {
     },
     zoom: 15
   };
+  
  
   render() {
     return (

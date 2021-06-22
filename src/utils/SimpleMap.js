@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import { ReactComponent as Logo } from "../images/logo.svg";
  
-const AnyReactComponent = () => <Logo width="64px" height="64px" />;
+const AnyReactComponent = () => <Logo width="32px" height="32px" />;
 
 class SimpleMap extends Component {
   static defaultProps = {

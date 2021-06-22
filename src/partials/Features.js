@@ -15,7 +15,7 @@ function Features() {
       href: "https://zozhnik.ru/kak-snizit-procent-visceralnogo-zhira-nauchno",
       image: "https://images.pexels.com/photos/4308205/pexels-photo-4308205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       user: "Хэй Тир",
-      userProfile: "https://i.imgur.com/wtEw8cD.jpg"
+      userProfile: "https://i.imgur.com/dTAOeyL.png"
     },
     {
       title: "Приемущества работы в локальной лаборатории",
@@ -23,7 +23,7 @@ function Features() {
       button: "Узнать больше",
       image: "https://images.pexels.com/photos/4033304/pexels-photo-4033304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       user: "Дана Берикбаевна",
-      userProfile: "https://i.imgur.com/wtEw8cD.jpg"
+      userProfile: "https://i.imgur.com/79hKsWg.png"
     },
     {
       title: "Прямая осанка при сидячей работе",

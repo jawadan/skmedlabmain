@@ -57,7 +57,7 @@ function HeroHome() {
                 <Link to="blog" className="btn text-white bg-yellow-600 hover:bg-yellow-500 w-full mb-4 sm:w-auto sm:mb-0">Записаться на прием</Link>
                 </div>
                 <div>
-                <button to={pdf} className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" download="Price-list.pdf">Скачать Прайс-лист</button>
+                <Link to={pdf} className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" download="Price-list.pdf">Скачать Прайс-лист</Link>
                 </div>
               </div>
             </div>

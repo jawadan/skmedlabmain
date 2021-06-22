@@ -140,7 +140,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Расположение мед.цетра на карте</div>
-                    <div className="text-gray-600">Найдите нас по адресу <a className="text-blue-600 hover:underline" href="https://2gis.kz/almaty/inside/9430047375172881/firm/70000001046536980/76.883741%2C43.221654?m=76.883705%2C43.221604%2F16.97"> ул. Жандосова 96, г. Алматы</a>
+                    <div className="text-gray-600">Найдите нас по адресу <a className="text-blue-600 hover:underline" href="https://2gis.kz/almaty/inside/9430047375172881/firm/70000001046536980/76.883741%2C43.221654?m=76.883705%2C43.221604%2F16.97">ул. Жандосова 96, г. Алматы</a>
                     <a className="text-blue-600 hover:underline" href="tel:+7707-824-9504"> +7 (707) 824 9504 </a> <a className="text-blue-600 hover:underline" href="tel:+7727-236-0065">+7 (727) 236 0065</a>
                     </div>
                   </div>

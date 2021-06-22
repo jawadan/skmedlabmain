@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 import Typical from 'react-typical';
 import { Link } from 'react-router-dom';
-import pdf from '../assets/docs/pricelist.pdf'
+import pdf from '../assets/docs/Pricelist.pdf'
 
 function HeroHome() {
 
@@ -57,7 +57,7 @@ function HeroHome() {
                 <Link to="blog" className="btn text-white bg-yellow-600 hover:bg-yellow-500 w-full mb-4 sm:w-auto sm:mb-0">Записаться на прием</Link>
                 </div>
                 <div>
-                <a href={pdf} className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" download="Прайслист.pdf">Скачать Прайс-лист</a>
+                <a href={pdf} className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" download="Price-list.pdf">Скачать Прайс-лист</a>
                 </div>
               </div>
             </div>

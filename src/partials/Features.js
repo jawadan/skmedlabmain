@@ -12,7 +12,7 @@ function Features() {
       title: "Мыть руки каждые два часа",
       description: "Исследования доказали что обильное мытье рук полезно.",
       button: "Читать подробнее",
-      src: "https://zozhnik.ru/kak-snizit-procent-visceralnogo-zhira-nauchno",
+      href: "https://zozhnik.ru/kak-snizit-procent-visceralnogo-zhira-nauchno",
       image: "https://images.pexels.com/photos/4308205/pexels-photo-4308205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       user: "Думан Артыкбаевич",
       userProfile: "https://i.imgur.com/wtEw8cD.jpg"
@@ -79,7 +79,7 @@ function Features() {
                   <div className="inner">
                     <h1 className="text-3xl md:text-4xl font-extrabold leading-tighter tracking-tighter mb-4">{item.title}</h1>
                     <p className="text-xl font-medium mb-4">{item.description}</p>
-                    <button className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" onclick={item.src}>{item.button}</button>
+                    <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href={item.href}>{item.button}</a>
                   </div>
                   <section>
                     <img src={item.userProfile} alt={item.user} />

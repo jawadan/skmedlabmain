@@ -9,30 +9,30 @@ function Features() {
 
   const content = [
     {
-      title: "Мыть руки каждые два часа",
-      description: "Исследования доказали что обильное мытье рук полезно.",
-      button: "Читать подробнее",
+      title: "Как снизить процент висцерального жира",
+      description: "Корифеи контроля калорий Precision Nutrition вновь спешат на помощь – теперь тем, кто страдает от чрезмерной округлости живота. Вот вам руководство по подтягиванию талии.",
+      button: "Читать",
       href: "https://zozhnik.ru/kak-snizit-procent-visceralnogo-zhira-nauchno",
-      image: "https://images.pexels.com/photos/4308205/pexels-photo-4308205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      image: "https://images.pexels.com/photos/6551059/pexels-photo-6551059.jpeg?cs=srgb&dl=pexels-andres-ayrton-6551059.jpg&fm=jpg",
       user: "Хэй Тир",
       userProfile: "https://i.imgur.com/dTAOeyL.png"
     },
     {
-      title: "Приемущества работы в локальной лаборатории",
-      description: "Доктор Берикбаевна объяснила почему анализы локальных клиник лучше.",
-      button: "Узнать больше",
-      image: "https://images.pexels.com/photos/4033304/pexels-photo-4033304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      user: "Дана Берикбаевна",
-      userProfile: "https://i.imgur.com/79hKsWg.png"
+      title: "Как наладить режим (регулярных) тренировок",
+      description: "Очередной текст от проекта NerdFitness о том, как перебороть тренировочное непостоянство. ",
+      button: "Читать",
+      image: "https://images.pexels.com/photos/4498359/pexels-photo-4498359.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4498359.jpg&fm=jpg",
+      user: "Хэй Тир",
+      userProfile: "https://i.imgur.com/dTAOeyL.png"
     },
     {
-      title: "Прямая осанка при сидячей работе",
+      title: "Как меняется личность с годами",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        "Как меняется личность человека по мере старения – отрывок из книги нейробиолога “Счастливое старение”.",
       button: "Buy now",
-      image: "https://i.imgur.com/DvmN8Hx.jpg",
-      user: "Bruno Vizovskyy",
-      userProfile: "https://i.imgur.com/wtEw8cD.jpg"
+      image: "https://images.pexels.com/photos/4148984/pexels-photo-4148984.jpeg?cs=srgb&dl=pexels-gustavo-fring-4148984.jpg&fm=jpg",
+      user: "Максим Кудеров",
+      userProfile: "https://i.imgur.com/dTAOeyL.png"
     }
   ];
 

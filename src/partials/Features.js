@@ -186,7 +186,7 @@ function Features() {
                 >
                   <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="530" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="530" height="45" alt="Element" style={{ top: '10%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="530" height="45" alt="Element" style={{ top: '5%' }} />
                   </div>
                 </Transition>
                 {/* Item 3 */}

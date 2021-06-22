@@ -110,7 +110,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Перечень проводимых анализов</div>
-                    <div className="text-gray-600">Найдите необходимые для вас анализы в поисковике таблицы.</div>
+                    <div className="text-gray-600">Выберите необходимые для вас анализы с помощью поисковика таблицы.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -127,7 +127,7 @@ function Features() {
                     <div className="font-bold leading-snug tracking-tight mb-1">Подготовка к сдаче анализов</div>
                     <div className="text-gray-600">Проследите, чтобы все пункты из списка были выполнены.</div>
                   </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                  <div className="flex justify-right items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" />
                     </svg>
@@ -140,7 +140,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Расположение мед.цетра на карте</div>
-                    <div className="text-gray-600">Наш адрес <a className="text-blue-600 hover:underline" href="https://2gis.kz/almaty/inside/9430047375172881/firm/70000001046536980/76.883741%2C43.221654?m=76.883705%2C43.221604%2F16.97"> ул. Жандосова 96, г. Алматы, Казахстан </a>
+                    <div className="text-gray-600">Найдите нас по адресу <a className="text-blue-600 hover:underline" href="https://2gis.kz/almaty/inside/9430047375172881/firm/70000001046536980/76.883741%2C43.221654?m=76.883705%2C43.221604%2F16.97"> Жандосова 96, г. Алматы </a>
                     <a className="text-blue-600 hover:underline" href="tel:+7707-824-9504">+7 (707) 824 9504 </a> <a className="text-blue-600 hover:underline" href="tel:+7727-236-0065">+7 (727) 236 0065</a>
                     </div>
                   </div>

@@ -103,9 +103,9 @@ function Features() {
                   <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
                     <div class="flex-shrink-0">
                       <h2
-                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
+                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg bg-gray-50 dark:bg-gray-700"
                       >
-                        Профиль обследования печени
+                        Обследование печени
                       </h2>
                     </div>
                     <div class="flex-shrink-0">
@@ -121,6 +121,12 @@ function Features() {
                         Щелочная фосфатаза
                       </li>
                       <li class="text-gray-500 dark:text-gray-400">
+                        Гепатит В
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Гепатит С
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
                         Общий белок
                       </li>
                       <li class="text-gray-500 dark:text-gray-400">
@@ -132,11 +138,40 @@ function Features() {
                       <li class="text-gray-500 dark:text-gray-400">
                         Билирубин непрямой
                       </li>
+                    </ul>
+                  </div>
+
+                  <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex-shrink-0">
+                      <h2
+                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
+                      >
+                        Щитовидная железа
+                      </h2>
+                    </div>
+                    <div class="flex-shrink-0">
+                    </div>
+                    <ul class="flex-1 space-y-4">
                       <li class="text-gray-500 dark:text-gray-400">
-                        Гепатит В
+                        ТТГ
                       </li>
                       <li class="text-gray-500 dark:text-gray-400">
-                        Гепатит С
+                        Т3 общий
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Т3 свободный
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Т4 общий
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Т4 свободный
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        АТ-ТГ
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        АТ-ТПО
                       </li>
                     </ul>
                   </div>
@@ -144,76 +179,39 @@ function Features() {
                   <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
                     <div class="flex-shrink-0">
                       <h2
-                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
+                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
                       >
-                        Диагностика гормонального фона мужчин
+                        Свертываемость крови
                       </h2>
                     </div>
                     <div class="flex-shrink-0">
                     </div>
                     <ul class="flex-1 space-y-4">
                       <li class="text-gray-500 dark:text-gray-400">
-                        Up to 10 projects
+                        АЧТВ
                       </li>
                       <li class="text-gray-500 dark:text-gray-400">
-                        Up to 20 collaborators
+                        Протромбиновое время
                       </li>
                       <li class="text-gray-500 dark:text-gray-400">
-                        10Gb of storage
+                        Протромбиновый индекс
                       </li>
                       <li class="text-gray-500 dark:text-gray-400">
-                        Real-time collaborations
+                        МНО
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Тромбиновое время
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Фибриноген
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Д-димер
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Антитромбин III
                       </li>
                     </ul>
-
-                    <button
-                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                    >
-                      Start free trial
-                    </button>
-                  </div>
-
-                  <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                    <div class="flex-shrink-0">
-                      <h2
-                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                      >
-                        Диагностика анемии
-                      </h2>
-                    </div>
-                    <div class="flex-shrink-0">
-                      <span
-                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                      >
-                        $49.90
-                      </span>
-                      <span class="text-gray-500 dark:text-gray-400">
-                        /month
-                      </span>
-                    </div>
-                    <ul class="flex-1 space-y-4">
-                      <li class="text-gray-500 dark:text-gray-400">
-                        Unlimited projects
-                      </li>
-                      <li class="text-gray-500 dark:text-gray-400">
-                        Unlimited collaborators
-                      </li>
-                      <li class="text-gray-500 dark:text-gray-400">
-                        Unlimited storage
-                      </li>
-                      <li class="text-gray-500 dark:text-gray-400">
-                        Real-time collaborations
-                      </li>
-                      <li class="text-gray-500 dark:text-gray-400">
-                        24x7 Support
-                      </li>
-                    </ul>
-
-                    <button
-                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                    >
-                      Start free trial
-                    </button>
                   </div>
                 </div>
               </div>

@@ -96,7 +96,7 @@ function Features() {
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Комплексные исследования</h1>
-            {/* <p className="text-xl text-gray-600">Комплексные исследование со скидкой до 20%.</p> */}
+            <p className="text-xl text-gray-600">Своевременно проведенный комплекс исследования может предостеречь от нежиданного.</p>
             <div class="">
               <div class="container px-6 py-8 mx-auto">
                 <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
@@ -146,7 +146,7 @@ function Features() {
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
-                        Щитовидная железа
+                        Щитовидная железа-развернутое
                       </h2>
                     </div>
                     <div class="flex-shrink-0">
@@ -181,35 +181,29 @@ function Features() {
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
-                        Свертываемость крови
+                        Диагностика анемии
                       </h2>
                     </div>
                     <div class="flex-shrink-0">
                     </div>
                     <ul class="flex-1 space-y-4">
                       <li class="text-gray-600 text-center">
-                        АЧТВ
+                        Железо
                       </li>
                       <li class="text-gray-600 text-center">
-                        Протромбиновое время
+                        Ферритин
                       </li>
                       <li class="text-gray-600 text-center">
-                        Протромбиновый индекс
+                      Общий анализ крови
                       </li>
                       <li class="text-gray-600 text-center">
-                        МНО
+                      Билирубин общий
                       </li>
                       <li class="text-gray-600 text-center">
-                        Тромбиновое время
+                      Билирубин прямой
                       </li>
                       <li class="text-gray-600 text-center">
-                        Фибриноген
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Д-димер
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Антитромбин III
+                      Билирубин непрямой
                       </li>
                     </ul>
                   </div>
@@ -218,35 +212,23 @@ function Features() {
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
-                        Свертываемость крови
+                        Сердечко
                       </h2>
                     </div>
                     <div class="flex-shrink-0">
                     </div>
                     <ul class="flex-1 space-y-4">
                       <li class="text-gray-600 text-center">
-                        АЧТВ
+                      Холестерин общий
                       </li>
                       <li class="text-gray-600 text-center">
-                        Протромбиновое время
+                      Холестерин-ЛПВП
                       </li>
                       <li class="text-gray-600 text-center">
-                        Протромбиновый индекс
+                      Холестерин-ЛПНП
                       </li>
                       <li class="text-gray-600 text-center">
-                        МНО
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Тромбиновое время
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Фибриноген
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Д-димер
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Антитромбин III
+                      Индекс атерогенности
                       </li>
                     </ul>
                   </div>
@@ -255,35 +237,29 @@ function Features() {
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
-                        Свертываемость крови
+                        Мужское здоровье
                       </h2>
                     </div>
                     <div class="flex-shrink-0">
                     </div>
                     <ul class="flex-1 space-y-4">
                       <li class="text-gray-600 text-center">
-                        АЧТВ
+                      Тестостерон общий
                       </li>
                       <li class="text-gray-600 text-center">
-                        Протромбиновое время
+                      Пролактин
                       </li>
                       <li class="text-gray-600 text-center">
-                        Протромбиновый индекс
+                      ЛГ
                       </li>
                       <li class="text-gray-600 text-center">
-                        МНО
+                      ФСГ
                       </li>
                       <li class="text-gray-600 text-center">
-                        Тромбиновое время
+                      ТТГ
                       </li>
                       <li class="text-gray-600 text-center">
-                        Фибриноген
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Д-димер
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Антитромбин III
+                      Эстрадиол
                       </li>
                     </ul>
                   </div>

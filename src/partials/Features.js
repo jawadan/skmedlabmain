@@ -97,13 +97,13 @@ function Features() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Комплексные исследования</h1>
             {/* <p className="text-xl text-gray-600">Комплексные исследование со скидкой до 20%.</p> */}
-            <div class="bg-white dark:bg-gray-800">
+            <div class="">
               <div class="container px-6 py-8 mx-auto">
                 <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
                   <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
-                        class="text-xl font-bold leading-snug tracking-tight mb-1"
+                        class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
                         Обследование печени
                       </h2>
@@ -144,7 +144,7 @@ function Features() {
                   <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
-                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg bg-gray-50 dark:bg-gray-700"
+                        class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
                         Щитовидная железа
                       </h2>
@@ -152,25 +152,25 @@ function Features() {
                     <div class="flex-shrink-0">
                     </div>
                     <ul class="flex-1 space-y-4">
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         ТТГ
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Т3 общий
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Т3 свободный
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Т4 общий
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Т4 свободный
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         АТ-ТГ
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         АТ-ТПО
                       </li>
                     </ul>
@@ -179,7 +179,7 @@ function Features() {
                   <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
-                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg bg-gray-50 dark:bg-gray-700"
+                        class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
                         Свертываемость крови
                       </h2>
@@ -187,28 +187,102 @@ function Features() {
                     <div class="flex-shrink-0">
                     </div>
                     <ul class="flex-1 space-y-4">
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         АЧТВ
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Протромбиновое время
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Протромбиновый индекс
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         МНО
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Тромбиновое время
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Фибриноген
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Д-димер
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
+                        Антитромбин III
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                    <div class="flex-shrink-0">
+                      <h2
+                        class="text-xl font-bold leading-snug tracking-tight mb-3"
+                      >
+                        Свертываемость крови
+                      </h2>
+                    </div>
+                    <div class="flex-shrink-0">
+                    </div>
+                    <ul class="flex-1 space-y-4">
+                      <li class="text-gray-600 text-center">
+                        АЧТВ
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        Протромбиновое время
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        Протромбиновый индекс
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        МНО
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        Тромбиновое время
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        Фибриноген
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        Д-димер
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        Антитромбин III
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                    <div class="flex-shrink-0">
+                      <h2
+                        class="text-xl font-bold leading-snug tracking-tight mb-3"
+                      >
+                        Свертываемость крови
+                      </h2>
+                    </div>
+                    <div class="flex-shrink-0">
+                    </div>
+                    <ul class="flex-1 space-y-4">
+                      <li class="text-gray-600 text-center">
+                        АЧТВ
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        Протромбиновое время
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        Протромбиновый индекс
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        МНО
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        Тромбиновое время
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        Фибриноген
+                      </li>
+                      <li class="text-gray-600 text-center">
+                        Д-димер
+                      </li>
+                      <li class="text-gray-600 text-center">
                         Антитромбин III
                       </li>
                     </ul>

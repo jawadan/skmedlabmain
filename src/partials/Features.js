@@ -98,135 +98,128 @@ function Features() {
             <h1 className="h2 mb-4">Комплексные исследования</h1>
             {/* <p className="text-xl text-gray-600">Комплексные исследование со скидкой до 20%.</p> */}
             <div class="bg-white dark:bg-gray-800">
-    <div class="container px-6 py-8 mx-auto">
-        <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-        <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                <div class="flex-shrink-0">
-                    <h2
+              <div class="container px-6 py-8 mx-auto">
+                <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
+                  <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex-shrink-0">
+                      <h2
                         class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                    >
-                        Profesional
-                    </h2>
-                </div>
-                <div class="flex-shrink-0">
-                    <span
-                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                    >
-                        $24.90
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                        /month
-                    </span>
-                </div>
-                <ul class="flex-1 space-y-4">
-                    <li class="text-gray-500 dark:text-gray-400">
+                      >
+                        Профиль обследования печени
+                      </h2>
+                    </div>
+                    <div class="flex-shrink-0">
+                    </div>
+                    <ul class="flex-1 space-y-4">
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Аланинаминотрансфераза
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Аспартатаминотрансфераза
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Щелочная фосфатаза
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Общий белок
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Билирубин общий
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Билирубин прямой
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Билирубин непрямой
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Гепатит В
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
+                        Гепатит С
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex-shrink-0">
+                      <h2
+                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
+                      >
+                        Диагностика гормонального фона мужчин
+                      </h2>
+                    </div>
+                    <div class="flex-shrink-0">
+                    </div>
+                    <ul class="flex-1 space-y-4">
+                      <li class="text-gray-500 dark:text-gray-400">
                         Up to 10 projects
-                    </li>
-                    <li class="text-gray-500 dark:text-gray-400">
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
                         Up to 20 collaborators
-                    </li>
-                    <li class="text-gray-500 dark:text-gray-400">
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
                         10Gb of storage
-                    </li>
-                    <li class="text-gray-500 dark:text-gray-400">
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
                         Real-time collaborations
-                    </li>
-                </ul>
+                      </li>
+                    </ul>
 
-                <button
-                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                >
-                    Start free trial
-                </button>
-            </div>
+                    <button
+                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    >
+                      Start free trial
+                    </button>
+                  </div>
 
-            <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                <div class="flex-shrink-0">
-                    <h2
+                  <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex-shrink-0">
+                      <h2
                         class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                    >
-                        Profesional
-                    </h2>
-                </div>
-                <div class="flex-shrink-0">
-                    <span
+                      >
+                        Диагностика анемии
+                      </h2>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span
                         class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                    >
-                        $24.90
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                        /month
-                    </span>
-                </div>
-                <ul class="flex-1 space-y-4">
-                    <li class="text-gray-500 dark:text-gray-400">
-                        Up to 10 projects
-                    </li>
-                    <li class="text-gray-500 dark:text-gray-400">
-                        Up to 20 collaborators
-                    </li>
-                    <li class="text-gray-500 dark:text-gray-400">
-                        10Gb of storage
-                    </li>
-                    <li class="text-gray-500 dark:text-gray-400">
-                        Real-time collaborations
-                    </li>
-                </ul>
-
-                <button
-                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                >
-                    Start free trial
-                </button>
-            </div>
-
-            <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                <div class="flex-shrink-0">
-                    <h2
-                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                    >
-                        Expert
-                    </h2>
-                </div>
-                <div class="flex-shrink-0">
-                    <span
-                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                    >
+                      >
                         $49.90
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
+                      </span>
+                      <span class="text-gray-500 dark:text-gray-400">
                         /month
-                    </span>
-                </div>
-                <ul class="flex-1 space-y-4">
-                    <li class="text-gray-500 dark:text-gray-400">
+                      </span>
+                    </div>
+                    <ul class="flex-1 space-y-4">
+                      <li class="text-gray-500 dark:text-gray-400">
                         Unlimited projects
-                    </li>
-                    <li class="text-gray-500 dark:text-gray-400">
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
                         Unlimited collaborators
-                    </li>
-                    <li class="text-gray-500 dark:text-gray-400">
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
                         Unlimited storage
-                    </li>
-                    <li class="text-gray-500 dark:text-gray-400">
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
                         Real-time collaborations
-                    </li>
-                    <li class="text-gray-500 dark:text-gray-400">
+                      </li>
+                      <li class="text-gray-500 dark:text-gray-400">
                         24x7 Support
-                    </li>
-                </ul>
+                      </li>
+                    </ul>
 
-                <button
-                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                >
-                    Start free trial
-                </button>
+                    <button
+                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    >
+                      Start free trial
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-</div>
           </div>
-          
+
 
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">
@@ -277,7 +270,7 @@ function Features() {
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Расположение мед.центра на карте</div>
                     <div className="text-gray-600">Найдите нас по адресу <a className="text-blue-600 hover:underline" href="https://2gis.kz/almaty/inside/9430047375172881/firm/70000001046536980/76.883741%2C43.221654?m=76.883705%2C43.221604%2F16.97">ул. Жандосова 96 г. Алматы</a>
-                    <a className="text-blue-600 hover:underline" href="tel:+7707-824-9504"> +7 (707) 824 9504 </a> <a className="text-blue-600 hover:underline" href="tel:+7727-236-0065">+7 (727) 236 0065</a>
+                      <a className="text-blue-600 hover:underline" href="tel:+7707-824-9504"> +7 (707) 824 9504 </a> <a className="text-blue-600 hover:underline" href="tel:+7727-236-0065">+7 (727) 236 0065</a>
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">

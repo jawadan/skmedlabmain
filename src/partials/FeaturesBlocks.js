@@ -13,8 +13,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Наши приемущества</h2>
-            <p className="text-xl text-gray-600">Профессионализм в нашей сфере деятельности является самым главным приоритетом </p>
+            <h2 className="h2 mb-4">Наши преимущества</h2>
+            <p className="text-xl text-gray-600">Качественно проведенное исследование является главным приоритетом в нашей работе.</p>
           </div>
 
           {/* Items */}

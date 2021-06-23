@@ -100,10 +100,10 @@ function Features() {
             <div class="bg-white dark:bg-gray-800">
               <div class="container px-6 py-8 mx-auto">
                 <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-                  <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
+                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
-                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg bg-gray-50 dark:bg-gray-700"
+                        class="text-xl font-bold leading-snug tracking-tight mb-1"
                       >
                         Обследование печени
                       </h2>
@@ -111,40 +111,40 @@ function Features() {
                     <div class="flex-shrink-0">
                     </div>
                     <ul class="flex-1 space-y-4">
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Аланинаминотрансфераза
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Аспартатаминотрансфераза
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Щелочная фосфатаза
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Гепатит В
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Гепатит С
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Общий белок
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Билирубин общий
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Билирубин прямой
                       </li>
-                      <li class="text-gray-500 dark:text-gray-400">
+                      <li class="text-gray-600 text-center">
                         Билирубин непрямой
                       </li>
                     </ul>
                   </div>
 
-                  <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
+                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
-                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
+                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg bg-gray-50 dark:bg-gray-700"
                       >
                         Щитовидная железа
                       </h2>
@@ -176,10 +176,10 @@ function Features() {
                     </ul>
                   </div>
 
-                  <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
+                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
-                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
+                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg bg-gray-50 dark:bg-gray-700"
                       >
                         Свертываемость крови
                       </h2>

@@ -33,7 +33,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Качество</h4>
+              {/* <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Качество</h4> */}
               <p className="text-gray-600 text-center">Качественные расходные материалы для взятия образцов.</p>
             </div>
 
@@ -49,7 +49,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Оборудование</h4>
+              {/* <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Оборудование</h4> */}
               <p className="text-gray-600 text-center">Анализаторы и реагенты ведущих мировых производителей.</p>
             </div>
 
@@ -64,7 +64,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Профессионализм</h4>
+              {/* <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Профессионализм</h4> */}
               <p className="text-gray-600 text-center">Опытный, квалифицированный и заботливый персонал.</p>
             </div>
 
@@ -81,7 +81,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Системные программы</h4>
+              {/* <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Системные программы</h4> */}
               <p className="text-gray-600 text-center">Лабораторная и медицинская информационная системы.</p>
             </div>
 
@@ -96,7 +96,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Стаж</h4>
+              {/* <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Стаж</h4> */}
               <p className="text-gray-600 text-center">Успешный опыт по возведению многопрофильных лабораторий.</p>
             </div>
 
@@ -113,7 +113,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Бдительность</h4>
+              {/* <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Бдительность</h4> */}
               <p className="text-gray-600 text-center">Участие в системе внешнего и внутреннего контроля качества.</p>
             </div>
 

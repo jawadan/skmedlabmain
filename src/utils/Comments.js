@@ -21,7 +21,7 @@ class Comments extends Component {
                                 </div>
                                 <div class="flex-grow pl-3">
                                     <h6 class="font-bold text-sm text-gray-900">Габдушева Светлана Касымхановна</h6>
-                                    <p className="text-gray-600">Врач-лаборант первой категории Ветеран труда, Отличник здравоохранения РК</p>
+                                    <p className="text-gray-600">Отличник здравоохранения РК</p>
                                 </div>
                             </div>
                             <div class="w-full">

@@ -1,4 +1,5 @@
 import ShowMoreText from 'react-show-more-text';
+import { Component } from 'react';
 
 // ...
 

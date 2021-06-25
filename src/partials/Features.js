@@ -13,18 +13,18 @@ function Features() {
       description: "Корифеи контроля калорий Precision Nutrition вновь спешат на помощь – теперь тем, кто страдает от чрезмерной округлости живота. Вот вам руководство по подтягиванию талии.",
       button: "Читать",
       href: "https://zozhnik.ru/kak-snizit-procent-visceralnogo-zhira-nauchno",
-      image: "https://images.pexels.com/photos/6551059/pexels-photo-6551059.jpeg?cs=srgb&dl=pexels-andres-ayrton-6551059.jpg&fm=jpg",
+      image: "https://i.imgur.com/pCTZAB6.jpg",
       user: "Хэй Тир",
-      userProfile: "https://i.imgur.com/dTAOeyL.png"
+      userProfile: "https://i.imgur.com/yRFHDQF.png"
     },
     {
       title: "Как наладить режим (регулярных) тренировок",
       description: "Очередной текст от проекта NerdFitness о том, как перебороть тренировочное непостоянство. ",
       button: "Читать",
       href: "https://zozhnik.ru/kak-naladit-rezhim-regulyarnyx-trenirovok",
-      image: "https://images.pexels.com/photos/4498359/pexels-photo-4498359.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4498359.jpg&fm=jpg",
+      image: "https://i.imgur.com/Cb4hc0w.jpg",
       user: "Хэй Тир",
-      userProfile: "https://i.imgur.com/dTAOeyL.png"
+      userProfile: "https://i.imgur.com/yRFHDQF.png"
     },
     {
       title: "Как меняется личность с годами",
@@ -32,9 +32,9 @@ function Features() {
         "Как меняется личность человека по мере старения – отрывок из книги нейробиолога “Счастливое старение”.",
       button: "Buy now",
       href: "https://zozhnik.ru/kak_menyaetsya_lichnost_starenie",
-      image: "https://images.pexels.com/photos/4148984/pexels-photo-4148984.jpeg?cs=srgb&dl=pexels-gustavo-fring-4148984.jpg&fm=jpg",
+      image: "https://i.imgur.com/tAfAwfT.jpg",
       user: "Максим Кудеров",
-      userProfile: "https://i.imgur.com/dTAOeyL.png"
+      userProfile: "https://i.imgur.com/yRFHDQF.png"
     }
   ];
 

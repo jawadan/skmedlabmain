@@ -1,4 +1,5 @@
 import React from 'react';
+import ShowMoreText from 'react-show-more-text';
 
 function Testimonials() {
   return (

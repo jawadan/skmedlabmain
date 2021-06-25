@@ -43,13 +43,13 @@ function HeroHome() {
                 wrapper="b"
                 steps={[
                   'в короткие сроки.',
-                  1500,
+                  2000,
                   'по доступным ценам.',
-                  1500,
+                  2000,
                   'в день приема.',
-                  1500,
+                  2000,
                   'с заботой и любовью.',
-                  1500
+                  2000
                 ]}
               /></p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">

@@ -66,7 +66,7 @@ function Testimonials() {
                           yahoo.com
                         </a>{" "}
                         adipiscing elit, sed do eiusmod tempor incididunt
-                        <a
+                        {/* <a
                           href="https://www.google.bg/"
                           title="Google"
                           rel="nofollow"
@@ -74,7 +74,7 @@ function Testimonials() {
                           rel="noopener noreferrer"
                         >
                           www.google.bg
-                        </a>{" "}
+                        </a>{" "} */}
                         ut labore et dolore magna amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation

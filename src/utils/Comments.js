@@ -20,12 +20,12 @@ class Comments extends Component {
                                     <img src="https://i.imgur.com/wtEw8cD.jpg" alt="" />
                                 </div>
                                 <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm text-gray-900">Ашимов Аскар</h6>
-                                    <p className="text-gray-600">Главный врач </p>
+                                    <h6 class="font-bold text-sm text-gray-900">Габдушева Светлана Касымхановна</h6>
+                                    <p className="text-gray-600">Врач-лаборант первой категории Ветеран труда, Отличник здравоохранения РК</p>
                                 </div>
                             </div>
                             <div class="w-full">
-                                <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span><ShowMoreText
+                                <p class="text-sm leading-tight"><ShowMoreText
                                     /* Default options */
                                     lines={3}
                                     more='Подробнее'
@@ -35,18 +35,7 @@ class Comments extends Component {
                                     onClick={this.executeOnClick}
                                     expanded={false}
                                     width={280}
-                                >
-                                    Lorem ipsum dolor sit amet, consectetur <a href="https://www.yahoo.com/" target="_blank" rel="noopener noreferrer">yahoo.com</a> adipiscing elit, sed do eiusmod tempor incididunt
-                                    
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    minim veniam, quis nostrud exercitation ullamco laboris nisi
-                                    ut aliquip ex Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud exercitation ullamco laboris nisi ut aliquip ex
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                >"Турсынову Сауле Кадырхановну знаю более 25 лет. Познакомились мы как коллеги в клинико-диагностической лаборатории Больницы скорой медицинской помощи г.Алматы. В процессе нашей совместной деятельности она проявила себя как профессионал высокого класса и надежный товарищ. Постоянно повышая свою квалификацию, она заслуженно росла как специалист лабораторной диагностики — процесса, являющегося основой эффективного лечения пациентов. Принимала участие в работе Алматинского  городского общества врачей-лаборантов, и позже была избрана его председателем. Меня обрадовала новость об открытии ею медицинского центра. Зная ее многие годы, могу подтвердить, что она действительно дорожит своей профессиональной репутацией, применяет самые современные технологии лабораторной диагностики и строго соблюдает все стандарты и нормативы. Желаю ей успеха и процветания!"
                                 </ShowMoreText></p>
                             </div>
                         </div>
@@ -71,8 +60,6 @@ class Comments extends Component {
                                     expanded={false}
                                     width={280}
                                 >
-                                    Lorem ipsum dolor sit amet, consectetur <a href="https://www.yahoo.com/" target="_blank" rel="noopener noreferrer">yahoo.com</a> adipiscing elit, sed do eiusmod tempor incididunt
-                                    
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                                     minim veniam, quis nostrud exercitation ullamco laboris nisi
                                     ut aliquip ex Lorem ipsum dolor sit amet, consectetur
@@ -109,8 +96,6 @@ class Comments extends Component {
                                     expanded={false}
                                     width={280}
                                 >
-                                    Lorem ipsum dolor sit amet, consectetur <a href="https://www.yahoo.com/" target="_blank" rel="noopener noreferrer">yahoo.com</a> adipiscing elit, sed do eiusmod tempor incididunt
-                                    
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                                     minim veniam, quis nostrud exercitation ullamco laboris nisi
                                     ut aliquip ex Lorem ipsum dolor sit amet, consectetur
@@ -144,8 +129,6 @@ class Comments extends Component {
                                     expanded={false}
                                     width={280}
                                 >
-                                    Lorem ipsum dolor sit amet, consectetur <a href="https://www.yahoo.com/" target="_blank" rel="noopener noreferrer">yahoo.com</a> adipiscing elit, sed do eiusmod tempor incididunt
-                                    
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                                     minim veniam, quis nostrud exercitation ullamco laboris nisi
                                     ut aliquip ex Lorem ipsum dolor sit amet, consectetur
@@ -181,8 +164,6 @@ class Comments extends Component {
                                     expanded={false}
                                     width={280}
                                 >
-                                    Lorem ipsum dolor sit amet, consectetur <a href="https://www.yahoo.com/" target="_blank" rel="noopener noreferrer">yahoo.com</a> adipiscing elit, sed do eiusmod tempor incididunt
-                                    
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                                     minim veniam, quis nostrud exercitation ullamco laboris nisi
                                     ut aliquip ex Lorem ipsum dolor sit amet, consectetur
@@ -216,8 +197,6 @@ class Comments extends Component {
                                     expanded={false}
                                     width={280}
                                 >
-                                    Lorem ipsum dolor sit amet, consectetur <a href="https://www.yahoo.com/" target="_blank" rel="noopener noreferrer">yahoo.com</a> adipiscing elit, sed do eiusmod tempor incididunt
-                                    
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                                     minim veniam, quis nostrud exercitation ullamco laboris nisi
                                     ut aliquip ex Lorem ipsum dolor sit amet, consectetur

@@ -20,7 +20,7 @@ class Comments extends Component {
                                     <img src="https://i.imgur.com/wkyoNny.png" alt="Ибраева Гульмира Алписпаевна" />
                                 </div>
                                 <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm text-gray-900">Ибраева Гульмира Алписпаевна</h6>
+                                    <h6 class="text-xl font-bold leading-snug tracking-tight mb-1">Ибраева Гульмира Алписпаевна</h6>
                                     <p className="text-gray-600">Директор Нац.центра «PROFESSIONAL»</p>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@ class Comments extends Component {
                                     <img src="https://i.imgur.com/2VA98ub.png" alt="Габдушева Светлана Касымхановна" />
                                 </div>
                                 <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm text-gray-900">Габдушева Светлана Касымхановна</h6>
+                                    <h6 class="text-xl font-bold leading-snug tracking-tight mb-1">Габдушева Светлана Касымхановна</h6>
                                     <p className="text-gray-600">Отличник здравоохранения РК</p>
                                 </div>
                             </div>

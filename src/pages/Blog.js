@@ -22,6 +22,7 @@ function Blog() {
               {/* Section header */}
               <div className="text-center pb-12 md:pb-16">
                 <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Медицинский центр<br />Лаборатория<br /><span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-red-800">SK-MEDLAB</span></h1>
+                <h1 className="h2 mb-4">Как меняется личность с годами</h1>
                 <div className="max-w-3xl mx-auto">
                   <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">При естественном старении определенные изменения личности происходят сами по себе. В ходе метаанализа отчетов о результатах 92 исследований, охвативших период жизни с 10 лет до 101 года, было установлено, что 75% изученных черт личности существенно меняются после 40 и 60 лет. (Эта закономерность касается не всех. Одни люди вообще не меняются, другие же меняются так, что это противоречит статистическим тенденциям).
                     Некоторые изменения обусловлены заболеваниями и травмами, такими как болезнь Альцгеймера, болезнь Пика, инсульт или сотрясение мозга в результате падения.

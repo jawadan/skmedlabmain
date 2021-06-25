@@ -30,7 +30,7 @@ function Features() {
       title: "Как меняется личность с годами",
       description:
         "Как меняется личность человека по мере старения – отрывок из книги нейробиолога “Счастливое старение”.",
-      button: "Buy now",
+      button: "Читать",
       href: "https://zozhnik.ru/kak_menyaetsya_lichnost_starenie",
       image: "https://i.imgur.com/tAfAwfT.jpg",
       user: "Максим Кудеров",

@@ -57,7 +57,8 @@ function Testimonials() {
                         expanded={false}
                         // width={280}
                       >
-                        Lorem ipsum dolor sit amet, consectetur{" "}
+                        Lorem ipsum dolor sit amet, consectetur
+                        {/* {" "}
                         <a
                           href="https://www.yahoo.com/"
                           target="_blank"
@@ -65,7 +66,7 @@ function Testimonials() {
                         >
                           yahoo.com
                         </a>{" "}
-                        adipiscing elit, sed do eiusmod tempor incididunt
+                        adipiscing elit, sed do eiusmod tempor incididunt */}
                         {/* <a
                           href="https://www.google.bg/"
                           title="Google"

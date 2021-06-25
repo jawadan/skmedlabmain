@@ -21,7 +21,7 @@ class Comments extends Component {
                                 </div>
                                 <div class="flex-grow pl-3">
                                     <h6 class="font-bold text-sm text-gray-900">Ибраева Гульмира Алписпаевна</h6>
-                                    <p className="text-gray-600">КМН, директор Нац.центра «PROFESSIONAL»</p>
+                                    <p className="text-gray-600">Директор Нац.центра «PROFESSIONAL»</p>
                                 </div>
                             </div>
                             <div class="w-full">

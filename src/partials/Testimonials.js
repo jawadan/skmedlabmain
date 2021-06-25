@@ -1,7 +1,11 @@
 import React from 'react';
-import Test from './test';
+import Comments from '../utils/Comments';
 
 function Testimonials() {
+  
+//   const executeOnClick = (isExpanded)  =>  {
+//     console.log(isExpanded);
+// }
   return (
     <section className="relative">
 
@@ -31,8 +35,8 @@ function Testimonials() {
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis
               blandit libero cursus mattis.</p>
           </div>
-          <Test />
 
+          <Comments />
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">Наши партнеры</h2>

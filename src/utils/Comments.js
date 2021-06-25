@@ -20,7 +20,7 @@ class Test extends Component {
                                     <img src="https://i.imgur.com/wtEw8cD.jpg" alt="" />
                                 </div>
                                 <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm uppercase text-gray-900">Ашимов Аскар</h6>
+                                    <h6 class="font-bold text-sm text-gray-900">Ашимов Аскар</h6>
                                     <p className="text-gray-600">Главный врач </p>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ class Test extends Component {
                                     <img src="https://i.pravatar.cc/100?img=2" alt="" />
                                 </div>
                                 <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm uppercase text-gray-600">Stevie Tifft.</h6>
+                                    <h6 class="font-bold text-sm text-gray-600">Stevie Tifft.</h6>
                                 </div>
                             </div>
                             <div class="w-full">
@@ -93,7 +93,7 @@ class Test extends Component {
                                     <img src="https://i.pravatar.cc/100?img=3" alt="" />
                                 </div>
                                 <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm uppercase text-gray-900">Толегенова Сауле</h6>
+                                    <h6 class="font-bold text-sm text-gray-900">Толегенова Сауле</h6>
                                     <p className="text-gray-600">Заведующий лабораторией</p>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@ class Test extends Component {
                                     <img src="https://i.pravatar.cc/100?img=4" alt="" />
                                 </div>
                                 <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm uppercase text-gray-600">Charlie Howse.</h6>
+                                    <h6 class="font-bold text-sm text-gray-600">Charlie Howse.</h6>
                                 </div>
                             </div>
                             <div class="w-full">
@@ -166,7 +166,7 @@ class Test extends Component {
                                     <img src="https://i.pravatar.cc/100?img=6" alt="" />
                                 </div>
                                 <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm uppercase text-gray-600">Kris Stanton.</h6>
+                                    <h6 class="font-bold text-sm text-gray-600">Kris Stanton.</h6>
                                 </div>
                             </div>
                             <div class="w-full">
@@ -201,7 +201,7 @@ class Test extends Component {
                                     <img src="https://i.pravatar.cc/100?img=6" alt="" />
                                 </div>
                                 <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm uppercase text-gray-600">Kris Stanton.</h6>
+                                    <h6 class="font-bold text-sm text-gray-600">Kris Stanton.</h6>
                                 </div>
                             </div>
                             <div class="w-full">

@@ -2,6 +2,12 @@ import React from 'react';
 import ShowMoreText from 'react-show-more-text';
 
 function Testimonials() {
+
+  executeOnClick(isExpanded)
+  {
+    console.log(isExpanded);
+  }
+
   return (
     <section className="relative">
 
@@ -55,7 +61,7 @@ function Testimonials() {
                         anchorClass="my-anchor-css-class"
                         onClick={this.executeOnClick}
                         expanded={false}
-                        // width={280}
+                      // width={280}
                       >
                         Lorem ipsum dolor sit amet, consectetur
                         {/* {" "}

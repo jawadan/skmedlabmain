@@ -1,5 +1,4 @@
 import React from 'react';
-import ShowMoreText from 'react-show-more-text';
 
 function Testimonials() {
   return (
@@ -45,7 +44,7 @@ function Testimonials() {
                     </div>
                   </div>
                   <div class="w-full">
-                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"
+                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>
                       <ShowMoreText
                         /* Default options */
                         lines={3}
@@ -86,7 +85,8 @@ function Testimonials() {
                         adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua. Ut enim ad minim veniam, quis
                         nostrud exercitation
-                      </ShowMoreText>"</span></p>
+                      </ShowMoreText>
+                      <span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                   </div>
                 </div>
                 <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">

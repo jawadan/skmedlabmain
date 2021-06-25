@@ -1,13 +1,7 @@
 import React from 'react';
-import ShowMoreText from 'react-show-more-text';
+import Test from './test';
 
 function Testimonials() {
-
-  executeOnClick(isExpanded)
-  {
-    console.log(isExpanded);
-  }
-
   return (
     <section className="relative">
 
@@ -37,140 +31,7 @@ function Testimonials() {
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis
               blandit libero cursus mattis.</p>
           </div>
-          <div class="w-full max-w-6xl mx-auto">
-            <div class="-mx-3 md:flex items-start">
-              <div class="px-3 md:w-1/3">
-                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                  <div class="w-full flex mb-4 items-center">
-                    <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                      <img src="https://i.imgur.com/wtEw8cD.jpg" alt="" />
-                    </div>
-                    <div class="flex-grow pl-3">
-                      <h6 class="font-bold text-sm uppercase text-gray-900">Ашимов Аскар</h6>
-                      <p className="text-gray-600">Главный врач 12 ГКБ</p>
-                    </div>
-                  </div>
-                  <div class="w-full">
-                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>
-                      <ShowMoreText
-                        /* Default options */
-                        lines={3}
-                        more="Show more"
-                        less="Show less"
-                        className="content-css"
-                        anchorClass="my-anchor-css-class"
-                        onClick={this.executeOnClick}
-                        expanded={false}
-                      // width={280}
-                      >
-                        Lorem ipsum dolor sit amet, consectetur
-                        {/* {" "}
-                        <a
-                          href="https://www.yahoo.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          yahoo.com
-                        </a>{" "}
-                        adipiscing elit, sed do eiusmod tempor incididunt */}
-                        {/* <a
-                          href="https://www.google.bg/"
-                          title="Google"
-                          rel="nofollow"
-                          // target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          www.google.bg
-                        </a>{" "} */}
-                        ut labore et dolore magna amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex Lorem ipsum dolor sit
-                        amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation
-                      </ShowMoreText>
-                      <span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
-                  </div>
-                </div>
-                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                  <div class="w-full flex mb-4 items-center">
-                    <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                      <img src="https://i.pravatar.cc/100?img=2" alt="" />
-                    </div>
-                    <div class="flex-grow pl-3">
-                      <h6 class="font-bold text-sm uppercase text-gray-600">Stevie Tifft.</h6>
-                    </div>
-                  </div>
-                  <div class="w-full">
-                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
-                  </div>
-                </div>
-              </div>
-              <div class="px-3 md:w-1/3">
-                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                  <div class="w-full flex mb-4 items-center">
-                    <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                      <img src="https://i.pravatar.cc/100?img=3" alt="" />
-                    </div>
-                    <div class="flex-grow pl-3">
-                      <h6 class="font-bold text-sm uppercase text-gray-900">Толегенова Сауле</h6>
-                      <p className="text-gray-600">Заведующий лабораторией Сапа</p>
-                    </div>
-                  </div>
-                  <div class="w-full">
-                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
-                  </div>
-                </div>
-                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                  <div class="w-full flex mb-4 items-center">
-                    <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                      <img src="https://i.pravatar.cc/100?img=4" alt="" />
-                    </div>
-                    <div class="flex-grow pl-3">
-                      <h6 class="font-bold text-sm uppercase text-gray-600">Charlie Howse.</h6>
-                    </div>
-                  </div>
-                  <div class="w-full">
-                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
-                  </div>
-                </div>
-              </div>
-              <div class="px-3 md:w-1/3">
-                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                  <div class="w-full flex mb-4 items-center">
-                    <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                      <img src="https://i.pravatar.cc/100?img=5" alt="" />
-                    </div>
-                    <div class="flex-grow pl-3">
-                      <h6 class="font-bold text-sm uppercase text-gray-900">Сапарханова Бахыт</h6>
-                      <p className="text-gray-600">Главный врач 5 ГКБ</p>
-                    </div>
-                  </div>
-                  <div class="w-full">
-                    <p className="text-gray-600">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi."</p>
-                  </div>
-                </div>
-                <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                  <div class="w-full flex mb-4 items-center">
-                    <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                      <img src="https://i.pravatar.cc/100?img=6" alt="" />
-                    </div>
-                    <div class="flex-grow pl-3">
-                      <h6 class="font-bold text-sm uppercase text-gray-600">Kris Stanton.</h6>
-                    </div>
-                  </div>
-                  <div class="w-full">
-                    <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Test />
 
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">

@@ -17,7 +17,7 @@ class Comments extends Component {
                         <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                             <div class="w-full flex mb-4 items-center">
                                 <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                    <img src="https://i.imgur.com/wtEw8cD.jpg" alt="" />
+                                    <img src="https://i.imgur.com/o48qD5D.png" alt="Габдушева Светлана Касымхановна" />
                                 </div>
                                 <div class="flex-grow pl-3">
                                     <h6 class="font-bold text-sm text-gray-900">Габдушева Светлана Касымхановна</h6>

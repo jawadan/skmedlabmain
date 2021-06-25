@@ -3,7 +3,7 @@ import { Component } from 'react';
 
 // ...
 
-class Test extends Component {
+class Comments extends Component {
 
     executeOnClick(isExpanded) {
         console.log(isExpanded);
@@ -237,4 +237,4 @@ class Test extends Component {
     }
 }
 
-export default Test;
+export default Comments;

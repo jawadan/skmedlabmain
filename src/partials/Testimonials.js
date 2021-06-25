@@ -55,7 +55,7 @@ function Testimonials() {
                         anchorClass="my-anchor-css-class"
                         onClick={this.executeOnClick}
                         expanded={false}
-                        width={280}
+                        // width={280}
                       >
                         Lorem ipsum dolor sit amet, consectetur{" "}
                         <a
@@ -70,7 +70,7 @@ function Testimonials() {
                           href="https://www.google.bg/"
                           title="Google"
                           rel="nofollow"
-                          target="_blank"
+                          // target="_blank"
                           rel="noopener noreferrer"
                         >
                           www.google.bg

@@ -1,6 +1,4 @@
 import emailjs from 'emailjs-com';
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 const Mailer = () => {
     function sendEmail(e) {
@@ -14,9 +12,9 @@ const Mailer = () => {
         );
     }
 
-    toast.configure()
+    // toast.configure()
 
-    const notify = () => toast("Спасибо, Ваш запрос был отправлен.");
+    // const notify = () => toast("Спасибо, Ваш запрос был отправлен.");
 
     return (
         <div className="text-center lg:text-left lg:max-w-xl">

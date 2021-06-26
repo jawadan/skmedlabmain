@@ -94,7 +94,7 @@ function Features() {
             </Slider>
           </div>
 
-          {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Комплексные исследования</h1>
             <p className="text-xl text-gray-600">Своевременно проведенный комплекс исследования может предостеречь от нежданного.</p>
             <div class="">
@@ -266,7 +266,7 @@ function Features() {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
 
 
           {/* Section content */}

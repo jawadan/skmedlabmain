@@ -38,7 +38,7 @@ function Testimonials() {
 
           <Comments />
 
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 mt-4">
             <h2 className="h2 mb-4">Наши партнеры</h2>
           </div>
 

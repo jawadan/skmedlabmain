@@ -14,7 +14,7 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Наши преимущества</h2>
-            <p className="text-xl text-gray-600">Качественно проведенное исследование является главным приоритетом в нашей работе.</p>
+            <p className="text-xl text-gray-600">Грамотно проведенное исследование является главным приоритетом в нашей работе.</p>
           </div>
 
           {/* Items */}

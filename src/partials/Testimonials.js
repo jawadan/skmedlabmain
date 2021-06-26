@@ -31,15 +31,14 @@ function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-3">Более 10 000 довольных пациентов по Алматы</h2>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out">Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis
-              blandit libero cursus mattis.</p>
+            <h2 className="h2 mb-3">Отзывы от специалистов города Алматы</h2>
+            <p className="text-xl text-gray-600" data-aos="zoom-y-out"></p>
           </div>
 
           <Comments />
 
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 mt-10">
-            <h2 className="h2 mb-4">Наши партнеры</h2>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <h2 className="h2 mе-6">Наши партнеры</h2>
           </div>
 
           {/* Items */}

@@ -22,7 +22,7 @@ class Comments extends Component {
                                 <div class="flex-grow pl-3">
                                     <h6 class="font-bold text-sm text-gray-900">Ибраева Гульмира Алписпаевна</h6>
                                     <p className="text-sm text-gray-600">Директор Нац.центра непрерывного</p>
-                                    <p className="text-sm text-gray-600">образования "PROFESSIONAL"</p>
+                                    <p className="text-sm text-gray-600">образования "PROFESSIONAL", КМН</p>
                                 </div>
                             </div>
                             <div class="w-full">
@@ -74,7 +74,7 @@ class Comments extends Component {
                                 </div>
                                 <div class="flex-grow pl-3">
                                     <h6 class="font-bold text-sm text-gray-900">Габдушева Светлана Касымхановна</h6>
-                                    <p className="text-sm text-gray-600">Врачөлаборант первой категории</p>
+                                    <p className="text-sm text-gray-600">Врач-лаборант первой категории,</p>
                                     <p className="text-sm text-gray-600">Отличник здравоохранения РК</p>
                                 </div>
                             </div>

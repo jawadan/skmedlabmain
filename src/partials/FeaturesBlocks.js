@@ -77,7 +77,7 @@ function FeaturesBlocks() {
                 </g>
                 <defs>
                   <clipPath id="clip0">
-                    <rect width="16" height="16" fill="white" />
+                    <rect width="297" height="297" fill="white" />
                   </clipPath>
                 </defs>
               </svg>

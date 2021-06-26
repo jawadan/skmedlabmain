@@ -2,10 +2,10 @@ import React from 'react';
 import Comments from '../utils/Comments';
 
 function Testimonials() {
-  
-//   const executeOnClick = (isExpanded)  =>  {
-//     console.log(isExpanded);
-// }
+
+  //   const executeOnClick = (isExpanded)  =>  {
+  //     console.log(isExpanded);
+  // }
   return (
     <section className="relative">
 
@@ -147,6 +147,7 @@ function Testimonials() {
                   </ul>
                 </div>
               </div>
+              <a target="_blank" rel="nofollow" href="https://ad.admitad.com/g/aswlxsd4mid41777ea806bad6591b4/?i=4&subid=skmedlab"><img width="728" height="90" border="0" src="https://ad.admitad.com/b/aswlxsd4mid41777ea806bad6591b4/" alt="Альфа-Банк (CPS) KZ API" /></a>
 
             </div>
           </div>

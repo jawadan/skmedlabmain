@@ -147,8 +147,9 @@ function Testimonials() {
                   </ul>
                 </div>
               </div>
+              <div>
               <a target="_blank" rel="nofollow" href="https://ad.admitad.com/g/aswlxsd4mid41777ea806bad6591b4/?i=4&subid=skmedlab"><img width="728" height="90" border="0" src="https://ad.admitad.com/b/aswlxsd4mid41777ea806bad6591b4/" alt="Альфа-Банк (CPS) KZ API" /></a>
-
+              </div>
             </div>
           </div>
 

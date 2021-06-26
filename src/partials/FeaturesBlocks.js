@@ -105,14 +105,21 @@ function FeaturesBlocks() {
 
             {/* 5th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" fillRule="evenodd">
-                  <rect className="fill-current text-yellow-600" width="64" height="64" rx="32" />
-                  <g strokeLinecap="square" strokeWidth="2">
-                    <path className="stroke-current text-gray-900" d="M20.571 20.571h13.714v17.143H20.571z" />
-                    <path className="stroke-current text-teal-700" d="M38.858 26.993l6.397 1.73-4.473 16.549-13.24-3.58" />
-                  </g>
-                </g>
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M148.5 297C230.514 297 297 230.514 297 148.5C297 66.4857 230.514 0 148.5 0C66.4857 0 0 66.4857 0 148.5C0 230.514 66.4857 297 148.5 297Z" fill="#FD5631" />
+                <path d="M214.5 66L82.5 264L110.616 292.116C122.711 295.298 135.406 297 148.5 297C230.489 297 296.958 230.555 296.999 148.576L214.5 66Z" fill="#E44D2C" />
+                <path d="M214.5 66H82.5V264H214.5V66Z" fill="white" />
+                <path d="M214.5 66H148.834V264H214.5V66Z" fill="#EDECEB" />
+                <path d="M126 105.5H171C176.799 105.5 181.5 100.799 181.5 95V50C181.5 44.201 176.799 39.5 171 39.5H126C120.201 39.5 115.5 44.201 115.5 50V95C115.5 100.799 120.201 105.5 126 105.5Z" fill="#DFDAD7" />
+                <path d="M171 39.5H148.833V105.5H171C176.799 105.5 181.5 100.799 181.5 95V50C181.5 44.201 176.799 39.5 171 39.5Z" fill="#C4C0BF" />
+                <path d="M165 214.5H132V264H165V214.5Z" fill="#DFDAD7" />
+                <path d="M165 214.5H148.834V264H165V214.5Z" fill="#C4C0BF" />
+                <path d="M132 115.5H99V148.5H132V115.5Z" fill="#71E2EF" />
+                <path d="M198 115.5H165V148.5H198V115.5Z" fill="#38C6D9" />
+                <path d="M132 165H99V198H132V165Z" fill="#71E2EF" />
+                <path d="M198 165H165V198H198V165Z" fill="#C4C0BF" />
+                <path d="M168.5 65.833H155.167V52.5H141.833V65.833H128.5V79.167H141.833V92.5H155.167V79.167H168.5V65.833Z" fill="#F86E51" />
+                <path d="M155.167 65.833V52.5H148.834V92.5H155.167V79.167H168.5V65.833H155.167Z" fill="#C63C22" />
               </svg>
               {/* <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Стаж</h4> */}
               <p className="text-gray-900 text-center">Успешный опыт по возведению многопрофильных лабораторий.</p>
@@ -120,16 +127,19 @@ function FeaturesBlocks() {
 
             {/* 6th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" fillRule="evenodd">
-                  <rect className="fill-current text-yellow-600" width="64" height="64" rx="32" />
-                  <g strokeWidth="2">
-                    <path className="stroke-current text-gray-900" d="M32 37.714A5.714 5.714 0 0037.714 32a5.714 5.714 0 005.715 5.714" />
-                    <path className="stroke-current text-gray-900" d="M32 37.714a5.714 5.714 0 015.714 5.715 5.714 5.714 0 015.715-5.715M20.571 26.286a5.714 5.714 0 005.715-5.715A5.714 5.714 0 0032 26.286" />
-                    <path className="stroke-current text-gray-900" d="M20.571 26.286A5.714 5.714 0 0126.286 32 5.714 5.714 0 0132 26.286" />
-                    <path className="stroke-current text-teal-700" d="M21.714 40h4.572M24 37.714v4.572M37.714 24h4.572M40 21.714v4.572" strokeLinecap="square" />
-                  </g>
-                </g>
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 452 452" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M225.638 451.286C350.254 451.286 451.276 350.264 451.276 225.648C451.276 101.032 350.254 0.0100098 225.638 0.0100098C101.022 0.0100098 0 101.032 0 225.648C0 350.264 101.022 451.286 225.638 451.286Z" fill="#FD5631" />
+                <path opacity="0.1" d="M451.296 225.648C451.296 224.112 451.211 222.597 451.18 221.068L349.985 118.301L328.36 96.347C328.36 108.476 318.534 118.302 306.405 118.302H128.277L92.407 167.712L225.827 351.529L225.639 354.914L306.894 436.169C391.356 403.543 451.296 321.62 451.296 225.648Z" fill="black" />
+                <path d="M89.727 167.716L225.638 354.931L153.904 167.716H89.727Z" fill="#71E2EF" />
+                <path d="M172.841 118.293H125.606L89.727 167.716H153.904L172.841 118.293Z" fill="#38C6D9" />
+                <path d="M225.638 354.931L361.55 167.716H297.373L225.638 354.931Z" fill="#38C6D9" />
+                <path d="M278.436 118.293L297.373 167.716H361.55L325.671 118.293H278.436Z" fill="#71E2EF" />
+                <path d="M225.638 167.716V118.293H172.841L153.904 167.716H225.638Z" fill="#71E2EF" />
+                <path d="M153.904 167.716L225.638 354.931V167.716H153.904Z" fill="#38C6D9" />
+                <path d="M297.373 167.716L278.436 118.293H225.638V167.716H297.373Z" fill="#38C6D9" />
+                <path d="M225.638 167.716V354.931L297.373 167.716H225.638Z" fill="#71E2EF" />
+                <path d="M153.904 145.787C153.904 157.898 144.086 167.716 131.976 167.716C144.087 167.716 153.904 177.533 153.904 189.644C153.904 177.533 163.722 167.716 175.833 167.716C163.722 167.716 153.904 157.898 153.904 145.787Z" fill="white" />
+                <path d="M325.671 96.365C325.671 108.475 315.853 118.293 303.743 118.293C315.854 118.293 325.671 128.111 325.671 140.222C325.671 128.111 335.488 118.293 347.6 118.293C335.488 118.293 325.671 108.475 325.671 96.365Z" fill="white" />
               </svg>
               {/* <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Бдительность</h4> */}
               <p className="text-gray-900 text-center">Участие в системе внешнего и внутреннего контроля качества.</p>

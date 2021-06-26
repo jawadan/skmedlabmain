@@ -31,7 +31,7 @@ class Comments extends Component {
                                     more='Подробнее'
                                     less='Свернуть'
                                     className='content-css'
-                                    anchorClass='my-anchor-css-class'
+                                    anchorClass='my-anchor'
                                     onClick={this.executeOnClick}
                                     expanded={false}
                                     width={280}

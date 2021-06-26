@@ -88,7 +88,7 @@ function FeaturesBlocks() {
 
             {/* 4th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-32 h-32 p-1 -mt-1 mb-2" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path d="M255.997 511.994C397.38 511.994 511.994 397.38 511.994 255.997C511.994 114.614 397.38 0 255.997 0C114.614 0 0 114.614 0 255.997C0 397.38 114.614 511.994 255.997 511.994Z" fill="#FD5631" />
                   <path d="M510.731 281.367C498.893 402.497 402.496 498.893 281.367 510.731L177.361 406.725L336.33 106.966L510.942 281.578L510.731 281.367Z" fill="#E44D2C" />
@@ -104,7 +104,7 @@ function FeaturesBlocks() {
                 </g>
                 <defs>
                   <clipPath id="clip0">
-                    <rect width="511.995" height="511.995" fill="white" />
+                    <rect width="1024" height="1024" fill="white" />
                   </clipPath>
                 </defs>
               </svg>

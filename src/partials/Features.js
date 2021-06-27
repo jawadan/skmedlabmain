@@ -106,10 +106,13 @@ function Features() {
                     </h2>
                   </div>
                   <div class="flex-shrink-0">
-                    <span
+                  <span
                       class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                      Free
+                      $24.90
+                    </span>
+                    <span class="text-gray-500 dark:text-gray-400">
+                      /month
                     </span>
                   </div>
                   <ul class="flex-1 space-y-4">

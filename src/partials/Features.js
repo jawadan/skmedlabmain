@@ -95,13 +95,15 @@ function Features() {
           </div>
 
           <div class="bg-white dark:bg-gray-800">
-            <h1 className="h2 mb-4">Комплексные исследования</h1>
-            <p className="text-xl text-gray-600">Своевременно проведенный комплекс исследования может предостеречь от нежданного.</p>
-            <div class="container px-6 py-8 mx-auto">
+            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+              <h1 className="h2 mb-4">Комплексные исследования</h1>
+              <p className="text-xl text-gray-600">Своевременно проведенный комплекс исследования может предостеречь от нежданного.</p>
+            </div>
+            <div class="container px-6 py-6 mx-auto">
               <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
                 <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
                   <div class="flex-shrink-0">
-                    <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
+                    <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 rounded-lg bg-gray-50 dark:bg-gray-700">
                       Casual
                     </h2>
                   </div>
@@ -114,16 +116,16 @@ function Features() {
                   </div>
 
                   <button
-                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                   >
-                    Start free
+                    Детали
                   </button>
                 </div>
 
                 <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
                   <div class="flex-shrink-0">
                     <h2
-                      class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
+                      class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400  rounded-lg bg-gray-50 dark:bg-gray-700"
                     >
                       Profesional
                     </h2>
@@ -140,16 +142,16 @@ function Features() {
                   </div>
 
                   <button
-                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                   >
-                    Start free trial
+                    Детали
                   </button>
                 </div>
 
                 <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
                   <div class="flex-shrink-0">
                     <h2
-                      class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
+                      class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400  rounded-lg bg-gray-50 dark:bg-gray-700"
                     >
                       Expert
                     </h2>
@@ -166,9 +168,9 @@ function Features() {
                   </div>
 
                   <button
-                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                   >
-                    Start free trial
+                    Детали
                   </button>
                 </div>
               </div>

@@ -100,7 +100,7 @@ function Features() {
             <div class="flex">
               <div class="container px-6 py-8 mx-auto">
                 <div class="flex justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl ml-3">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"

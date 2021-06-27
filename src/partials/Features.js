@@ -222,7 +222,7 @@ function Features() {
                     <h2
                       class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg"
                     >
-                      Здоровые почки
+                      Ежегодное обследование
                     </h2>
                   </div>
                     <span

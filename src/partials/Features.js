@@ -211,7 +211,7 @@ function Features() {
                     <span
                         class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                        27900₸
+                        27{ }900{ }₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
                         10% скидка

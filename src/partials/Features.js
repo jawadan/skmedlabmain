@@ -110,11 +110,14 @@ function Features() {
                     </div>
                     <div class="flex-shrink-0">
                     </div>
-                    <button
-                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    <span
+                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                      23,000тг
-                    </button>
+                        $49.90
+                    </span>
+                    <span class="text-gray-500 dark:text-gray-400">
+                        /month
+                    </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                     >
@@ -127,16 +130,19 @@ function Features() {
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
-                        Щитовидная
+                        Щитовидная железа
                       </h2>
                     </div>
                     <div class="flex-shrink-0">
                     </div>
-                    <button
-                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    <span
+                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                      23,000тг
-                    </button>
+                        $49.90
+                    </span>
+                    <span class="text-gray-500 dark:text-gray-400">
+                        /month
+                    </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                     >
@@ -154,11 +160,14 @@ function Features() {
                     </div>
                     <div class="flex-shrink-0">
                     </div>
-                    <button
-                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    <span
+                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                      23,000тг
-                    </button>
+                        $49.90
+                    </span>
+                    <span class="text-gray-500 dark:text-gray-400">
+                        /month
+                    </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                     >
@@ -170,16 +179,19 @@ function Features() {
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
-                        Мое Сердечко
+                        Мое сердечко
                       </h2>
                     </div>
                     <div class="flex-shrink-0">
                     </div>
-                    <button
-                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    <span
+                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                      23,000тг
-                    </button>
+                        $49.90
+                    </span>
+                    <span class="text-gray-500 dark:text-gray-400">
+                        /month
+                    </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                     >
@@ -196,11 +208,14 @@ function Features() {
                     </div>
                     <div class="flex-shrink-0">
                     </div>
-                    <button
-                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    <span
+                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                      23,000тг
-                    </button>
+                        $49.90
+                    </span>
+                    <span class="text-gray-500 dark:text-gray-400">
+                        /month
+                    </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                     >

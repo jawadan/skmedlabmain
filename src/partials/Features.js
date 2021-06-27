@@ -210,9 +210,8 @@ function Features() {
                     </div>
                     <span
                       class="pt-2 text-4xl font text-gray-800 uppercase dark:text-gray-100"
-                    ><li>
-                        27 900 ₸
-                      </li>
+                    >
+                      27900₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
                       10% скидка

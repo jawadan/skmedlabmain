@@ -97,11 +97,11 @@ function Features() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Комплексные исследования</h1>
             <p className="text-xl text-gray-600">Своевременно проведенный комплекс исследования - залог успешного лечения.</p>
-            <div class="">
+            <div class="flex">
               <div class="container px-6 py-8 mx-auto">
                 <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-                  <div class="relative flex-1 flex-col items-center p-6 bg-white rounded shadow-xl">
-                    <div class="flex-shrink-0">
+                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                    <div class="flex-1">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
@@ -123,8 +123,8 @@ function Features() {
                     </button>
                   </div>
 
-                  <div class="relative flex-1 flex-col items-center p-6 bg-white rounded shadow-xl">
-                    <div class="flex-shrink-0">
+                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                    <div class="flex-1">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
@@ -146,8 +146,8 @@ function Features() {
                     </button>
                   </div>
 
-                  <div class="relative flex-1 flex-col items-center p-6 bg-white rounded shadow-xl">
-                    <div class="flex-shrink-0">
+                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                    <div class="flex-1">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
@@ -168,8 +168,8 @@ function Features() {
                       Детали
                     </button>
                   </div>
-                  <div class="relative flex-1 flex-col items-center p-6 bg-white rounded shadow-xl">
-                    <div class="flex-shrink-0">
+                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                    <div class="flex-1">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >
@@ -190,8 +190,8 @@ function Features() {
                       Детали
                     </button>
                   </div>
-                  <div class="relative flex-1 flex-col items-center p-6 bg-white rounded shadow-xl">
-                    <div class="flex-shrink-0">
+                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                    <div class="flex-1">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
                       >

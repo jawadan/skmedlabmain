@@ -99,242 +99,240 @@ function Features() {
             <p className="text-xl text-gray-600">Своевременно проведенный комплекс исследования - залог успешного лечения.</p>
             <div class="flex">
               <div class="container px-6 py-8 mx-auto">
-                <div class="flex justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl ml-3">
-                    <div class="flex-shrink-0">
-                      <h2
-                        class="text-xl font-bold leading-snug tracking-tight mb-3"
-                      >
-                        Обследование печени
-                      </h2>
-                    </div>
-                    <span
-                        class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+                  <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                    <h2
+                      class="text-xl font-bold leading-snug tracking-tight mb-3"
                     >
-                        23000₸
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                        10% скидка
-                    </span>
-                    <button
-                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                    >
-                      Детали
-                    </button>
+                      Обследование печени
+                    </h2>
                   </div>
+                  <span
+                    class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                  >
+                    23000₸
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
+                  <button
+                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                  >
+                    Детали
+                  </button>
+                </div>
 
-                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-                    <div class="flex-shrink-0">
-                      <h2
-                        class="text-xl font-bold leading-snug tracking-tight mb-3"
-                      >
-                        Щитовидная железа
-                      </h2>
-                    </div>
-                    <span
-                        class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+                  <div class="flex-shrink-0">
+                    <h2
+                      class="text-xl font-bold leading-snug tracking-tight mb-3"
                     >
-                        14990₸
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                        10% скидка
-                    </span>
-                    <button
-                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                    >
-                      Детали
-                    </button>
+                      Щитовидная железа
+                    </h2>
                   </div>
+                  <span
+                    class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                  >
+                    14990₸
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
+                  <button
+                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                  >
+                    Детали
+                  </button>
+                </div>
 
-                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-                    <div class="flex-shrink-0">
-                      <h2
-                        class="text-xl font-bold leading-snug tracking-tight mb-3"
-                      >
-                        Диагностика анемии
-                      </h2>
-                    </div>
-                    <span
-                        class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+                  <div class="flex-shrink-0">
+                    <h2
+                      class="text-xl font-bold leading-snug tracking-tight mb-3"
                     >
-                        9800₸
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                        10% скидка
-                    </span>
-                    <button
-                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                    >
-                      Детали
-                    </button>
+                      Диагностика анемии
+                    </h2>
                   </div>
-                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-                    <div class="flex-shrink-0">
-                      <h2
-                        class="text-xl font-bold leading-snug tracking-tight mb-3"
-                      >
-                        Здоровое сердечко
-                      </h2>
-                    </div>
-                    <span
-                        class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                  <span
+                    class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                  >
+                    9800₸
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
+                  <button
+                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                  >
+                    Детали
+                  </button>
+                </div>
+                <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+                  <div class="flex-shrink-0">
+                    <h2
+                      class="text-xl font-bold leading-snug tracking-tight mb-3"
                     >
-                        7000₸
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                        10% скидка
-                    </span>
-                    <button
-                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                    >
-                      Детали
-                    </button>
+                      Здоровое сердечко
+                    </h2>
                   </div>
-                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-                    <div class="flex-shrink-0">
-                      <h2
-                        class="text-xl font-bold leading-snug tracking-tight mb-3"
-                      >
-                        Мужское здоровье
-                      </h2>
-                    </div>
-                    <span
-                        class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                  <span
+                    class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                  >
+                    7000₸
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
+                  <button
+                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                  >
+                    Детали
+                  </button>
+                </div>
+                <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+                  <div class="flex-shrink-0">
+                    <h2
+                      class="text-xl font-bold leading-snug tracking-tight mb-3"
                     >
-                        27900₸
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                        10% скидка
-                    </span>
-                    <button
-                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                    >
-                      Детали
-                    </button>
+                      Мужское здоровье
+                    </h2>
                   </div>
+                  <span
+                    class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                  >
+                    27900₸
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
+                  <button
+                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                  >
+                    Детали
+                  </button>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
 
-          {/* Section content */}
-          <div className="md:grid md:grid-cols-12 md:gap-6">
+        {/* Section content */}
+        <div className="md:grid md:grid-cols-12 md:gap-6">
 
-            {/* Content */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
-              <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Необходимые действия</h3>
-                <p className="text-xl text-gray-600">Перед тем как прийдти на прием, убедитесь во всем что указано ниже.</p>
-              </div>
-              {/* Tabs buttons */}
-              <div className="mb-8 md:mb-0">
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
-                  href="#0"
-                  onClick={(e) => { e.preventDefault(); setTab(1); }}
-                >
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Перечень проводимых анализов</div>
-                    <div className="text-gray-600">Выберите необходимые для вас анализы с помощью поисковика таблицы.</div>
-                  </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
-                    </svg>
-                  </div>
-                </a>
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
-                  href="#0"
-                  onClick={(e) => { e.preventDefault(); setTab(2); }}
-                >
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Подготовка к сдаче анализов</div>
-                    <div className="text-gray-600">Проследите, чтобы все пункты из списка были выполнены.</div>
-                  </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" />
-                    </svg>
-                  </div>
-                </a>
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
-                  href="#0"
-                  onClick={(e) => { e.preventDefault(); setTab(3); }}
-                >
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Расположение мед.центра на карте</div>
-                    <div className="text-gray-600">Найдите нас по адресу <a className="text-blue-600 hover:underline" href="https://2gis.kz/almaty/inside/9430047375172881/firm/70000001046536980/76.883741%2C43.221654?m=76.883705%2C43.221604%2F16.97">ул. Жандосова 96, г.Алматы</a>
-                      <a className="text-blue-600 hover:underline" href="tel:+7707-824-9504"> +7 (707) 824 9504 </a> <a className="text-blue-600 hover:underline" href="tel:+7727-236-0065">+7 (727) 236 0065</a>
-                    </div>
-                  </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
-                    </svg>
-                  </div>
-                </a>
-              </div>
+          {/* Content */}
+          <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
+            <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
+              <h3 className="h3 mb-3">Необходимые действия</h3>
+              <p className="text-xl text-gray-600">Перед тем как прийдти на прием, убедитесь во всем что указано ниже.</p>
             </div>
-
-            {/* Tabs items */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
-              <div className="relative flex flex-col text-center lg:text-right">
-                {/* Item 1 */}
-                <Transition
-                  show={tab === 1}
-                  appear={true}
-                  className="w-full"
-                  enter="transition ease-in-out duration-700 transform order-first"
-                  enterStart="opacity-0 translate-y-16"
-                  enterEnd="opacity-100 translate-y-0"
-                  leave="transition ease-in-out duration-300 transform absolute"
-                  leaveStart="opacity-100 translate-y-0"
-                  leaveEnd="opacity-0 -translate-y-16"
-                >
-                  <div style={{ padding: "10px" }}>
-                    <MTable />
+            {/* Tabs buttons */}
+            <div className="mb-8 md:mb-0">
+              <a
+                className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                href="#0"
+                onClick={(e) => { e.preventDefault(); setTab(1); }}
+              >
+                <div>
+                  <div className="font-bold leading-snug tracking-tight mb-1">Перечень проводимых анализов</div>
+                  <div className="text-gray-600">Выберите необходимые для вас анализы с помощью поисковика таблицы.</div>
+                </div>
+                <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                  <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                  </svg>
+                </div>
+              </a>
+              <a
+                className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                href="#0"
+                onClick={(e) => { e.preventDefault(); setTab(2); }}
+              >
+                <div>
+                  <div className="font-bold leading-snug tracking-tight mb-1">Подготовка к сдаче анализов</div>
+                  <div className="text-gray-600">Проследите, чтобы все пункты из списка были выполнены.</div>
+                </div>
+                <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                  <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" />
+                  </svg>
+                </div>
+              </a>
+              <a
+                className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                href="#0"
+                onClick={(e) => { e.preventDefault(); setTab(3); }}
+              >
+                <div>
+                  <div className="font-bold leading-snug tracking-tight mb-1">Расположение мед.центра на карте</div>
+                  <div className="text-gray-600">Найдите нас по адресу <a className="text-blue-600 hover:underline" href="https://2gis.kz/almaty/inside/9430047375172881/firm/70000001046536980/76.883741%2C43.221654?m=76.883705%2C43.221604%2F16.97">ул. Жандосова 96, г.Алматы</a>
+                    <a className="text-blue-600 hover:underline" href="tel:+7707-824-9504"> +7 (707) 824 9504 </a> <a className="text-blue-600 hover:underline" href="tel:+7727-236-0065">+7 (727) 236 0065</a>
                   </div>
-                </Transition>
-                {/* Item 2 */}
-                <Transition
-                  show={tab === 2}
-                  appear={true}
-                  className="w-full"
-                  enter="transition ease-in-out duration-700 transform order-first"
-                  enterStart="opacity-0 translate-y-16"
-                  enterEnd="opacity-100 translate-y-0"
-                  leave="transition ease-in-out duration-300 transform absolute"
-                  leaveStart="opacity-100 translate-y-0"
-                  leaveEnd="opacity-0 -translate-y-16"
-                >
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="530" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0" src={require('../images/features-element.png').default} width="530" height="45" alt="Element" style={{ top: '5%' }} /> {/*md:max-w-none absolute w-full left-0 transform animate-float */}
-                  </div>
-                </Transition>
-                {/* Item 3 */}
-                <Transition
-                  show={tab === 3}
-                  appear={true}
-                  className="w-full"
-                  enter="transition ease-in-out duration-700 transform order-first"
-                  enterStart="opacity-0 translate-y-16"
-                  enterEnd="opacity-100 translate-y-0"
-                  leave="transition ease-in-out duration-300 transform absolute"
-                  leaveStart="opacity-100 translate-y-0"
-                  leaveEnd="opacity-0 -translate-y-16"
-                >
-                  <SimpleMap />
-                </Transition>
-              </div>
-            </div >
+                </div>
+                <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                  <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
 
+          {/* Tabs items */}
+          <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
+            <div className="relative flex flex-col text-center lg:text-right">
+              {/* Item 1 */}
+              <Transition
+                show={tab === 1}
+                appear={true}
+                className="w-full"
+                enter="transition ease-in-out duration-700 transform order-first"
+                enterStart="opacity-0 translate-y-16"
+                enterEnd="opacity-100 translate-y-0"
+                leave="transition ease-in-out duration-300 transform absolute"
+                leaveStart="opacity-100 translate-y-0"
+                leaveEnd="opacity-0 -translate-y-16"
+              >
+                <div style={{ padding: "10px" }}>
+                  <MTable />
+                </div>
+              </Transition>
+              {/* Item 2 */}
+              <Transition
+                show={tab === 2}
+                appear={true}
+                className="w-full"
+                enter="transition ease-in-out duration-700 transform order-first"
+                enterStart="opacity-0 translate-y-16"
+                enterEnd="opacity-100 translate-y-0"
+                leave="transition ease-in-out duration-300 transform absolute"
+                leaveStart="opacity-100 translate-y-0"
+                leaveEnd="opacity-0 -translate-y-16"
+              >
+                <div className="relative inline-flex flex-col">
+                  <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="530" height="462" alt="Features bg" />
+                  <img className="md:max-w-none absolute w-full left-0" src={require('../images/features-element.png').default} width="530" height="45" alt="Element" style={{ top: '5%' }} /> {/*md:max-w-none absolute w-full left-0 transform animate-float */}
+                </div>
+              </Transition>
+              {/* Item 3 */}
+              <Transition
+                show={tab === 3}
+                appear={true}
+                className="w-full"
+                enter="transition ease-in-out duration-700 transform order-first"
+                enterStart="opacity-0 translate-y-16"
+                enterEnd="opacity-100 translate-y-0"
+                leave="transition ease-in-out duration-300 transform absolute"
+                leaveStart="opacity-100 translate-y-0"
+                leaveEnd="opacity-0 -translate-y-16"
+              >
+                <SimpleMap />
+              </Transition>
+            </div>
           </div >
 
         </div >
+
       </div >
     </section >
   );

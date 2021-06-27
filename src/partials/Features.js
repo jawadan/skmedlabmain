@@ -108,18 +108,14 @@ function Features() {
                         Обследование печени
                       </h2>
                     </div>
-                    <div class="flex-shrink-0">
                     <span
                         class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
                     >
                         23000₸
                     </span>
-                    </div>
-                    <div class="flex-shrink-0">
                     <span class="text-gray-500 dark:text-gray-400">
                         10% скидка
                     </span>
-                    </div>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                     >
@@ -127,7 +123,7 @@ function Features() {
                     </button>
                   </div>
 
-                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="w-48 relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -135,18 +131,14 @@ function Features() {
                         Щитовидная железа
                       </h2>
                     </div>
-                    <div class="flex-shrink-0">
                     <span
                         class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
                     >
                         14990₸
                     </span>
-                    </div>
-                    <div class="flex-shrink-0">
                     <span class="text-gray-500 dark:text-gray-400">
                         10% скидка
                     </span>
-                    </div>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                     >
@@ -154,7 +146,7 @@ function Features() {
                     </button>
                   </div>
 
-                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="w-48 relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -162,25 +154,21 @@ function Features() {
                         Диагностика анемии
                       </h2>
                     </div>
-                    <div class="flex-shrink-0">
                     <span
                         class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
                     >
                         9800₸
                     </span>
-                    </div>
-                    <div class="flex-shrink-0">
                     <span class="text-gray-500 dark:text-gray-400">
                         10% скидка
                     </span>
-                    </div>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                     >
                       Детали
                     </button>
                   </div>
-                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="w-48 relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -188,25 +176,21 @@ function Features() {
                         Здоровое сердечко
                       </h2>
                     </div>
-                    <div class="flex-shrink-0">
                     <span
                         class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
                     >
                         7000₸
                     </span>
-                    </div>
-                    <div class="flex-shrink-0">
                     <span class="text-gray-500 dark:text-gray-400">
                         10% скидка
                     </span>
-                    </div>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                     >
                       Детали
                     </button>
                   </div>
-                  <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="w-48 relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -214,18 +198,14 @@ function Features() {
                         Мужское здоровье
                       </h2>
                     </div>
-                    <div class="flex-shrink-0">
                     <span
                         class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
                     >
                         27900₸
                     </span>
-                    </div>
-                    <div class="flex-shrink-0">
                     <span class="text-gray-500 dark:text-gray-400">
                         10% скидка
                     </span>
-                    </div>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                     >

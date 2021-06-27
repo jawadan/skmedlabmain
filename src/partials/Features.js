@@ -100,7 +100,7 @@ function Features() {
             <div class="">
               <div class="container px-6 py-8 mx-auto">
                 <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-                  <div class="w-48 relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="max-w-md mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -123,7 +123,7 @@ function Features() {
                     </button>
                   </div>
 
-                  <div class="w-48 relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="max-w-md mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -146,7 +146,7 @@ function Features() {
                     </button>
                   </div>
 
-                  <div class="w-48 relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="max-w-md mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -168,7 +168,7 @@ function Features() {
                       Детали
                     </button>
                   </div>
-                  <div class="w-48 relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="max-w-md mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -190,7 +190,7 @@ function Features() {
                       Детали
                     </button>
                   </div>
-                  <div class="w-48 relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="max-w-md mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"

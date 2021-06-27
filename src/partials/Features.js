@@ -111,7 +111,7 @@ function Features() {
                     <div class="flex-shrink-0">
                     </div>
                     <span
-                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
+                        class="pt-2 text-4xl font text-gray-800 uppercase dark:text-gray-100"
                     >
                         23000₸
                     </span>
@@ -136,7 +136,7 @@ function Features() {
                     <div class="flex-shrink-0">
                     </div>
                     <span
-                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
+                        class="pt-2 text-4xl font text-gray-800 uppercase dark:text-gray-100"
                     >
                         14990₸
                     </span>
@@ -161,7 +161,7 @@ function Features() {
                     <div class="flex-shrink-0">
                     </div>
                     <span
-                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
+                        class="pt-2 text-4xl font text-gray-800 uppercase dark:text-gray-100"
                     >
                         9800₸
                     </span>
@@ -185,7 +185,7 @@ function Features() {
                     <div class="flex-shrink-0">
                     </div>
                     <span
-                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
+                        class="pt-2 text-4xl font text-gray-800 uppercase dark:text-gray-100"
                     >
                         7000₸
                     </span>
@@ -209,9 +209,9 @@ function Features() {
                     <div class="flex-shrink-0">
                     </div>
                     <span
-                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
+                        class="pt-2 text-4xl font text-gray-800 uppercase dark:text-gray-100"
                     >
-                        27{" "}900{" "}₸
+                        27900₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
                         10% скидка

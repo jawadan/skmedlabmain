@@ -110,35 +110,16 @@ function Features() {
                     </div>
                     <div class="flex-shrink-0">
                     </div>
-                    <ul class="flex-1 space-y-4">
-                      <li class="text-gray-600 text-center">
-                        Аланинаминотрансфераза
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Аспартатаминотрансфераза
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Щелочная фосфатаза
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Гепатит В
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Гепатит С
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Общий белок
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Билирубин общий
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Билирубин прямой
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Билирубин непрямой
-                      </li>
-                    </ul>
+                    <button
+                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    >
+                      23,000тг
+                    </button>
+                    <button
+                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    >
+                      Детали
+                    </button>
                   </div>
 
                   <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
@@ -151,29 +132,16 @@ function Features() {
                     </div>
                     <div class="flex-shrink-0">
                     </div>
-                    <ul class="flex-1 space-y-4">
-                      <li class="text-gray-600 text-center">
-                        ТТГ
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Т3 общий
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Т3 свободный
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Т4 общий
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Т4 свободный
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        АТ-ТГ
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        АТ-ТПО
-                      </li>
-                    </ul>
+                    <button
+                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    >
+                      23,000тг
+                    </button>
+                    <button
+                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    >
+                      Детали
+                    </button>
                   </div>
 
                   <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
@@ -186,26 +154,16 @@ function Features() {
                     </div>
                     <div class="flex-shrink-0">
                     </div>
-                    <ul class="flex-1 space-y-4">
-                      <li class="text-gray-600 text-center">
-                        Железо
-                      </li>
-                      <li class="text-gray-600 text-center">
-                        Ферритин
-                      </li>
-                      <li class="text-gray-600 text-center">
-                      Общий анализ крови
-                      </li>
-                      <li class="text-gray-600 text-center">
-                      Билирубин общий
-                      </li>
-                      <li class="text-gray-600 text-center">
-                      Билирубин прямой
-                      </li>
-                      <li class="text-gray-600 text-center">
-                      Билирубин непрямой
-                      </li>
-                    </ul>
+                    <button
+                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    >
+                      23,000тг
+                    </button>
+                    <button
+                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    >
+                      Детали
+                    </button>
                   </div>
                   <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
@@ -217,20 +175,16 @@ function Features() {
                     </div>
                     <div class="flex-shrink-0">
                     </div>
-                    <ul class="flex-1 space-y-4">
-                      <li class="text-gray-600 text-center">
-                      Холестерин общий
-                      </li>
-                      <li class="text-gray-600 text-center">
-                      Холестерин-ЛПВП
-                      </li>
-                      <li class="text-gray-600 text-center">
-                      Холестерин-ЛПНП
-                      </li>
-                      <li class="text-gray-600 text-center">
-                      Индекс атерогенности
-                      </li>
-                    </ul>
+                    <button
+                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    >
+                      23,000тг
+                    </button>
+                    <button
+                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    >
+                      Детали
+                    </button>
                   </div>
                   <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
@@ -242,26 +196,16 @@ function Features() {
                     </div>
                     <div class="flex-shrink-0">
                     </div>
-                    <ul class="flex-1 space-y-4">
-                      <li class="text-gray-600 text-center">
-                      Тестостерон общий
-                      </li>
-                      <li class="text-gray-600 text-center">
-                      Пролактин
-                      </li>
-                      <li class="text-gray-600 text-center">
-                      ЛГ
-                      </li>
-                      <li class="text-gray-600 text-center">
-                      ФСГ
-                      </li>
-                      <li class="text-gray-600 text-center">
-                      ТТГ
-                      </li>
-                      <li class="text-gray-600 text-center">
-                      Эстрадиол
-                      </li>
-                    </ul>
+                    <button
+                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    >
+                      23,000тг
+                    </button>
+                    <button
+                      class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    >
+                      Детали
+                    </button>
                   </div>
                 </div>
               </div>

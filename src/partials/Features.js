@@ -113,7 +113,7 @@ function Features() {
                     <span
                         class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                        ₸23.000
+                        23 000₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
                         10% скидка
@@ -138,7 +138,7 @@ function Features() {
                     <span
                         class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                        ₸14.990
+                        14 990₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
                         10% скидка
@@ -163,7 +163,7 @@ function Features() {
                     <span
                         class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                        ₸9.800
+                        9 800₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
                         10% скидка
@@ -187,7 +187,7 @@ function Features() {
                     <span
                         class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                        ₸7.000
+                        7 000₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
                         10% скидка
@@ -211,7 +211,7 @@ function Features() {
                     <span
                         class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                        ₸27.900
+                        27 900₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
                         10% скидка

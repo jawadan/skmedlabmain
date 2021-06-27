@@ -113,10 +113,10 @@ function Features() {
                     <span
                         class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                        $49.90
+                        ₸23.000
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
-                        /month
+                        10% скидка
                     </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -138,10 +138,10 @@ function Features() {
                     <span
                         class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                        $49.90
+                        ₸14.990
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
-                        /month
+                        10% скидка
                     </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -163,10 +163,10 @@ function Features() {
                     <span
                         class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                        $49.90
+                        ₸9.800
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
-                        /month
+                        10% скидка
                     </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -187,10 +187,10 @@ function Features() {
                     <span
                         class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                        $49.90
+                        ₸7.000
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
-                        /month
+                        10% скидка
                     </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -211,10 +211,10 @@ function Features() {
                     <span
                         class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
                     >
-                        $49.90
+                        ₸27.900
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
-                        /month
+                        10% скидка
                     </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"

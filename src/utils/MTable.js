@@ -5,7 +5,7 @@ import { data } from "./data";
 const MTable = () => {
     const columns = [
         { title: "Наименование", field: "title" },
-        { title: "Цена", field: "price" },
+        { title: "Цена(₸)", field: "price" },
 
     ];
     return (

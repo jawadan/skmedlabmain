@@ -100,7 +100,7 @@ function Features() {
             <div class="">
               <div class="container px-6 py-8 mx-auto">
                 <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-                  <div class="max-w-md mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="max-w-xl mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -109,12 +109,12 @@ function Features() {
                       </h2>
                     </div>
                     <span
-                        class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                      class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
                     >
-                        23000₸
+                      23000₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
-                        10% скидка
+                      10% скидка
                     </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -123,7 +123,7 @@ function Features() {
                     </button>
                   </div>
 
-                  <div class="max-w-md mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="max-w-xl mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -132,12 +132,12 @@ function Features() {
                       </h2>
                     </div>
                     <span
-                        class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                      class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
                     >
-                        14990₸
+                      14990₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
-                        10% скидка
+                      10% скидка
                     </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -146,7 +146,7 @@ function Features() {
                     </button>
                   </div>
 
-                  <div class="max-w-md mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="max-w-xl mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -155,12 +155,12 @@ function Features() {
                       </h2>
                     </div>
                     <span
-                        class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                      class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
                     >
-                        9800₸
+                      9800₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
-                        10% скидка
+                      10% скидка
                     </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -168,7 +168,7 @@ function Features() {
                       Детали
                     </button>
                   </div>
-                  <div class="max-w-md mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="max-w-xl mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -177,12 +177,12 @@ function Features() {
                       </h2>
                     </div>
                     <span
-                        class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                      class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
                     >
-                        7000₸
+                      7000₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
-                        10% скидка
+                      10% скидка
                     </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -190,7 +190,7 @@ function Features() {
                       Детали
                     </button>
                   </div>
-                  <div class="max-w-md mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+                  <div class="max-w-xl mx-auto relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                     <div class="flex-shrink-0">
                       <h2
                         class="text-xl font-bold leading-snug tracking-tight mb-3"
@@ -199,12 +199,12 @@ function Features() {
                       </h2>
                     </div>
                     <span
-                        class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
+                      class="pt-2 text-3xl font text-gray-800 uppercase dark:text-gray-100"
                     >
-                        27900₸
+                      27900₸
                     </span>
                     <span class="text-gray-500 dark:text-gray-400">
-                        10% скидка
+                      10% скидка
                     </span>
                     <button
                       class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"

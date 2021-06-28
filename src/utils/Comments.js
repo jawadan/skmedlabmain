@@ -26,7 +26,7 @@ class Comments extends Component {
                                 </div>
                             </div>
                             <div class="w-full">
-                                <p class="text-sm leading-tight"><ShowMoreText
+                                <p class="text-sm leading-tight text-justify"><ShowMoreText
                                     /* Default options */
                                     lines={3}
                                     more='Подробнее'
@@ -52,7 +52,7 @@ class Comments extends Component {
                                 </div>
                             </div>
                             <div class="w-full">
-                                <p class="text-sm leading-tight"><ShowMoreText
+                                <p class="text-sm leading-tight text-justify"><ShowMoreText
                                     
                                     lines={3}
                                     more='Подробнее'
@@ -80,7 +80,7 @@ class Comments extends Component {
                                 </div>
                             </div>
                             <div class="w-full">
-                                <p class="text-sm leading-tight"><ShowMoreText
+                                <p class="text-sm leading-tight text-justify"><ShowMoreText
 
                                     lines={3}
                                     more='Подробнее'
@@ -106,7 +106,7 @@ class Comments extends Component {
                                 </div>
                             </div>
                             <div class="w-full">
-                                <p class="text-sm leading-tight"><ShowMoreText
+                                <p class="text-sm leading-tight text-justify"><ShowMoreText
                                     /* Default options */
                                     lines={3}
                                     more='Подробнее'
@@ -134,7 +134,7 @@ class Comments extends Component {
                                 </div>
                             </div>
                             <div class="w-full">
-                                <p class="text-sm leading-tight"><ShowMoreText
+                                <p class="text-sm leading-tight text-justify"><ShowMoreText
                                     /* Default options */
                                     lines={3}
                                     more='Подробнее'
@@ -144,7 +144,7 @@ class Comments extends Component {
                                     onClick={this.executeOnClick}
                                     expanded={false}
                                     width={280}
-                                >"Знаю Сауле Кадырхановну более 30-ти лет, когда она работала еще  в Центральной клинической больнице 4-го Главного Управления при МЗ. медсестрой детского отделения. С тех пор она прошла длинный путь становления как специалиста, профессионала, работала в БСМП, ГКБ №5. Отмечаю работу Сауле Кадырхановны как высокопрофессиональную: блестящий интеллектуал, доброжелательная, отзывчивая, знающая, умеющая ответить на любые сложные вопросы лабораторной работы, как в методическом плане по соблюдению стандартов клинической лабораторной диагностики, так и практическом их применении. Рада отметить открытие ею медицинского центра. Считаю верным такое решение, побольше таких частных центров с таким грамотным руководством. Желаю на этом пути развития, расширения пула оказываемых услуг и побольше таких же профессиональных сотрудников."
+                                >"Знаю Сауле Кадырхановну более 30-ти лет, когда она работала еще  в Центральной клинической больнице 4-го Главного Управления при МЗ медсестрой детского отделения. С тех пор она прошла длинный путь становления как специалиста, профессионала, работала в БСМП, ГКБ №5. Отмечаю работу Сауле Кадырхановны как высокопрофессиональную: блестящий интеллектуал, доброжелательная, отзывчивая, знающая, умеющая ответить на любые сложные вопросы лабораторной работы, как в методическом плане по соблюдению стандартов клинической лабораторной диагностики, так и практическом их применении. Рада отметить открытие ею медицинского центра. Считаю верным такое решение, побольше таких частных центров с таким грамотным руководством. Желаю на этом пути развития, расширения пула оказываемых услуг и побольше таких же профессиональных сотрудников."
                                 </ShowMoreText></p>
                             </div>
                         </div>
@@ -160,7 +160,7 @@ class Comments extends Component {
                                 </div>
                             </div>
                             <div class="w-full">
-                                <p class="text-sm leading-tight"><ShowMoreText
+                                <p class="text-sm leading-tight text-justify"><ShowMoreText
                                     
                                     lines={3}
                                     more='Подробнее'

@@ -40,60 +40,6 @@ class Comments extends Component {
                                 </ShowMoreText></p>
                             </div>
                         </div>
-                        {/* <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                            <div class="w-full flex mb-4 items-center">
-                                <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                    <img src="https://i.imgur.com/o48qD5D.png" alt="Габдушева Светлана Касымхановна" />
-                                </div>
-                                <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm text-gray-600">Габдушева Светлана Касымхановна</h6>
-                                    <p className="text-gray-600">Отличник здравоохранения РК</p>
-                                </div>
-                            </div>
-                            <div class="w-full">
-                                <p class="text-sm leading-tight"><ShowMoreText
-                                    
-                                    lines={3}
-                                    more='Подробнее'
-                                    less='Свернуть'
-                                    className='content-css'
-                                    anchorClass='my-anchor'
-                                    onClick={this.executeOnClick}
-                                    expanded={false}
-                                    width={280}
-                                >"Турсынову Сауле Кадырхановну знаю более 25 лет. Познакомились мы как коллеги в клинико-диагностической лаборатории Больницы скорой медицинской помощи г.Алматы. В процессе нашей совместной деятельности она проявила себя как профессионал высокого класса и надежный товарищ. Постоянно повышая свою квалификацию, она заслуженно росла как специалист лабораторной диагностики — процесса, являющегося основой эффективного лечения пациентов. Принимала участие в работе Алматинского  городского общества врачей-лаборантов, и позже была избрана его председателем. Меня обрадовала новость об открытии ею медицинского центра. Зная ее многие годы, могу подтвердить, что она действительно дорожит своей профессиональной репутацией, применяет самые современные технологии лабораторной диагностики и строго соблюдает все стандарты и нормативы. Желаю ей успеха и процветания!"
-                                </ShowMoreText></p>
-                            </div>
-                        </div> */}
-                    </div>
-                    <div class="px-3 md:w-1/3">
-                        <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                            <div class="w-full flex mb-4 items-center">
-                                <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                    <img src="https://i.imgur.com/2VA98ub.png" alt="Габдушева Светлана Касымхановна" />
-                                </div>
-                                <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm text-gray-900">Габдушева Светлана Касымхановна</h6>
-                                    <p className="text-sm text-gray-600">Врач-лаборант первой категории,</p>
-                                    <p className="text-sm text-gray-600">Отличник здравоохранения РК</p>
-                                </div>
-                            </div>
-                            <div class="w-full">
-                                <p class="text-sm leading-tight"><ShowMoreText
-                                    /* Default options */
-                                    lines={3}
-                                    more='Подробнее'
-                                    less='Свернуть'
-                                    className='content-css'
-                                    anchorClass='my-anchor'
-                                    onClick={this.executeOnClick}
-                                    expanded={false}
-                                    width={280}
-                                >"Турсынову Сауле Кадырхановну знаю более 25 лет. Познакомились мы как коллеги в клинико-диагностической лаборатории Больницы скорой медицинской помощи г.Алматы. В процессе нашей совместной деятельности она проявила себя как профессионал высокого класса и надежный товарищ. Постоянно повышая свою квалификацию, она заслуженно росла как специалист лабораторной диагностики — процесса, являющегося основой эффективного лечения пациентов. Принимала участие в работе Алматинского  городского общества врачей-лаборантов, и позже была избрана его председателем. Меня обрадовала новость об открытии ею медицинского центра. Зная ее многие годы, могу подтвердить, что она действительно дорожит своей профессиональной репутацией, применяет самые современные технологии лабораторной диагностики и строго соблюдает все стандарты и нормативы. Желаю ей успеха и процветания!"
-
-                                </ShowMoreText></p>
-                            </div>
-                        </div>
                         <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                             <div class="w-full flex mb-4 items-center">
                                 <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
@@ -124,11 +70,65 @@ class Comments extends Component {
                         <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                             <div class="w-full flex mb-4 items-center">
                                 <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                    <img src="https://i.imgur.com/IbZ31TP.png" alt="Искакова Сауле Акельбековна" />
+                                </div>
+                                <div class="flex-grow pl-3">
+                                    <h6 class="font-bold text-sm text-gray-900">Искакова Сауле Акельбековна</h6>
+                                    <p className="text-sm text-gray-600">ДБН, зам.руков. НИИ Атчабарова</p>
+                                    <p className="text-sm text-gray-600">КазНМУ им С.Д.Асфендиярова</p>
+                                </div>
+                            </div>
+                            <div class="w-full">
+                                <p class="text-sm leading-tight"><ShowMoreText
+                                    /* Default options */
+                                    lines={3}
+                                    more='Подробнее'
+                                    less='Свернуть'
+                                    className='content-css'
+                                    anchorClass='my-anchor'
+                                    onClick={this.executeOnClick}
+                                    expanded={false}
+                                    width={280}
+                                >"Знаю Сауле Кадырхановну более 30-ти лет, когда она работала еще  в Центральной клинической больнице 4-го Главного Управления при МЗ. медсестрой детского отделения. С тех пор она прошла длинный путь становления как специалиста, профессионала, работала в БСМП, ГКБ №5. Отмечаю работу Сауле Кадырхановны как высокопрофессиональную: блестящий интеллектуал, доброжелательная, отзывчивая, знающая, умеющая ответить на любые сложные вопросы лабораторной работы, как в методическом плане по соблюдению стандартов клинической лабораторной диагностики, так и практическом их применении. Рада отметить открытие ею медицинского центра. Считаю верным такое решение, побольше таких частных центров с таким грамотным руководством. Желаю на этом пути развития, расширения пула оказываемых услуг и побольше таких же профессиональных сотрудников."
+                                </ShowMoreText></p>
+                            </div>
+                        </div>
+                        <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                            <div class="w-full flex mb-4 items-center">
+                                <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                    <img src="https://i.imgur.com/2VA98ub.png" alt="Габдушева Светлана Касымхановна" />
+                                </div>
+                                <div class="flex-grow pl-3">
+                                    <h6 class="font-bold text-sm text-gray-900">Габдушева Светлана Касымхановна</h6>
+                                    <p className="text-sm text-gray-600">Врач-лаборант первой категории,</p>
+                                    <p className="text-sm text-gray-600">Отличник здравоохранения РК</p>
+                                </div>
+                            </div>
+                            <div class="w-full">
+                                <p class="text-sm leading-tight"><ShowMoreText
+                                    /* Default options */
+                                    lines={3}
+                                    more='Подробнее'
+                                    less='Свернуть'
+                                    className='content-css'
+                                    anchorClass='my-anchor'
+                                    onClick={this.executeOnClick}
+                                    expanded={false}
+                                    width={280}
+                                >"Турсынову Сауле Кадырхановну знаю более 25 лет. Познакомились мы как коллеги в клинико-диагностической лаборатории Больницы скорой медицинской помощи г.Алматы. В процессе нашей совместной деятельности она проявила себя как профессионал высокого класса и надежный товарищ. Постоянно повышая свою квалификацию, она заслуженно росла как специалист лабораторной диагностики — процесса, являющегося основой эффективного лечения пациентов. Принимала участие в работе Алматинского  городского общества врачей-лаборантов, и позже была избрана его председателем. Меня обрадовала новость об открытии ею медицинского центра. Зная ее многие годы, могу подтвердить, что она действительно дорожит своей профессиональной репутацией, применяет самые современные технологии лабораторной диагностики и строго соблюдает все стандарты и нормативы. Желаю ей успеха и процветания!"
+                                </ShowMoreText></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 md:w-1/3">
+                        <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                            <div class="w-full flex mb-4 items-center">
+                                <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                     <img src="https://i.imgur.com/ZN5pukI.png" alt="Буркутбаева Татьяна Нуриденовна" />
                                 </div>
                                 <div class="flex-grow pl-3">
                                     <h6 class="font-bold text-sm text-gray-900">Буркутбаева Татьяна Нуриденовна</h6>
-                                    <p className="text-sm text-gray-600">ДМН, профессор кафедры</p>
+                                    <p className="text-sm text-gray-600">ДМН, профессор кафедры </p>
                                     <p className="text-sm text-gray-600">оториноларингологии КазМУНО</p>
                                 </div>
                             </div>

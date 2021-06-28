@@ -68,20 +68,20 @@ class Comments extends Component {
                         </div>
                     </div>
                     <div class="px-3 md:w-1/3">
-                        <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                             <div class="w-full flex mb-4 items-center">
                                 <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                    <img src="https://i.imgur.com/IbZ31TP.png" alt="Искакова Сауле Акельбековна" />
+                                    <img src="https://i.imgur.com/ZN5pukI.png" alt="Буркутбаева Татьяна Нуриденовна" />
                                 </div>
                                 <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm text-gray-900">Искакова Сауле Акельбековна</h6>
-                                    <p className="text-sm text-gray-600">ДБН, зам.руков. НИИ Атчабарова</p>
-                                    <p className="text-sm text-gray-600">КазНМУ имени С.Д.Асфендиярова</p>
+                                    <h6 class="font-bold text-sm text-gray-900">Буркутбаева Татьяна Нуриденовна</h6>
+                                    <p className="text-sm text-gray-600">ДМН, профессор кафедры </p>
+                                    <p className="text-sm text-gray-600">оториноларингологии КазМУНО</p>
                                 </div>
                             </div>
                             <div class="w-full">
                                 <p class="text-sm leading-tight"><ShowMoreText
-                                    /* Default options */
+
                                     lines={3}
                                     more='Подробнее'
                                     less='Свернуть'
@@ -90,7 +90,7 @@ class Comments extends Component {
                                     onClick={this.executeOnClick}
                                     expanded={false}
                                     width={280}
-                                >"Знаю Сауле Кадырхановну более 30-ти лет, когда она работала еще  в Центральной клинической больнице 4-го Главного Управления при МЗ. медсестрой детского отделения. С тех пор она прошла длинный путь становления как специалиста, профессионала, работала в БСМП, ГКБ №5. Отмечаю работу Сауле Кадырхановны как высокопрофессиональную: блестящий интеллектуал, доброжелательная, отзывчивая, знающая, умеющая ответить на любые сложные вопросы лабораторной работы, как в методическом плане по соблюдению стандартов клинической лабораторной диагностики, так и практическом их применении. Рада отметить открытие ею медицинского центра. Считаю верным такое решение, побольше таких частных центров с таким грамотным руководством. Желаю на этом пути развития, расширения пула оказываемых услуг и побольше таких же профессиональных сотрудников."
+                                >"Огромный опыт, потенциал, высокая квалификация позволили Сауле Кадырхановне достичь установленных задач по организации мед.центра «SK-MEDLAB». Уверена, что преданность своему делу, трудолюбие, ответственность, инициативность и целеустремленность позволят добиться ей и в дальнейшем блестящих результатов.  Желаю медицинскому центру процветания и успехов в деле сохранения здоровья общества. Пусть оптимизм и деловой настрой сопутствуют в работе! "
                                 </ShowMoreText></p>
                             </div>
                         </div>
@@ -122,20 +122,20 @@ class Comments extends Component {
                         </div>
                     </div>
                     <div class="px-3 md:w-1/3">
-                        <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                             <div class="w-full flex mb-4 items-center">
                                 <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                    <img src="https://i.imgur.com/ZN5pukI.png" alt="Буркутбаева Татьяна Нуриденовна" />
+                                    <img src="https://i.imgur.com/IbZ31TP.png" alt="Искакова Сауле Акельбековна" />
                                 </div>
                                 <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm text-gray-900">Буркутбаева Татьяна Нуриденовна</h6>
-                                    <p className="text-sm text-gray-600">ДМН, профессор кафедры </p>
-                                    <p className="text-sm text-gray-600">оториноларингологии КазМУНО</p>
+                                    <h6 class="font-bold text-sm text-gray-900">Искакова Сауле Акельбековна</h6>
+                                    <p className="text-sm text-gray-600">ДБН, зам.руков. НИИ Атчабарова</p>
+                                    <p className="text-sm text-gray-600">КазНМУ имени С.Д.Асфендиярова</p>
                                 </div>
                             </div>
                             <div class="w-full">
                                 <p class="text-sm leading-tight"><ShowMoreText
-
+                                    /* Default options */
                                     lines={3}
                                     more='Подробнее'
                                     less='Свернуть'
@@ -144,17 +144,19 @@ class Comments extends Component {
                                     onClick={this.executeOnClick}
                                     expanded={false}
                                     width={280}
-                                >"Огромный опыт, потенциал, высокая квалификация позволили Сауле Кадырхановне достичь установленных задач по организации мед.центра «SK-MEDLAB». Уверена, что преданность своему делу, трудолюбие, ответственность, инициативность и целеустремленность позволят добиться ей и в дальнейшем блестящих результатов.  Желаю медицинскому центру процветания и успехов в деле сохранения здоровья общества. Пусть оптимизм и деловой настрой сопутствуют в работе! "
+                                >"Знаю Сауле Кадырхановну более 30-ти лет, когда она работала еще  в Центральной клинической больнице 4-го Главного Управления при МЗ. медсестрой детского отделения. С тех пор она прошла длинный путь становления как специалиста, профессионала, работала в БСМП, ГКБ №5. Отмечаю работу Сауле Кадырхановны как высокопрофессиональную: блестящий интеллектуал, доброжелательная, отзывчивая, знающая, умеющая ответить на любые сложные вопросы лабораторной работы, как в методическом плане по соблюдению стандартов клинической лабораторной диагностики, так и практическом их применении. Рада отметить открытие ею медицинского центра. Считаю верным такое решение, побольше таких частных центров с таким грамотным руководством. Желаю на этом пути развития, расширения пула оказываемых услуг и побольше таких же профессиональных сотрудников."
                                 </ShowMoreText></p>
                             </div>
                         </div>
                         {/* <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                             <div class="w-full flex mb-4 items-center">
                                 <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                    <img src="https://i.pravatar.cc/100?img=6" alt="" />
+                                    <img src="https://i.imgur.com/IbZ31TP.png" alt="Искакова Сауле Акельбековна" />
                                 </div>
                                 <div class="flex-grow pl-3">
-                                    <h6 class="font-bold text-sm text-gray-600">Kris Stanton.</h6>
+                                    <h6 class="font-bold text-sm text-gray-900">Искакова Сауле Акельбековна</h6>
+                                    <p className="text-sm text-gray-600">ДБН, зам.руков. НИИ Атчабарова</p>
+                                    <p className="text-sm text-gray-600">КазНМУ имени С.Д.Асфендиярова</p>
                                 </div>
                             </div>
                             <div class="w-full">
@@ -168,16 +170,7 @@ class Comments extends Component {
                                     onClick={this.executeOnClick}
                                     expanded={false}
                                     width={280}
-                                >
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    minim veniam, quis nostrud exercitation ullamco laboris nisi
-                                    ut aliquip ex Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud exercitation ullamco laboris nisi ut aliquip ex
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                >"Знаю Сауле Кадырхановну более 30-ти лет, когда она работала еще  в Центральной клинической больнице 4-го Главного Управления при МЗ. медсестрой детского отделения. С тех пор она прошла длинный путь становления как специалиста, профессионала, работала в БСМП, ГКБ №5. Отмечаю работу Сауле Кадырхановны как высокопрофессиональную: блестящий интеллектуал, доброжелательная, отзывчивая, знающая, умеющая ответить на любые сложные вопросы лабораторной работы, как в методическом плане по соблюдению стандартов клинической лабораторной диагностики, так и практическом их применении. Рада отметить открытие ею медицинского центра. Считаю верным такое решение, побольше таких частных центров с таким грамотным руководством. Желаю на этом пути развития, расширения пула оказываемых услуг и побольше таких же профессиональных сотрудников."
                                 </ShowMoreText></p>
                             </div>
                         </div> */}

@@ -47,7 +47,8 @@ class Comments extends Component {
                                 </div>
                                 <div class="flex-grow pl-3">
                                     <h6 class="font-bold text-sm text-gray-900">Нарибай Роза Жұмбайқызы</h6>
-                                    <p className="text-sm text-gray-600">БҒК, Абай атындағы ҚазҰПУ доценті</p>
+                                    <p className="text-sm text-gray-600">БҒК, Абай атындағы ҚазҰПУ</p>
+                                    <p className="text-sm text-gray-600">доценті</p>
                                 </div>
                             </div>
                             <div class="w-full">
@@ -75,7 +76,7 @@ class Comments extends Component {
                                 <div class="flex-grow pl-3">
                                     <h6 class="font-bold text-sm text-gray-900">Искакова Сауле Акельбековна</h6>
                                     <p className="text-sm text-gray-600">ДБН, зам.руков. НИИ Атчабарова</p>
-                                    <p className="text-sm text-gray-600">КазНМУ им С.Д.Асфендиярова</p>
+                                    <p className="text-sm text-gray-600">КазНМУ имени С.Д.Асфендиярова</p>
                                 </div>
                             </div>
                             <div class="w-full">

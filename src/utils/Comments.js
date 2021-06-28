@@ -101,8 +101,7 @@ class Comments extends Component {
                                 </div>
                                 <div class="flex-grow pl-3">
                                     <h6 class="font-bold text-sm text-gray-900">Нарибай Роза Жұмбайқызы</h6>
-                                    <p className="text-sm text-gray-600">БҒК, Абай атындағы</p>
-                                    <p className="text-sm text-gray-600">ҚазҰПУ доценті</p>
+                                    <p className="text-sm text-gray-600">БҒК, Абай атындағы ҚазҰПУ доценті</p>
                                 </div>
                             </div>
                             <div class="w-full">

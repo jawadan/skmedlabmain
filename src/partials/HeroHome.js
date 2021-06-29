@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
-import Typical from 'react-typical';
+import Typi from '../utils/Typical'
 import { Link } from 'react-router-dom';
 import pdf from '../assets/docs/Pricelist.pdf'
 
@@ -37,21 +37,9 @@ function HeroHome() {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Медицинский центр<br/>Лаборатория<br/><span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-red-800">SK-MEDLAB</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Мы делаем высококачественные анализы{' '}
-              <Typical
-                loop={Infinity}
-                wrapper="b"
-                steps={[
-                  'в короткие сроки.',
-                  2000,
-                  'по доступным ценам.',
-                  2000,
-                  'в день приема.',
-                  2000,
-                  'с заботой и любовью.',
-                  2000
-                ]}
-              /></p>
+
+            <Typi />
+            
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                 <Link to="blog" className="btn text-white bg-yellow-600 hover:bg-yellow-500 w-full mb-4 sm:w-auto sm:mb-0">Записаться на прием</Link>

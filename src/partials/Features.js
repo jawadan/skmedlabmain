@@ -94,14 +94,14 @@ function Features() {
             </Slider>
           </div>
 
-          {/* <div class="mb-8">
+          {/* <div class="mb-20">
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
               <h1 className="h2 mb-4">Комплексные исследования</h1>
               <p className="text-xl text-gray-600">Своевременно проведенный комплекс исследования может предостеречь от нежданного.</p>
             </div>
-            <div class="container px-6 py-6 mx-auto">
+            <div class="container px-6 mx-auto">
               <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-1">
+                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
                   <div class="flex-shrink-0">
                     <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg">
                       Женское здоровье
@@ -123,7 +123,7 @@ function Features() {
                   </button>
                 </div>
 
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-1">
+                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
                   <div class="flex-shrink-0">
                     <h2
                       class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg"
@@ -147,7 +147,7 @@ function Features() {
                   </button>
                 </div>
 
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-1">
+                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
                   <div class="flex-shrink-0">
                     <h2
                       class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg"
@@ -171,7 +171,7 @@ function Features() {
                   </button>
                 </div>
 
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-1">
+                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
                   <div class="flex-shrink-0">
                     <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg">
                       Здоровая печень
@@ -193,7 +193,7 @@ function Features() {
                   </button>
                 </div>
 
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-1">
+                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
                   <div class="flex-shrink-0">
                     <h2
                       class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg"
@@ -217,7 +217,7 @@ function Features() {
                   </button>
                 </div>
 
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-1">
+                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
                   <div class="flex-shrink-0">
                     <h2
                       class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg"

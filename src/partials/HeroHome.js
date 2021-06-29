@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
-import Typi from '../utils/Typical'
+import Typi from '../utils/Typi'
 import { Link } from 'react-router-dom';
 import pdf from '../assets/docs/Pricelist.pdf'
 

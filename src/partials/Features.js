@@ -4,8 +4,11 @@ import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import SimpleMap from '../utils/SimpleMap.js';
 import MTable from "../utils/MTable";
+import Modal from '../utils/Modal';
 
 function Features() {
+
+  const [textModalOpen, setTextModalOpen] = useState(false);
 
   const content = [
     {
@@ -94,12 +97,12 @@ function Features() {
             </Slider>
           </div>
 
-          {/* <div class="mb-20">
+          <div class="mb-20">
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
               <h1 className="h2 mb-4">Комплексные исследования</h1>
               <p className="text-xl text-gray-600">Своевременно проведенный комплекс исследования может предостеречь от нежданного.</p>
             </div>
-            <div class="container px-6 mx-auto">
+            {/* <div class="container px-6 mx-auto">
               <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
                 <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
                   <div class="flex-shrink-0">
@@ -107,20 +110,67 @@ function Features() {
                       Женское здоровье
                     </h2>
                   </div>
-                    <span
-                      class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
-                    >
-                      $24.90
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                      10% скидка
-                    </span>
+                  <span
+                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
+                  >
+                    $24.90
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
 
                   <button
+                    onClick={(e) => { e.preventDefault(); e.stopPropagation(); setTextModalOpen(true); }} aria-controls="modal"
                     class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
                   >
                     Детали
                   </button>
+                  <Modal id="modal" ariaLabel="modal-headline" show={textModalOpen} handleClose={() => setTextModalOpen(false)}>
+                    <div className="relative ">
+                      <h1 className="h2">Женское здоровье</h1>
+                      <p className="text-xl text-gray-900 mb-4">Список анализов которые входят в комплекс.</p>
+                      <ul className="text-xl text-gray-600">
+                        <li>Общий анализ крови</li>
+                        <li>Скорость оседания эритроцитов (СОЭ)</li>
+                        <li>Общий анализ мочи</li>
+                        <li>Глюкоза</li>
+                        <li>Амилаза общая</li>
+                        <li>Холестерин общий</li>
+                        <li>Мочевина</li>
+                        <li>Мочевая кислота</li>
+                        <li>Белок общий</li>
+                        <li>Билирубин общий</li>
+                        <li>Триглицериды</li>
+                        <li>Липопротеины высокой плотности (ЛПВП)</li>
+                        <li>Липопротеины низкой плотности (ЛПНП)</li>
+                        <li>АЛТ</li>
+                        <li>Фосфор</li>
+                        <li>Кальций общий</li>
+                        <li>Лактатдегидрогеназа (ЛДГ)</li>
+                        <li>Железо</li>
+                        <li>Гомоцистеин</li>
+                        <li>С-реактивный белок</li>
+                        <li>Ревмо- фактор</li>
+                        <li>СА-125</li>
+                        <li>СА 15-3</li>
+                        <li>СА-19-9</li>
+                        <li>АЧТВ</li>
+                        <li>Протромбиновое время</li>
+                        <li>Протромбиновый индекс</li>
+                        <li>МНО</li>
+                        <li>Тромбиновое время</li>
+                        <li>Фибриноген</li>
+                        <li>Гепатит С</li>
+                        <li>Гепатит В (HBsAg)</li>
+                        <li>ВИЧ</li>
+                        <li>RW</li>
+                        <li>Пролактин</li>
+                        <li>Тиреотропный гормон (ТТГ)</li>
+                        <li>Тироксин свободный (Т4 свободный)</li>
+                        <li>Антитела к тиреопероксидазе (анти-ТПО)</li>
+                      </ul>
+                    </div>
+                  </Modal>
                 </div>
 
                 <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
@@ -131,14 +181,14 @@ function Features() {
                       Мужское здоровье
                     </h2>
                   </div>
-                    <span
-                      class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
-                    >
-                      $24.90
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                      10% скидка
-                    </span>
+                  <span
+                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
+                  >
+                    $24.90
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
 
                   <button
                     class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -155,14 +205,14 @@ function Features() {
                       Сердце и сосуды
                     </h2>
                   </div>
-                    <span
-                      class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
-                    >
-                      $49.90
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                      10% скидка
-                    </span>
+                  <span
+                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
+                  >
+                    $49.90
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
 
                   <button
                     class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -177,14 +227,14 @@ function Features() {
                       Здоровая печень
                     </h2>
                   </div>
-                    <span
-                      class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
-                    >
-                      $24.90
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                      10% скидка
-                    </span>
+                  <span
+                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
+                  >
+                    $24.90
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
 
                   <button
                     class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -201,14 +251,14 @@ function Features() {
                       Липидный спектр
                     </h2>
                   </div>
-                    <span
-                      class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
-                    >
-                      $24.90
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                      10% скидка
-                    </span>
+                  <span
+                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
+                  >
+                    $24.90
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
 
                   <button
                     class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -225,14 +275,14 @@ function Features() {
                       Ежегодное обследование
                     </h2>
                   </div>
-                    <span
-                      class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
-                    >
-                      $49.90
-                    </span>
-                    <span class="text-gray-500 dark:text-gray-400">
-                      10% скидка
-                    </span>
+                  <span
+                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
+                  >
+                    $49.90
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
 
                   <button
                     class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
@@ -241,8 +291,8 @@ function Features() {
                   </button>
                 </div>
               </div>
-            </div>
-          </div> */}
+            </div> */}
+          </div>
 
 
           {/* Section content */}

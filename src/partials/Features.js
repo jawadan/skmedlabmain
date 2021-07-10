@@ -8,7 +8,232 @@ import Modal from '../utils/Modal';
 
 function Features() {
 
-  const [textModalOpen, setTextModalOpen] = useState(false);
+  const [womenModalOpen, setWomenModalOpen] = useState(false);
+  const [menModalOpen, setMenModalOpen] = useState(false);
+  const [heartModalOpen, setHeartModalOpen] = useState(false);
+  const [liverModalOpen, setLiverModalOpen] = useState(false);
+  const [pregnancyModalOpen, setPregnancyModalOpen] = useState(false);
+  const [yearlyModalOpen, setYearlyModalOpen] = useState(false);
+
+  const prices = [
+    {
+      women: [
+        <ul className="text-xl text-gray-600">
+          <li>Общий анализ крови</li>
+          <li>Скорость оседания эритроцитов (СОЭ)</li>
+          <li>Общий анализ мочи</li>
+          <li>Глюкоза</li>
+          <li>Амилаза общая</li>
+          <li>Холестерин общий</li>
+          <li>Мочевина</li>
+          <li>Мочевая кислота</li>
+          <li>Белок общий</li>
+          <li>Билирубин общий</li>
+          <li>Триглицериды</li>
+          <li>Липопротеины высокой плотности (ЛПВП)</li>
+          <li>Липопротеины низкой плотности (ЛПНП)</li>
+          <li>АЛТ</li>
+          <li>Фосфор</li>
+          <li>Кальций общий</li>
+          <li>Лактатдегидрогеназа (ЛДГ)</li>
+          <li>Железо</li>
+          <li>Гомоцистеин</li>
+          <li>С-реактивный белок</li>
+          <li>Ревмо- фактор</li>
+          <li>СА-125</li>
+          <li>СА 15-3</li>
+          <li>СА-19-9</li>
+          <li>АЧТВ</li>
+          <li>Протромбиновое время</li>
+          <li>Протромбиновый индекс</li>
+          <li>МНО</li>
+          <li>Тромбиновое время</li>
+          <li>Фибриноген</li>
+          <li>Гепатит С</li>
+          <li>Гепатит В (HBsAg)</li>
+          <li>ВИЧ</li>
+          <li>RW</li>
+          <li>Пролактин</li>
+          <li>Тиреотропный гормон (ТТГ)</li>
+          <li>Тироксин свободный (Т4 свободный)</li>
+          <li>Антитела к тиреопероксидазе (анти-ТПО)</li>
+        </ul>
+      ],
+      men: [
+        <ul className="text-xl text-gray-600">
+          <li>Общий анализ крови</li>
+          <li>Скорость оседания эритроцитов (СОЭ)</li>
+          <li>Общий анализ мочи</li>
+          <li>Глюкоза</li>
+          <li>Амилаза общая</li>
+          <li>Холестерол общий</li>
+          <li>Мочевина</li>
+          <li>Мочевая кислота</li>
+          <li>Белок общий</li>
+          <li>Билирубин общий</li>
+          <li>Триглицериды</li>
+          <li>Липопротеины высокой плотности (ЛПВП)</li>
+          <li>Липопротеины низкой плотности (ЛПНП)</li>
+          <li>АЛТ</li>
+          <li>АСТ</li>
+          <li>Кальций общий</li>
+          <li>Лактатдегидрогеназа (ЛДГ)</li>
+          <li>Железо</li>
+          <li>Гомоцистеин</li>
+          <li>С-реактивный белок</li>
+          <li>Ревмо- фактор</li>
+          <li>АЧТВ</li>
+          <li>Протромбиновое  время</li>
+          <li>Протромбиновый индекс</li>
+          <li>МНО</li>
+          <li>Тромбиновое время</li>
+          <li>Фибриноген</li>
+          <li>Д-димер</li>
+          <li>Гепатит С</li>
+          <li>Гепатит В (HBsAg)</li>
+          <li>ВИЧ</li>
+          <li>RW</li>
+          <li>Пролактин</li>
+          <li>Тиреотропный гормон (ТТГ)</li>
+          <li>Тироксин свободный (Т4 свободный)</li>
+          <li>Антитела к тиреопероксидазе (анти-ТПО)</li>
+          <li>Тестостерон</li>
+          <li>Раковый эмбриональный антиген (РЭА)</li>
+          <li>СА-19-9</li>
+          <li>Простатспецифический антиген общий (ПСА общий)</li>
+          <li>Простатспецифический антиген свободный (ПСА свободный)</li>
+        </ul>
+      ],
+      heart: [
+        <ul className="text-xl text-gray-600">
+          <li>Общий анализ крови</li>
+          <li>Скорость оседания эритроцитов (СОЭ)</li>
+          <li>АСТ</li>
+          <li>АЧТВ</li>
+          <li>Протромбиновое  время</li>
+          <li>Протромбиновый индекс</li>
+          <li>МНО</li>
+          <li>Тромбиновое время</li>
+          <li>Фибриноген</li>
+          <li>Антитромбин III</li>
+          <li>Волчаночный антикоагулянт</li>
+          <li>Глюкоза</li>
+          <li>Гликированный гемоглобин (HbA 1c)</li>
+          <li>Железо</li>
+          <li>Калий</li>
+          <li>натрий</li>
+          <li>хлор</li>
+          <li>Лактатдегидрогеназа (ЛДГ)</li>
+          <li>Мочевая кислота</li>
+          <li>С-реактивный белок</li>
+          <li>Триглицериды</li>
+          <li>Холестерол общий</li>
+          <li>Липопротеины высокой плотности (ЛПВП)</li>
+          <li>Липопротеины низкой плотности (ЛПНП)</li>
+          <li>Коэффициент атерогенности</li>
+          <li>Тироксин свободный (Т4 свободный)</li>
+          <li>Тиреотропный гормон (ТТГ)</li>
+          <li>Антитела к тиреопероксидазе (анти-ТПО)</li>
+        </ul>
+      ],
+      liver: [
+        <ul className="text-xl text-gray-600">
+          <li>Аланинаминотрансфераза</li>
+          <li>Аспартатаминотрансфераза</li>
+          <li>Щелочная фосфатаза</li>
+          <li>Общий белок</li>
+          <li>Билирубин общий</li>
+          <li>Билирубин прямой</li>
+          <li>Билирубин непрямой</li>
+          <li>Гепатит В</li>
+          <li>Гепатит С</li>
+          <li>Фосфатаза щелочная</li>
+          <li>Глюкоза</li>
+          <li>Лактатдегидрогеназа (ЛДГ)</li>
+          <li>Холестерол общий</li>
+          <li>Железо</li>
+          <li>АЧТВ</li>
+          <li>Протромбиновое  время</li>
+          <li>Протромбиновый индекс</li>
+          <li>МНО</li>
+          <li>Тромбиновое время</li>
+          <li>Фибриноген</li>
+          <li>Лямблиоз IgA</li>
+          <li>Лямблиоз IgG</li>
+        </ul>
+      ],
+      pregnancy: [
+        <ul className="text-xl text-gray-600">
+          <li>Общий анализ крови</li>
+          <li>Скорость оседания эритроцитов (СОЭ)</li>
+          <li>Общий анализ мочи </li>
+          <li>Глюкоза </li>
+          <li>Креатинин </li>
+          <li>Мочевина</li>
+          <li>Белок общий </li>
+          <li>Билирубин общий </li>
+          <li>АЛТ </li>
+          <li>АСТ </li>
+          <li>Железо </li>
+          <li>Кальций </li>
+          <li>Магний</li>
+          <li>Калий </li>
+          <li>натрий</li>
+          <li>Фосфор</li>
+          <li>Волчаночный антикоагулянт</li>
+          <li>Гомоцистеин</li>
+          <li>Фолликулостимулирующий гормон (ФСГ)</li>
+          <li>Лютеинизирующий гормон (ЛГ)</li>
+          <li>пролактин</li>
+          <li>эстрадиол</li>
+          <li>тестостерон</li>
+          <li>прогестерон</li>
+          <li>Дегидроэпиандростерон-сульфат </li>
+          <li>Тиреотропный гормон (ТТГ)</li>
+          <li>Тироксин свободный (Т4 свободный)</li>
+          <li>Chlamydia trachomatis (Хламидиа трахоматис) IgА</li>
+          <li>Chlamydia trachomatis (Хламидиа трахоматис) IgG</li>
+          <li>Ureaplasma urealyticum (Уреаплазма уреалитикум) IgM</li>
+          <li>Ureaplasma urealyticum (Уреаплазма уреалитикум) IgG</li>
+          <li>Mycoplasma hominis (Микоплазма хоминис) IgM</li>
+          <li>Mycoplasma hominis (Микоплазма хоминис) IgG</li>
+          <li>Trichomonas vaginalis (Трихомонас вагиналис) IgM</li>
+          <li>Trichomonas vaginalis (Трихомонас вагиналис) IgG</li>
+          <li>Gardnerella vaginalis (Гарднерелла вагиналис) IgM</li>
+          <li>Gardnerella vaginalis (Гарднерелла вагиналис) IgG</li>
+          <li>ЦМВ (Цитомегаловирус) IgM</li>
+          <li>ЦМВ (Цитомегаловирус) IgG</li>
+          <li>ВПГ (Вирус простого герпеса) IgM, 1 и 2 типов</li>
+          <li>ВПГ (Вирус простого герпеса) IgG, 1 и 2 типов</li>
+        </ul>
+      ],
+      yearly: [
+        <ul className="text-xl text-gray-600">
+          <li>Кальций общий</li>
+          <li>Билирубин общий</li>
+          <li>Клинический анализ крови с лейкоцитарной формулой (ОАК)</li>
+          <li>СОЭ</li>
+          <li>Железо</li>
+          <li>Мочевина</li>
+          <li>Креатинин</li>
+          <li>С-реактивный белок</li>
+          <li>Ревмофактор</li>
+          <li>Глюкоза</li>
+          <li>Гликозилированный гемоглобин</li>
+          <li>АСТ</li>
+          <li>АЛТ</li>
+          <li>Билирубин прямой</li>
+          <li>Общий белок</li>
+          <li>Холестерин-ЛПВП</li>
+          <li>Холестерин общий</li>
+          <li>Холестерин-ЛПНП</li>
+          <li>Щелочная фосфатаза</li>
+          <li>Триглицериды</li>
+          <li>ТТГ</li>
+        </ul>
+      ]
+    }
+  ];
 
   const content = [
     {
@@ -31,8 +256,7 @@ function Features() {
     },
     {
       title: "Как меняется личность с годами",
-      description:
-        "Как меняется личность человека по мере старения – отрывок из книги нейробиолога “Счастливое старение”.",
+      description: "Как меняется личность человека по мере старения – отрывок из книги нейробиолога “Счастливое старение”.",
       button: "Читать",
       href: "https://zozhnik.ru/kak_menyaetsya_lichnost_starenie",
       image: "https://i.imgur.com/tAfAwfT.jpg",
@@ -102,171 +326,8 @@ function Features() {
               <h1 className="h2 mb-4">Комплексные исследования</h1>
               <p className="text-xl text-gray-600">Своевременно проведенный комплекс исследования может предостеречь от нежданного.</p>
             </div>
-            {/* <div class="container px-6 mx-auto">
+            <div class="container px-6 mx-auto">
               <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
-                  <div class="flex-shrink-0">
-                    <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg">
-                      Женское здоровье
-                    </h2>
-                  </div>
-                  <span
-                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
-                  >
-                    $24.90
-                  </span>
-                  <span class="text-gray-500 dark:text-gray-400">
-                    10% скидка
-                  </span>
-
-                  <button
-                    onClick={(e) => { e.preventDefault(); e.stopPropagation(); setTextModalOpen(true); }} aria-controls="modal"
-                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                  >
-                    Детали
-                  </button>
-                  <Modal id="modal" ariaLabel="modal-headline" show={textModalOpen} handleClose={() => setTextModalOpen(false)}>
-                    <div className="relative ">
-                      <h1 className="h2">Женское здоровье</h1>
-                      <p className="text-xl text-gray-900 mb-4">Список анализов которые входят в комплекс.</p>
-                      <ul className="text-xl text-gray-600">
-                        <li>Общий анализ крови</li>
-                        <li>Скорость оседания эритроцитов (СОЭ)</li>
-                        <li>Общий анализ мочи</li>
-                        <li>Глюкоза</li>
-                        <li>Амилаза общая</li>
-                        <li>Холестерин общий</li>
-                        <li>Мочевина</li>
-                        <li>Мочевая кислота</li>
-                        <li>Белок общий</li>
-                        <li>Билирубин общий</li>
-                        <li>Триглицериды</li>
-                        <li>Липопротеины высокой плотности (ЛПВП)</li>
-                        <li>Липопротеины низкой плотности (ЛПНП)</li>
-                        <li>АЛТ</li>
-                        <li>Фосфор</li>
-                        <li>Кальций общий</li>
-                        <li>Лактатдегидрогеназа (ЛДГ)</li>
-                        <li>Железо</li>
-                        <li>Гомоцистеин</li>
-                        <li>С-реактивный белок</li>
-                        <li>Ревмо- фактор</li>
-                        <li>СА-125</li>
-                        <li>СА 15-3</li>
-                        <li>СА-19-9</li>
-                        <li>АЧТВ</li>
-                        <li>Протромбиновое время</li>
-                        <li>Протромбиновый индекс</li>
-                        <li>МНО</li>
-                        <li>Тромбиновое время</li>
-                        <li>Фибриноген</li>
-                        <li>Гепатит С</li>
-                        <li>Гепатит В (HBsAg)</li>
-                        <li>ВИЧ</li>
-                        <li>RW</li>
-                        <li>Пролактин</li>
-                        <li>Тиреотропный гормон (ТТГ)</li>
-                        <li>Тироксин свободный (Т4 свободный)</li>
-                        <li>Антитела к тиреопероксидазе (анти-ТПО)</li>
-                      </ul>
-                    </div>
-                  </Modal>
-                </div>
-
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
-                  <div class="flex-shrink-0">
-                    <h2
-                      class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg"
-                    >
-                      Мужское здоровье
-                    </h2>
-                  </div>
-                  <span
-                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
-                  >
-                    $24.90
-                  </span>
-                  <span class="text-gray-500 dark:text-gray-400">
-                    10% скидка
-                  </span>
-
-                  <button
-                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                  >
-                    Детали
-                  </button>
-                </div>
-
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
-                  <div class="flex-shrink-0">
-                    <h2
-                      class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg"
-                    >
-                      Сердце и сосуды
-                    </h2>
-                  </div>
-                  <span
-                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
-                  >
-                    $49.90
-                  </span>
-                  <span class="text-gray-500 dark:text-gray-400">
-                    10% скидка
-                  </span>
-
-                  <button
-                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                  >
-                    Детали
-                  </button>
-                </div>
-
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
-                  <div class="flex-shrink-0">
-                    <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg">
-                      Здоровая печень
-                    </h2>
-                  </div>
-                  <span
-                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
-                  >
-                    $24.90
-                  </span>
-                  <span class="text-gray-500 dark:text-gray-400">
-                    10% скидка
-                  </span>
-
-                  <button
-                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                  >
-                    Детали
-                  </button>
-                </div>
-
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
-                  <div class="flex-shrink-0">
-                    <h2
-                      class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg"
-                    >
-                      Липидный спектр
-                    </h2>
-                  </div>
-                  <span
-                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
-                  >
-                    $24.90
-                  </span>
-                  <span class="text-gray-500 dark:text-gray-400">
-                    10% скидка
-                  </span>
-
-                  <button
-                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                  >
-                    Детали
-                  </button>
-                </div>
-
                 <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
                   <div class="flex-shrink-0">
                     <h2
@@ -278,20 +339,209 @@ function Features() {
                   <span
                     class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
                   >
-                    $49.90
+                    17000₸
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    7% скидка
+                  </span>
+
+                  <button
+                    className="btn text-white bg-yellow-600 hover:bg-yellow-500 w-full mb-4 sm:w-auto sm:mb-0"
+                    onClick={(e) => { e.preventDefault(); e.stopPropagation(); setYearlyModalOpen(true); }} aria-controls="modal"
+                  >
+                    Детали
+                  </button>
+                  <div>
+                    <Modal id="modal" ariaLabel="modal-headline" show={yearlyModalOpen} handleClose={() => setYearlyModalOpen(false)}>
+                      {prices.map((item) => (
+                        <div className="relative">
+                          <h1 className="h2 mt-4 mt-4">Ежегодное обследование</h1>
+                          <p className="text-xl text-gray-900 mb-4">Список анализов которые входят в комплекс.</p>
+                          <p className="text-xl font-medium mb-4">{item.yearly}</p>
+                        </div>
+                      ))}
+                    </Modal>
+                  </div>
+                </div>
+
+                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
+                  <div class="flex-shrink-0">
+                    <h2
+                      class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg"
+                    >
+                      Сердце и<br /> сосуды
+                    </h2>
+                  </div>
+                  <span
+                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
+                  >
+                    24700₸
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    7% скидка
+                  </span>
+
+                  <button
+                    className="btn text-white bg-yellow-600 hover:bg-yellow-500 w-full mb-4 sm:w-auto sm:mb-0"
+                    onClick={(e) => { e.preventDefault(); e.stopPropagation(); setHeartModalOpen(true); }} aria-controls="modal"
+                  >
+                    Детали
+                  </button>
+                  <div>
+                    <Modal id="modal" ariaLabel="modal-headline" show={heartModalOpen} handleClose={() => setHeartModalOpen(false)}>
+                      {prices.map((item) => (
+                        <div className="relative ">
+                          <h1 className="h2 mt-4">Сердце и сосуды</h1>
+                          <p className="text-xl text-gray-900 mb-4">Список анализов которые входят в комплекс.</p>
+                          <p className="text-xl font-medium mb-4">{item.heart}</p>
+                        </div>
+                      ))}
+                    </Modal>
+                  </div>
+                </div>
+
+                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
+                  <div class="flex-shrink-0">
+                    <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg">
+                      Здоровая<br /> печень
+                    </h2>
+                  </div>
+                  <span
+                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
+                  >
+                    14700₸
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    5% скидка
+                  </span>
+
+                  <button
+                    className="btn text-white bg-yellow-600 hover:bg-yellow-500 w-full mb-4 sm:w-auto sm:mb-0"
+                    onClick={(e) => { e.preventDefault(); e.stopPropagation(); setLiverModalOpen(true); }} aria-controls="modal"
+                  >
+                    Детали
+                  </button>
+                  <div>
+                    <Modal id="modal" ariaLabel="modal-headline" show={liverModalOpen} handleClose={() => setLiverModalOpen(false)}>
+                      {prices.map((item) => (
+                        <div className="relative ">
+                          <h1 className="h2 mt-4">Здоровая печень</h1>
+                          <p className="text-xl text-gray-900 mb-4">Список анализов которые входят в комплекс.</p>
+                          <p className="text-xl font-medium mb-4">{item.liver}</p>
+                        </div>
+                      ))}
+                    </Modal>
+                  </div>
+                </div>
+
+                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
+                  <div class="flex-shrink-0">
+                    <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg">
+                      Женское здоровье
+                    </h2>
+                  </div>
+                  <span
+                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
+                  >
+                    41000₸
                   </span>
                   <span class="text-gray-500 dark:text-gray-400">
                     10% скидка
                   </span>
 
                   <button
-                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+                    className="btn text-white bg-yellow-600 hover:bg-yellow-500 w-full mb-4 sm:w-auto sm:mb-0"
+                    onClick={(e) => { e.preventDefault(); e.stopPropagation(); setWomenModalOpen(true); }} aria-controls="modal"
                   >
                     Детали
                   </button>
+                  <div>
+                    <Modal id="modal" ariaLabel="modal-headline" show={womenModalOpen} handleClose={() => setWomenModalOpen(false)}>
+                      {prices.map((item) => (
+                        <div className="relative ">
+                          <h1 className="h2 mt-4">Женское здоровье</h1>
+                          <p className="text-xl text-gray-900 mb-4">Список анализов которые входят в комплекс.</p>
+                          <p className="text-xl font-medium mb-4">{item.women}</p>
+                        </div>
+
+                      ))}
+                    </Modal>
+                  </div>
+                </div>
+
+                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
+                  <div class="flex-shrink-0">
+                    <h2
+                      class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg"
+                    >
+                      Мужское<br /> здоровье
+                    </h2>
+                  </div>
+                  <span
+                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
+                  >
+                    44400₸
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
+
+                  <button
+                    className="btn text-white bg-yellow-600 hover:bg-yellow-500 w-full mb-4 sm:w-auto sm:mb-0"
+                    onClick={(e) => { e.preventDefault(); e.stopPropagation(); setMenModalOpen(true); }} aria-controls="modal"
+                  >
+                    Детали
+                  </button>
+                  <div>
+                    <Modal id="modal" ariaLabel="modal-headline" show={menModalOpen} handleClose={() => setMenModalOpen(false)}>
+                      {prices.map((item) => (
+                        <div className="relative ">
+                          <h1 className="h2 mt-4">Мужское здоровье</h1>
+                          <p className="text-xl text-gray-900 mb-4">Список анализов которые входят в комплекс.</p>
+                          <p className="text-xl font-medium mb-4">{item.men}</p>
+                        </div>
+                      ))}
+                    </Modal>
+                  </div>
+                </div>
+
+                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border border-gray-200 rounded-lg lg:mx-1">
+                  <div class="flex-shrink-0">
+                    <h2
+                      class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-gray-900 rounded-lg"
+                    >
+                      Планирование беременности
+                    </h2>
+                  </div>
+                  <span
+                    class="pt-2 text-4xl font-bold text-gray-900 uppercase dark:text-gray-100"
+                  >
+                    41000₸
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                    10% скидка
+                  </span>
+
+                  <button
+                    className="btn text-white bg-yellow-600 hover:bg-yellow-500 w-full mb-4 sm:w-auto sm:mb-0"
+                    onClick={(e) => { e.preventDefault(); e.stopPropagation(); setPregnancyModalOpen(true); }} aria-controls="modal"
+                  >
+                    Детали
+                  </button>
+                  <div>
+                    <Modal id="modal" ariaLabel="modal-headline" show={pregnancyModalOpen} handleClose={() => setPregnancyModalOpen(false)}>
+                      {prices.map((item) => (
+                        <div className="relative ">
+                          <h1 className="h2 mt-4">Планирование беременности</h1>
+                          <p className="text-xl text-gray-900 mb-4">Список анализов которые входят в комплекс.</p>
+                          <p className="text-xl font-medium mb-4">{item.pregnancy}</p>
+                        </div>
+                      ))}
+                    </Modal>
+                  </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
 
 
@@ -389,7 +639,6 @@ function Features() {
                 >
                   <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={require('../images/features-element.png').default} width="530" height="462" alt="Features bg" />
-                    {/* <img className="md:max-w-none absolute w-full left-0" src={require('../images/features-element.png').default} width="530" height="45" alt="Element" style={{ top: '5%' }} /> md:max-w-none absolute w-full left-0 transform animate-float */}
                   </div>
                 </Transition>
                 {/* Item 3 */}
